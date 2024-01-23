@@ -9,8 +9,8 @@ import datetime
 import os
 import pandas as pd
 webdriver_path = r'E:\obsidian\研究生\基金直播\codes\spider\msedgedriver.exe'  # 替换成你的WebDriver路径
-start_page=100
-end_page=500
+start_page=450
+end_page=2500
 page=1 #用于记录当前页面数
 db_path=r'E:\obsidian\研究生\基金直播\codes\spider\db.pickle'
 
