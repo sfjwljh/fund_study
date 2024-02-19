@@ -159,13 +159,7 @@ def merge(filename,suffix,task_num,block_size):
 # dlink,size,prename,suffix=get_dlink_size_prename_suffix(get_fsid('/fund_stream_project/MP3_raw/4356247.mp3'))
 # download(dlink,size,prename,suffix)
 
-# def delete_abundant_files(folder_path):
-#   """
-#   删除多余的文件。百度网盘中重复的文件会自动加"(1)"保存
-#   输入的是需要清理的路径，无输出
-#   """
-#   names=get_names(folder_path,'file_only')
-#   for 
+
 
 def delete_file(path,check_exist):
   """
@@ -197,8 +191,23 @@ def delete_file(path,check_exist):
   else:
     print(response.text.encode('utf8'))
   
-
+def delete_abundant_files(folder_path):
+  """
+  删除多余的文件。百度网盘中重复的文件会自动加"(1)"保存
+  输入的是需要清理的路径，无输出
+  """
+  names=[target_name for target_name in get_names(folder_path,'file_only') if '(1).' in target_name]
+  for name in names:
+    tmp_name="{}.{}".format(name.split('(1).')[0],name.split('(1).')[1])
+    if file_exist(folder_path+'/'+tmp_name):
+      delete_file(folder_path+'/'+name,check_exist=0)
+    else:
+      move_file(folder_path+'/'+name,folder_path+'/'+tmp_name)
+  
 def move_file(old_path,new_path):
+  """
+  移动，也可重命名
+  """
   url = "https://pan.baidu.com/rest/2.0/xpan/file?method=filemanager&access_token="+access_token+"&opera=move"
   payload = {'async': '1',
   'filelist': '[{"path":"'+old_path+'","dest":"'+'/'.join(new_path.split('/')[:-1])+'","newname":"'+new_path.split('/')[-1]+'","ondup":"fail"}]'
@@ -216,6 +225,7 @@ def move_file(old_path,new_path):
     raise ValueError(old_path+'移动时文件名非法')
   else:
     print(response.text.encode('utf8'))
+delete_abundant_files("/api_test")
 
 
-move_file('/456.ARW','/api_test/123.ARW')
+
