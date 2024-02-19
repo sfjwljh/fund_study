@@ -194,6 +194,28 @@ def delete_file(path,check_exist):
     raise ValueError(path+'删除时，有其他异步任务正在执行')
   elif response_dict['errno']==-7:
     raise ValueError(path+'文件名非法')
+  else:
+    print(response.text.encode('utf8'))
   
 
-delete_file('/fund_stream_project/MP3_raw/437177763(2).mp3',check_exist=1)
+def move_file(old_path,new_path):
+  url = "https://pan.baidu.com/rest/2.0/xpan/file?method=filemanager&access_token="+access_token+"&opera=move"
+  payload = {'async': '1',
+  'filelist': '[{"path":"'+old_path+'","dest":"'+'/'.join(new_path.split('/')[:-1])+'","newname":"'+new_path.split('/')[-1]+'","ondup":"fail"}]'
+  }
+
+  response = requests.request("POST", url, data = payload)
+  response_dict = json.loads(response.text)
+  if response_dict['errno']==0:
+    # success
+    
+    pass
+  elif response_dict['errno']==111:
+    raise ValueError(old_path+'移动时，有其他异步任务正在执行')
+  elif response_dict['errno']==-7:
+    raise ValueError(old_path+'移动时文件名非法')
+  else:
+    print(response.text.encode('utf8'))
+
+
+move_file('/456.ARW','/api_test/123.ARW')
