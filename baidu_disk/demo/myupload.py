@@ -437,7 +437,7 @@ def myupload(file_path,target_path_file):
     """
     # file_path = r"C:\Users\Liu\Desktop\4380398.mp3"
     # file_path = r"C:\Users\Liu\Desktop\test_file"
-    access_token = "121.92bcfc0ff065f427bd78fac550b89b27.YGvXR2tmXxEQSpCuqZFXtMwqyBLyDmHx4YqMYY-.KM1q8Q"
+    access_token = "121.411a95dce21911ef74ef1edb2a2e9315.YB6HwOMiIozA91cH4umd2SPH_DIG72F3C9Hjf8D._uq4ZA"
     
     ut=UploadTask(target_path_file,"",access_token, file_path)
     ut.begin_upload()

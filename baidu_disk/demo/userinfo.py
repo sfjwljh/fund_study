@@ -14,7 +14,7 @@ from openapi_client.model.quotaresponse import Quotaresponse
 from openapi_client.model.uinforesponse import Uinforesponse
 from pprint import pprint
 
-access_token = "121.92bcfc0ff065f427bd78fac550b89b27.YGvXR2tmXxEQSpCuqZFXtMwqyBLyDmHx4YqMYY-.KM1q8Q" # str | 
+access_token = "121.411a95dce21911ef74ef1edb2a2e9315.YB6HwOMiIozA91cH4umd2SPH_DIG72F3C9Hjf8D._uq4ZA" # str | 
 
 def user_quota():
     """
@@ -45,7 +45,7 @@ def user_info():
     with openapi_client.ApiClient() as api_client:
         # Create an instance of the API class
         api_instance = userinfo_api.UserinfoApi(api_client)
-        # access_token = "121.92bcfc0ff065f427bd78fac550b89b27.YGvXR2tmXxEQSpCuqZFXtMwqyBLyDmHx4YqMYY-.KM1q8Q" # str | 
+        # access_token = "121.411a95dce21911ef74ef1edb2a2e9315.YB6HwOMiIozA91cH4umd2SPH_DIG72F3C9Hjf8D._uq4ZA" # str | 
 
         # example passing only required values which don't have defaults set
         try:

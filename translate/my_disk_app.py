@@ -2,7 +2,7 @@ import requests
 import json
 from math import ceil
 import os
-access_token="121.92bcfc0ff065f427bd78fac550b89b27.YGvXR2tmXxEQSpCuqZFXtMwqyBLyDmHx4YqMYY-.KM1q8Q"
+access_token="121.411a95dce21911ef74ef1edb2a2e9315.YB6HwOMiIozA91cH4umd2SPH_DIG72F3C9Hjf8D._uq4ZA"
 
 def get_files(show_path):
   """
@@ -31,7 +31,10 @@ def get_files(show_path):
 
     response = requests.request("GET", url, headers=headers, data = payload, files = files)
     response_dict = json.loads(response.text)
-    if response_dict['errno']!=0:
+    if response_dict['errno']==-6:
+      raise ValueError("access_token过期，请刷新")
+    elif response_dict['errno']!=0:
+
       raise ValueError("路径"+show_path+"不存在,注意开头要有/")
       
 
@@ -197,13 +200,17 @@ def delete_abundant_files(folder_path):
   输入的是需要清理的路径，无输出
   """
   names=[target_name for target_name in get_names(folder_path,'file_only') if '(1).' in target_name]
+  file_names=get_names(folder_path,'file_only')
   for name in names:
+    print(name)
     tmp_name="{}.{}".format(name.split('(1).')[0],name.split('(1).')[1])
-    if file_exist(folder_path+'/'+tmp_name):
+    if tmp_name in file_names:
       delete_file(folder_path+'/'+name,check_exist=0)
+      print('已删除')
     else:
       move_file(folder_path+'/'+name,folder_path+'/'+tmp_name)
-  
+      print('已经修改')
+
 def move_file(old_path,new_path):
   """
   移动，也可重命名
@@ -225,7 +232,7 @@ def move_file(old_path,new_path):
     raise ValueError(old_path+'移动时文件名非法')
   else:
     print(response.text.encode('utf8'))
-delete_abundant_files("/api_test")
+# delete_abundant_files("/api_test")
 
 
-
+# delete_abundant_files('/fund_stream_project/MP3_raw')

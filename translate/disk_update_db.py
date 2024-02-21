@@ -9,11 +9,32 @@ db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',
 cursor = db.cursor()
 
 def update_download():
-# 把MP3_raw目录里的文件在数据库上downloaded列都改为1
-    names_list=disk.get_names(folder_path='/fund_stream_project/MP3_raw',file_or_folder_or_both='file_only')
-    names_list=[name.split('.')[0] for name in names_list]
+    count=0
+# 把MP3_raw/translated目录里的文件在数据库上downloaded列都改为1
+# 把translated目录里的文件在数据库上stt列都改为1
+    names_list=disk.get_names(folder_path='/fund_stream_project/MP3_translated',file_or_folder_or_both='file_only')
+    # names_list=disk.get_names(folder_path='/fund_stream_project/MP3_translated',file_or_folder_or_both='file_only')
+    names_list=[int(name.split('.')[0]) for name in names_list]
+
+    # print(len(db_code_list))
 
     for name in names_list:
-        update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
+        # 检查是否存在
+        # select_query = "select code from total where code=%s"
+        # cursor.execute(select_query,(name))
+        # db_code_exist=cursor.fetchone()
+        # if db_code_exist:
+        #     update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
+        #     cursor.execute(update_query, (1, name))
+        #     db.commit()
+        # else:
+        #     print(str(name)+"不存在于db")
+
+        # 不检查是否存在
+        update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
+        # update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
         cursor.execute(update_query, (1, name))
         db.commit()
+        count+=1
+        print(count)
+update_download()
