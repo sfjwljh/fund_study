@@ -1,6 +1,6 @@
 from mitmproxy import http
 import os
-mitm_file_path=r'E:\obsidian\研究生\基金直播\codes\spider\mitm_url.txt'
+mitm_file_path=r'E:\obsidian\Master\fund_stream_project\codes\spider\mitm_url.txt'
 class MyAddon:
     def response(self, flow: http.HTTPFlow) -> None:
         if "vod2.myqcloud.com" in flow.request.url:

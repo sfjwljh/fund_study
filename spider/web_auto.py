@@ -8,11 +8,11 @@ from bs4 import BeautifulSoup
 import datetime
 import os
 import pandas as pd
-webdriver_path = r'E:\obsidian\研究生\基金直播\codes\spider\msedgedriver.exe'  # 替换成你的WebDriver路径
+webdriver_path = r'E:\obsidian\Master\fund_stream_project\codes\spider\msedgedriver.exe'  # 替换成你的WebDriver路径
 start_page=450
 end_page=2500
 page=1 #用于记录当前页面数
-db_path=r'E:\obsidian\研究生\基金直播\codes\spider\db.pickle'
+db_path=r'E:\obsidian\Master\fund_stream_project\codes\spider\db.pickle'
 
 if not os.path.exists(db_path):
     # 创建空的二维表

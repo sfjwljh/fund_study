@@ -5,4 +5,4 @@ sys.path.append(BASE_DIR)
 print(sys.path)
 from baidu_disk.demo.myupload import myupload
 
-myupload(r"C:\Users\Liu\Desktop\4380398_02.mp3","/api_test")
+myupload(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(4336591),'/fund_stream_project/MP3_raw')

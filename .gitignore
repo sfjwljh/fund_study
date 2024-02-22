@@ -1,0 +1,7 @@
+# 忽略所有 .mp3 文件
+*.mp3
+*.mp4
+*.m3u8
+
+# 忽略 /tmp_ignore_sync 目录下的所有文件
+/tmp_ignore_sync/*

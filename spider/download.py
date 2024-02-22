@@ -10,13 +10,20 @@ import subprocess
 import multiprocessing
 from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
+import pymysql
+import requests
+import pandas as pd
+from datetime import datetime
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
+print(sys.path)
+from baidu_disk.demo.myupload import myupload
 ####运行说明：
 # 1.新建一个空目录，地址中不含中文、空格
-#2. 把本文件和db.pickle放在同一个目录下
-# 3.修改下面的db_path
-# 4.运行该程序
 
-db_path=r'E:\obsidian\研究生\基金直播\codes\spider\db.pickle'
+# 2.运行该程序
+
+
 
 class ThreadPoolExecutorWithQueueSizeLimit(ThreadPoolExecutor):
     def __init__(self, max_workers=None, *args, **kwargs):
@@ -37,7 +44,7 @@ class M3u8Download:
         self._name = name
         self._max_workers = max_workers
         self._num_retries = num_retries
-        self._file_path = os.path.join(os.getcwd(), self._name)
+        self._file_path = os.path.join(os.getcwd(), 'tmp_ignore_sync',self._name)
         self._front_url = None
         self._ts_url_list = []
         self._success_sum = 0
@@ -178,7 +185,7 @@ class M3u8Download:
         self.shell_run_cmd_block(cmd)
 
     def output_mp3(self):
-        cmd =  cmd = 'ffmpeg -allowed_extensions ALL -i "%s.m3u8" -acodec libmp3lame -vn %s.mp3' % (self._file_path, self._name)
+        cmd =  cmd = 'ffmpeg -allowed_extensions ALL -i "%s.m3u8" -acodec libmp3lame -vn %s.mp3' % (self._file_path, self._file_path)
         print(cmd)
         self.shell_run_cmd_block(cmd)
 
@@ -197,16 +204,52 @@ def download_m3u8(url, name, max_workers=64, num_retries=5, base64_key=None):
 
 
 if __name__ == "__main__":
-    df=pd.read_pickle(db_path)
-    for index, row in df.iterrows():
-        if row['code']%3!=1:  #在3台机器跑
-            continue
-        if (row['catch_url'] != '')and(row['downloaded']==''):
-            try:
-                download_m3u8(row['catch_url'],str(row['code']))
-                row['downloaded']='yes'
-                df.to_pickle(db_path)
-            except:
-                continue
+    # 获取一个任务
+    db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',
+                            user='root',
+                            password='UIBE_chat_2023',
+                            database='fund_stream',
+                            charset='utf8mb4',
+                            port=25445,)
+    cursor = db.cursor()
+    select_query = "select code,m3u8_url from total where (downloaded IS NULL AND occupied IS NULL AND LENGTH(m3u8_url)>0)" # 选择一个没被下载过且不是正在被占用的
+    cursor.execute(select_query)
+    db_code_list=cursor.fetchone()
+    working_code=db_code_list[0]
+    print("正在下载"+str(working_code))
+    working_url=db_code_list[1]
 
+    # 设置占用
+    occupy_query = "UPDATE total SET occupied =1,occupied_time=\""+ str(datetime.now()).split('.')[0]+"\"  WHERE CODE = %s"
+    cursor.execute(occupy_query, (working_code))
+    db.commit()
+
+    try:
+    #下载
+        M3u8Download(working_url,str(working_code))
+
+        # print(occupy_query)
+        print(str(working_code)+"下载成功")
+    except:
+        print(str(working_code)+"下载失败")
+
+    # try:   #在这里上传太慢，还经常失败，还是手动百度网盘上传吧
+    # #上传
+    #     print("正在上传"+str(working_code))
+    #     myupload(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code),'/fund_stream_project/MP3_raw')
+
+    # # 成功就释放
+    #     # 上传mp3后释放
+    #     release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
+    #     # print(occupy_query)
+    #     print(str(working_code)+"上传成功")
+    # except:
+    #     print(str(working_code)+"上传失败")
+    
+# 成功就释放
+    # 上传mp3后释放
+    release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
+    cursor.execute(release_query, (working_code))
+    db.commit()
+    os.remove(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code))
 
