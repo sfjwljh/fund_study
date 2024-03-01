@@ -8,18 +8,34 @@ from bs4 import BeautifulSoup
 import datetime
 import os
 import pandas as pd
+import pymysql
+import requests
 webdriver_path = r'E:\obsidian\Master\fund_stream_project\codes\spider\msedgedriver.exe'  # 替换成你的WebDriver路径
-start_page=450
-end_page=2500
+start_page=40
+end_page=25000
 page=1 #用于记录当前页面数
-db_path=r'E:\obsidian\Master\fund_stream_project\codes\spider\db.pickle'
 
-if not os.path.exists(db_path):
-    # 创建空的二维表
-    df = pd.DataFrame(columns=['code', 'date', 'title', 'company', 'host', 'catch_url', 'm3u8_url', 'downloaded', 'stt', 'key_word', 'abstract'])
-    # 保存为pickle文件
-    df.to_pickle(db_path)
+# db_path=r'E:\obsidian\Master\fund_stream_project\codes\spider\db.pickle'
 
+# if not os.path.exists(db_path):
+#     # 创建空的二维表
+#     df = pd.DataFrame(columns=['code', 'date', 'title', 'company', 'host', 'catch_url', 'm3u8_url', 'downloaded', 'stt', 'key_word', 'abstract'])
+#     # 保存为pickle文件
+#     df.to_pickle(db_path)
+
+
+db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',
+                        user='root',
+                        password='UIBE_chat_2023',
+                        database='fund_stream',
+                        charset='utf8mb4',
+                        port=25445,)
+cursor = db.cursor()
+# 拿到表里已经有的所有code
+select_query = "select code from total " 
+cursor.execute(select_query)
+db_code_list=cursor.fetchall()
+db_code_list=[i[0] for i in db_code_list]
 
 # 获取页面内容
 def soup_page():
@@ -31,6 +47,8 @@ def soup_page():
     items = soup.find_all('div', {'class': 'item'})
     for item in items:
         code = int(item.find('a')['href'].split('/')[-1])  #唯一编号
+        if code in db_code_list:  #db表中已有，跳过
+            continue
         type = item.find('span', {'class': 'ly-type'}).text.strip()  #预告/直播中/回顾
         if type!="回顾":
             continue
@@ -61,25 +79,30 @@ def next_page():
 
     next_page_button.click()
 
-# 读取页面内容并保存到本地
-def html2db(html_content,path2db):
-    content=html_content
-    # 读取pickle文件为DataFrame对象
-    df = pd.read_pickle(path2db)
-    for line in content:
-        # 检查当前行是否存在
-        if (df['code'] == line[0]).any():
-            pass
-        else:
-            # 新建一行数据
-            new_row = {'code': line[0], 'date': line[3], 'title': line[2], 'company': '', 'host': '', 'catch_url': '', 'm3u8_url': '', 'downloaded': '', 'stt': '', 'key_word': '', 'abstract': ''}
-            # 将新行数据转换为DataFrame对象
-            new_df = pd.DataFrame([new_row])
+# 读取页面内容并保存到本地/数据库
+def html2db(html_content):
+    new_data=html_content
+    # # 读取pickle文件为DataFrame对象
+    # df = pd.read_pickle(path2db)
+    # for line in new_data:
+    #     # 检查当前行是否存在
+    #     if (df['code'] == line[0]).any():
+    #         pass
+    #     else:
+    #         # 新建一行数据
+    #         new_row = {'code': line[0], 'date': line[3], 'title': line[2], 'company': '', 'host': '', 'catch_url': '', 'm3u8_url': '', 'downloaded': '', 'stt': '', 'key_word': '', 'abstract': ''}
+    #         # 将新行数据转换为DataFrame对象
+    #         new_df = pd.DataFrame([new_row])
 
-            # 将新行数据与原DataFrame对象进行合并
-            df = pd.concat([df, new_df], ignore_index=True)
+    #         # 将新行数据与原DataFrame对象进行合并
+    #         df = pd.concat([df, new_df], ignore_index=True)
 
-    df.to_pickle(path2db)
+    # df.to_pickle(path2db)
+    for line in new_data:
+        insert_query = "INSERT INTO total (code, date, title) VALUES (%s, %s, %s)"
+        cursor.execute(insert_query, (line[0], line[3], line[2]))
+        db.commit()
+        print("已插入{}{}{}".format(line[0], line[3], line[2]))
 
 # 创建Edge浏览器实例
 driver = webdriver.Edge(executable_path=webdriver_path)
@@ -103,7 +126,7 @@ while page<=end_page:
         jump(page)
         time.sleep(1)
 
-    html2db(html_content=content,path2db=db_path)
+    html2db(html_content=content)
     page+=1
     jump(page)
     time.sleep(1)

@@ -204,7 +204,8 @@ def download_m3u8(url, name, max_workers=64, num_retries=5, base64_key=None):
 
 
 if __name__ == "__main__":
-    # 获取一个任务
+
+    # 从db获取一个任务
     db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',
                             user='root',
                             password='UIBE_chat_2023',
@@ -245,7 +246,7 @@ if __name__ == "__main__":
     #     print(str(working_code)+"上传成功")
     # except:
     #     print(str(working_code)+"上传失败")
-    
+
 # 成功就释放
     # 上传mp3后释放
     release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
