@@ -17,7 +17,7 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 print(sys.path)
-from baidu_disk.demo.myupload import myupload
+# from baidu_disk.demo.myupload import myupload
 ####运行说明：
 # 1.新建一个空目录，地址中不含中文、空格
 
@@ -213,44 +213,45 @@ if __name__ == "__main__":
                             charset='utf8mb4',
                             port=25445,)
     cursor = db.cursor()
-    select_query = "select code,m3u8_url from total where (downloaded IS NULL AND occupied IS NULL AND LENGTH(m3u8_url)>0)" # 选择一个没被下载过且不是正在被占用的
-    cursor.execute(select_query)
-    db_code_list=cursor.fetchone()
-    working_code=db_code_list[0]
-    print("正在下载"+str(working_code))
-    working_url=db_code_list[1]
+    while True:
+        select_query = "select code,m3u8_url from total where ((downloaded=''or downloaded IS NULL) AND (occupied IS NULL or occupied='') AND (LENGTH(m3u8_url)>0)) ORDER BY `date` DESC " # 选择一个没被下载过且不是正在被占用的
+        cursor.execute(select_query)
+        db_code_list=cursor.fetchone()
+        working_code=db_code_list[0]
+        print("正在下载"+str(working_code))
+        working_url=db_code_list[1]
 
-    # 设置占用
-    occupy_query = "UPDATE total SET occupied =1,occupied_time=\""+ str(datetime.now()).split('.')[0]+"\"  WHERE CODE = %s"
-    cursor.execute(occupy_query, (working_code))
-    db.commit()
+        # 设置占用
+        occupy_query = "UPDATE total SET occupied =1,occupied_time=\""+ str(datetime.now()).split('.')[0]+"\"  WHERE CODE = %s"
+        cursor.execute(occupy_query, (working_code))
+        db.commit()
 
-    try:
-    #下载
-        M3u8Download(working_url,str(working_code))
+        try:
+        #下载
+            M3u8Download(working_url,str(working_code))
 
-        # print(occupy_query)
-        print(str(working_code)+"下载成功")
-    except:
-        print(str(working_code)+"下载失败")
+            # print(occupy_query)
+            print(str(working_code)+"下载成功")
+        except:
+            print(str(working_code)+"下载失败")
 
-    # try:   #在这里上传太慢，还经常失败，还是手动百度网盘上传吧
-    # #上传
-    #     print("正在上传"+str(working_code))
-    #     myupload(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code),'/fund_stream_project/MP3_raw')
+        # try:   #在这里上传太慢，还经常失败，还是手动百度网盘上传吧
+        # #上传
+        #     print("正在上传"+str(working_code))
+        #     myupload(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code),'/fund_stream_project/MP3_raw')
 
-    # # 成功就释放
-    #     # 上传mp3后释放
-    #     release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
-    #     # print(occupy_query)
-    #     print(str(working_code)+"上传成功")
-    # except:
-    #     print(str(working_code)+"上传失败")
+        # # 成功就释放
+        #     # 上传mp3后释放
+        #     release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
+        #     # print(occupy_query)
+        #     print(str(working_code)+"上传成功")
+        # except:
+        #     print(str(working_code)+"上传失败")
 
-# 成功就释放
-    # 上传mp3后释放
-    release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
-    cursor.execute(release_query, (working_code))
-    db.commit()
-    os.remove(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code))
+    # 成功就释放
+        # 上传mp3后释放
+        release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
+        cursor.execute(release_query, (working_code))
+        db.commit()
+        # os.remove(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code))
 
