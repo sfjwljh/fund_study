@@ -14,10 +14,7 @@ import pymysql
 import requests
 import pandas as pd
 from datetime import datetime
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(BASE_DIR)
-print(sys.path)
-# from baidu_disk.demo.myupload import myupload
+
 ####运行说明：
 # 1.新建一个空目录，地址中不含中文、空格
 
@@ -204,6 +201,10 @@ def download_m3u8(url, name, max_workers=64, num_retries=5, base64_key=None):
 
 
 if __name__ == "__main__":
+    if not os.path.exists(os.path.join(os.getcwd(), 'tmp_ignore_sync')):
+        os.mkdir(os.path.join(os.getcwd(), 'tmp_ignore_sync'))
+ 
+    # 从db获取一个任务
 
     # 从db获取一个任务
     db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',

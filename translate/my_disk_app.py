@@ -2,7 +2,7 @@ import requests
 import json
 from math import ceil
 import os
-access_token="121.411a95dce21911ef74ef1edb2a2e9315.YB6HwOMiIozA91cH4umd2SPH_DIG72F3C9Hjf8D._uq4ZA"
+access_token="121.c649ad772d0288ba5cb0b35b7f123c03.YmSwk7O1AAQG6HvskP0eyFsj0h85zjF5AuWhWw-.CUDMaA"
 
 def get_files(show_path):
   """
@@ -211,6 +211,18 @@ def delete_abundant_files(folder_path):
       move_file(folder_path+'/'+name,folder_path+'/'+tmp_name)
       print('已经修改')
 
+def joint_delete_abundant_files(folder_path1,folder_path2):
+  """
+  比较两个目录，删除其中重复的文件。
+  如果有重复，删除的是后一个目录里的
+  """
+  names1=get_names(folder_path1,'file_only')
+  names2=get_names(folder_path2,'file_only')
+  del_name=list(set(names1)&set(names2))
+  for name in del_name:
+    print(name)
+    delete_file(folder_path2+'/'+name,check_exist=0)
+
 def move_file(old_path,new_path):
   """
   移动，也可重命名
@@ -235,4 +247,3 @@ def move_file(old_path,new_path):
 # delete_abundant_files("/api_test")
 
 
-# delete_abundant_files('/fund_stream_project/MP3_raw')
