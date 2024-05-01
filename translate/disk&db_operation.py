@@ -1,3 +1,7 @@
+"""
+此程序用于处理数据库和百度网盘数据交互
+网盘清理，数据库清理，
+"""
 import my_disk_app as disk
 import pymysql
 db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',

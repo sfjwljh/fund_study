@@ -7,7 +7,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-
+"""
+说明：自动化从飞书上下载文本的selenium脚本
+"""
 
 # 设置 Edge 浏览器驱动路径
 edge_driver_path = "./msedgedriver.exe"

@@ -3,7 +3,10 @@ import json
 from math import ceil
 import os
 access_token="121.c649ad772d0288ba5cb0b35b7f123c03.YmSwk7O1AAQG6HvskP0eyFsj0h85zjF5AuWhWw-.CUDMaA"
-
+"""
+说明：
+根据baidu_disk提供的基础API，自定义了一些函数，方便使用
+"""
 def get_files(show_path):
   """
   返回百度网盘单级目录下的所有项目信息，包括目录和文件
@@ -211,6 +214,17 @@ def delete_abundant_files(folder_path):
       move_file(folder_path+'/'+name,folder_path+'/'+tmp_name)
       print('已经修改')
 
+def delete_by_suffix(folder_path,suffix):
+  """
+  删除指定目录中同一后缀的文件
+  """
+  names=get_names(folder_path,'file_only')
+  for name in names:
+    if suffix == name.split('.')[-1]:
+      delete_file(folder_path+'/'+name,check_exist=0)
+
+
+
 def joint_delete_abundant_files(folder_path1,folder_path2):
   """
   比较两个目录，删除其中重复的文件。
@@ -247,3 +261,4 @@ def move_file(old_path,new_path):
 # delete_abundant_files("/api_test")
 
 
+delete_by_suffix('/api_test','mp3')
