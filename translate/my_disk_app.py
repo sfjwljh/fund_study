@@ -2,7 +2,7 @@ import requests
 import json
 from math import ceil
 import os
-access_token="121.c649ad772d0288ba5cb0b35b7f123c03.YmSwk7O1AAQG6HvskP0eyFsj0h85zjF5AuWhWw-.CUDMaA"
+access_token="121.e9a71493deeec8a3ed50a86b74dd243a.Yaiys4d9C0vmYVhEo7xus_onRcL5pWIdaLNjbVe.SqVxbQ"
 """
 说明：
 根据baidu_disk提供的基础API，自定义了一些函数，方便使用
@@ -184,7 +184,13 @@ def delete_file(path,check_exist):
   payload = {'async': '1',
   'filelist': '[\"'+path+'\"]'
   }
-
+  #
+  confirm=input('确认删除'+path+'吗？\ny/n:')
+  if confirm=='y':
+    print('确认删除'+path)
+  else:
+    print('取消删除')
+    return
   response = requests.request("POST", url, data = payload)
   response_dict = json.loads(response.text)
   if response_dict['errno']==0:
@@ -223,6 +229,14 @@ def delete_by_suffix(folder_path,suffix):
     if suffix == name.split('.')[-1]:
       delete_file(folder_path+'/'+name,check_exist=0)
 
+def reserve_by_suffix(folder_path,suffix):
+  """
+  只保留指定后缀的文件
+  """
+  names=get_names(folder_path,'file_only')
+  for name in names:
+    if suffix != name.split('.')[-1]:
+      delete_file(folder_path+'/'+name,check_exist=0)
 
 
 def joint_delete_abundant_files(folder_path1,folder_path2):
@@ -261,4 +275,27 @@ def move_file(old_path,new_path):
 # delete_abundant_files("/api_test")
 
 
-delete_by_suffix('/api_test','mp3')
+def clear_files():
+  """
+  清理百度网盘文件流程
+  """
+  # 文件内去重
+  folder_list=["/fund_stream_project/output","/fund_stream_project/MP3_raw","/fund_stream_project/MP3_translated"]
+  for folder in folder_list:
+    delete_abundant_files(folder)
+
+  # 只保留MP3和txt文件
+  folder_list=["/fund_stream_project/MP3_raw","/fund_stream_project/MP3_translated"]
+  for folder in folder_list:
+    reserve_by_suffix('mp3')
+  folder_list=["/fund_stream_project/output"]
+  for folder in folder_list:
+    reserve_by_suffix('txt')
+
+  # 多文件间去重
+  joint_delete_abundant_files('MP3_translated','MP3_raw')
+
+
+if __name__=='__main__':
+  print('runing')
+  # reserve_by_suffix("/api_test/folder1","mp3")
