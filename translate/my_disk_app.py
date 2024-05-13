@@ -2,8 +2,11 @@ import requests
 import json
 from math import ceil
 import os
-access_token="121.411a95dce21911ef74ef1edb2a2e9315.YB6HwOMiIozA91cH4umd2SPH_DIG72F3C9Hjf8D._uq4ZA"
-
+access_token="121.e9a71493deeec8a3ed50a86b74dd243a.Yaiys4d9C0vmYVhEo7xus_onRcL5pWIdaLNjbVe.SqVxbQ"
+"""
+说明：
+根据baidu_disk提供的基础API，自定义了一些函数，方便使用
+"""
 def get_files(show_path):
   """
   返回百度网盘单级目录下的所有项目信息，包括目录和文件
@@ -181,7 +184,13 @@ def delete_file(path,check_exist):
   payload = {'async': '1',
   'filelist': '[\"'+path+'\"]'
   }
-
+  #
+  confirm=input('确认删除'+path+'吗？\ny/n:')
+  if confirm=='y':
+    print('确认删除'+path)
+  else:
+    print('取消删除')
+    return
   response = requests.request("POST", url, data = payload)
   response_dict = json.loads(response.text)
   if response_dict['errno']==0:
@@ -211,6 +220,37 @@ def delete_abundant_files(folder_path):
       move_file(folder_path+'/'+name,folder_path+'/'+tmp_name)
       print('已经修改')
 
+def delete_by_suffix(folder_path,suffix):
+  """
+  删除指定目录中同一后缀的文件
+  """
+  names=get_names(folder_path,'file_only')
+  for name in names:
+    if suffix == name.split('.')[-1]:
+      delete_file(folder_path+'/'+name,check_exist=0)
+
+def reserve_by_suffix(folder_path,suffix):
+  """
+  只保留指定后缀的文件
+  """
+  names=get_names(folder_path,'file_only')
+  for name in names:
+    if suffix != name.split('.')[-1]:
+      delete_file(folder_path+'/'+name,check_exist=0)
+
+
+def joint_delete_abundant_files(folder_path1,folder_path2):
+  """
+  比较两个目录，删除其中重复的文件。
+  如果有重复，删除的是后一个目录里的
+  """
+  names1=get_names(folder_path1,'file_only')
+  names2=get_names(folder_path2,'file_only')
+  del_name=list(set(names1)&set(names2))
+  for name in del_name:
+    print(name)
+    delete_file(folder_path2+'/'+name,check_exist=0)
+
 def move_file(old_path,new_path):
   """
   移动，也可重命名
@@ -235,4 +275,27 @@ def move_file(old_path,new_path):
 # delete_abundant_files("/api_test")
 
 
-# delete_abundant_files('/fund_stream_project/MP3_raw')
+def clear_files():
+  """
+  清理百度网盘文件流程
+  """
+  # 文件内去重
+  folder_list=["/fund_stream_project/output","/fund_stream_project/MP3_raw","/fund_stream_project/MP3_translated"]
+  for folder in folder_list:
+    delete_abundant_files(folder)
+
+  # 只保留MP3和txt文件
+  folder_list=["/fund_stream_project/MP3_raw","/fund_stream_project/MP3_translated"]
+  for folder in folder_list:
+    reserve_by_suffix('mp3')
+  folder_list=["/fund_stream_project/output"]
+  for folder in folder_list:
+    reserve_by_suffix('txt')
+
+  # 多文件间去重
+  joint_delete_abundant_files('MP3_translated','MP3_raw')
+
+
+if __name__=='__main__':
+  print('runing')
+  # reserve_by_suffix("/api_test/folder1","mp3")
