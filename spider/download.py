@@ -251,7 +251,7 @@ if __name__ == "__main__":
 
     # 下载成功就释放
         
-        release_query = "UPDATE total SET occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
+        release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
         cursor.execute(release_query, (working_code))
         db.commit()
         # os.remove(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code))
