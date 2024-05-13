@@ -249,9 +249,9 @@ if __name__ == "__main__":
         # except:
         #     print(str(working_code)+"上传失败")
 
-    # 成功就释放
-        # 上传mp3后释放
-        release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
+    # 下载成功就释放
+        
+        release_query = "UPDATE total SET occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
         cursor.execute(release_query, (working_code))
         db.commit()
         # os.remove(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code))
