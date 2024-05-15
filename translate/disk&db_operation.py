@@ -27,34 +27,34 @@ def update_db_by_disk():
     mp3_names_list=[int(i.split('.')[0]) for i in mp3_names_list]
     print("--------------------开始更新mp3记录------------------")
     
-    # count_all=0
-    # count_act=0
-    # task_num=len(mp3_names_list)
-    # for name in mp3_names_list:
+    count_all=0
+    count_act=0
+    task_num=len(mp3_names_list)
+    for name in mp3_names_list:
 
-    #     select_query = "select downloaded from total where code=%s"
-    #     cursor.execute(select_query,(name))
-    #     try:
-    #         db_code_exist=cursor.fetchone()[0]
-    #     except:
-    #         print(str(name)+"有下载的mp3但是不在数据库中")
-    #         continue
-    #     if 1==db_code_exist:
-    #         # print(str(name)+"downloaded已经是1")
-    #         count_all+=1
-    #         print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
-    #         # sys.stdout.flush()
-    #         continue
-    #     # pdb.set_trace()
+        select_query = "select downloaded from total where code=%s"
+        cursor.execute(select_query,(name))
+        try:
+            db_code_exist=cursor.fetchone()[0]
+        except:
+            print(str(name)+"有下载的mp3但是不在数据库中")
+            continue
+        if 1==db_code_exist:
+            # print(str(name)+"downloaded已经是1")
+            count_all+=1
+            print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
+            # sys.stdout.flush()
+            continue
+        # pdb.set_trace()
 
-    #     # update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
-    #     update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
-    #     cursor.execute(update_query, (1, name))
-    #     db.commit()
-    #     count_all+=1
-    #     count_act+=1
-    #     print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
-    #     sys.stdout.flush()
+        # update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
+        update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
+        cursor.execute(update_query, (1, name))
+        db.commit()
+        count_all+=1
+        count_act+=1
+        print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
+        sys.stdout.flush()
 
     print("\n--------------------mp3记录更新完毕------------------")
     print('\n\n')
@@ -67,35 +67,35 @@ def update_db_by_disk():
     txt_names_list=[int(i.split('.')[0]) for i in txt_names_list]
     print("--------------------开始更新txt记录------------------")
     
-    # count_all=0
-    # count_act=0
-    # task_num=len(txt_names_list)
-    # for name in txt_names_list:
+    count_all=0
+    count_act=0
+    task_num=len(txt_names_list)
+    for name in txt_names_list:
 
-    #     select_query = "select stt from total where code=%s"
-    #     cursor.execute(select_query,(name))
-    #     try:
-    #         db_code_exist=cursor.fetchone()[0]
-    #     except:
-    #         print(str(name)+"有下载的txt但是不在数据库中")
-    #         continue
+        select_query = "select stt from total where code=%s"
+        cursor.execute(select_query,(name))
+        try:
+            db_code_exist=cursor.fetchone()[0]
+        except:
+            print(str(name)+"有下载的txt但是不在数据库中")
+            continue
 
-    #     if 1==db_code_exist:
-    #         # print(str(name)+"stt已经是1")
-    #         count_all+=1
-    #         print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
-    #         sys.stdout.flush()
-    #         continue
-    #     # pdb.set_trace()
+        if 1==db_code_exist:
+            # print(str(name)+"stt已经是1")
+            count_all+=1
+            print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
+            sys.stdout.flush()
+            continue
+        # pdb.set_trace()
 
-    #     update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
-    #     # update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
-    #     cursor.execute(update_query, (1, name))
-    #     db.commit()
-    #     count_all+=1
-    #     count_act+=1
-    #     print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
-    #     sys.stdout.flush()
+        update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
+        # update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
+        cursor.execute(update_query, (1, name))
+        db.commit()
+        count_all+=1
+        count_act+=1
+        print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
+        sys.stdout.flush()
 
 
     print("\n--------------------txt记录更新完毕------------------")
