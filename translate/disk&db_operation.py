@@ -17,6 +17,15 @@ cursor = db.cursor()
 def update_db_by_disk():
     """
     根据网盘内的文件，更新数据库
+    1. 更新mp3记录：
+        把网盘里有的所有mp3的code拿到，设置db中downloaded为1
+        为什么会出现有的code不在db中？
+    2. 更新txt记录：
+        同上
+    3. 删除多余的mp3：
+        扫描db中所有downloaded为1的，检查其是否在网盘中，如果不在就把字段重置为null
+        但是downloaded是从网页下载到电脑后就置为1的，可能还没来得及上传到网盘，如果过快重置会导致频繁重复下载
+            解决：新增一个succeed_time字段，记录下载成功时间，清楚5天前的
     """
 
     # 更新MP3
@@ -137,33 +146,5 @@ def update_db_by_disk():
     print('\n\n')
 
 
-def update_download():
-    count=0
-# 把MP3_raw/translated目录里的文件在数据库上downloaded列都改为1
-# 把translated目录里的文件在数据库上stt列都改为1
-    names_list=disk.get_names(folder_path='/fund_stream_project/MP3_translated',file_or_folder_or_both='file_only')
-    # names_list=disk.get_names(folder_path='/fund_stream_project/MP3_translated',file_or_folder_or_both='file_only')
-    names_list=[int(name.split('.')[0]) for name in names_list]
 
-    # print(len(db_code_list))
-
-    for name in names_list:
-        # 检查是否存在
-        # select_query = "select code from total where code=%s"
-        # cursor.execute(select_query,(name))
-        # db_code_exist=cursor.fetchone()
-        # if db_code_exist:
-        #     update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
-        #     cursor.execute(update_query, (1, name))
-        #     db.commit()
-        # else:
-        #     print(str(name)+"不存在于db")
-
-        # 不检查是否存在
-        update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
-        # update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
-        cursor.execute(update_query, (1, name))
-        db.commit()
-        count+=1
-        print(count)
 update_db_by_disk()
