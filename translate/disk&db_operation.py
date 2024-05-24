@@ -110,7 +110,7 @@ def update_db_by_disk():
     print("\n--------------------txt记录更新完毕------------------")
     print('\n\n')
     print("--------------------开始删除多余的MP3记录------------------")
-    select_query = "select code from total where downloaded=1"
+    select_query = "select code from total where downloaded=1 and (down_succeed_time IS NULL OR down_succeed_time <= DATE_SUB(CURDATE(), INTERVAL 5 DAY))"
     cursor.execute(select_query,)
     db_down_list=cursor.fetchall()
     db_down_list=[i[0] for i in db_down_list]

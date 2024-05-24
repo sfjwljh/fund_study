@@ -10,4 +10,5 @@
 *.xlsx
 
 # 忽略 /tmp_ignore_sync 目录下的所有文件
-/tmp_ignore_sync/*
+*/tmp_ignore_sync/*
+spider/mitm_url.txt
