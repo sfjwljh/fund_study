@@ -110,7 +110,9 @@ def update_db_by_disk():
     print("\n--------------------txt记录更新完毕------------------")
     print('\n\n')
     print("--------------------开始删除多余的MP3记录------------------")
-    select_query = "select code from total where downloaded=1 and (down_succeed_time IS NULL OR down_succeed_time <= DATE_SUB(CURDATE(), INTERVAL 5 DAY))"
+    ####注：这里还有问题，下载和上传有时间差，如果下载后15天内没有被上传网盘，会被认为没有下载，清除下载记录，会被重新下载
+    ###这个日期应该设的长一些，或等全部下载、转录好之后，设的短一点，然后运行删除实际漏下的mp3
+    select_query = "select code from total where downloaded=1 and (down_succeed_time IS NULL OR down_succeed_time <= DATE_SUB(CURDATE(), INTERVAL 15 DAY))"
     cursor.execute(select_query,)
     db_down_list=cursor.fetchall()
     db_down_list=[i[0] for i in db_down_list]
