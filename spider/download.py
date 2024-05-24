@@ -4,6 +4,7 @@ import sys
 import queue
 import base64
 import platform
+import time
 import requests
 import urllib3
 import subprocess
@@ -218,6 +219,10 @@ if __name__ == "__main__":
         select_query = "select code,m3u8_url from total where ((downloaded=''or downloaded IS NULL) AND (occupied IS NULL or occupied='') AND (LENGTH(m3u8_url)>0)) ORDER BY `date` DESC " # 选择一个没被下载过且不是正在被占用的
         cursor.execute(select_query)
         db_code_list=cursor.fetchone()
+        if db_code_list==None:
+            print("没有可下载的任务")
+            time.sleep(10)
+            continue
         working_code=db_code_list[0]
         print("正在下载"+str(working_code))
         working_url=db_code_list[1]
@@ -251,7 +256,7 @@ if __name__ == "__main__":
 
     # 下载成功就释放
         
-        release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
+        release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL,down_succeed_time=CURDATE()  WHERE CODE = %s"
         cursor.execute(release_query, (working_code))
         db.commit()
         # os.remove(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code))
