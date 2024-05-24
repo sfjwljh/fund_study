@@ -1,9 +1,9 @@
-# 运行：mitmweb -s E:\obsidian\Master\fund_stream_project\codes\spider\mitm_script.py
+# 运行：mitmweb -s F:\obsidian\Master\fund_stream_project\codes\spider\mitm_script.py
 # 打开代理，8080端口
 
 from mitmproxy import http
 import os
-mitm_file_path=r'E:\obsidian\Master\fund_stream_project\codes\spider\mitm_url.txt'
+mitm_file_path=r'F:\obsidian\Master\fund_stream_project\codes\spider\mitm_url.txt'
 class MyAddon:
     def response(self, flow: http.HTTPFlow) -> None:
         if ".m3u8" in flow.request.url:
