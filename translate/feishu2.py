@@ -9,11 +9,15 @@ from selenium.webdriver.common.keys import Keys
 import pdb
 from selenium.webdriver.support import expected_conditions as EC 
 from selenium.webdriver.support.ui import WebDriverWait  
+import pdb
+from selenium.webdriver.support import expected_conditions as EC 
+from selenium.webdriver.support.ui import WebDriverWait  
 """
 说明：自动化从飞书上下载文本的selenium脚本
 """
 
 # 设置 Edge 浏览器驱动路径
+edge_driver_path = r"F:\obsidian\Master\fund_stream_project\codes\msedgedriver.exe"
 edge_driver_path = r"F:\obsidian\Master\fund_stream_project\codes\msedgedriver.exe"
 
 # 创建 Edge 浏览器服务
@@ -25,6 +29,7 @@ driver = webdriver.Edge(service=service)
 # 打开网页
 driver.get("https://gfhvchfr2i.feishu.cn/minutes/home")
 driver.implicitly_wait(10)  # 设置隐式等待时间为10秒
+time.sleep(15)
 time.sleep(15)
 # 关闭浏览器
 

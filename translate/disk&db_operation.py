@@ -17,6 +17,15 @@ cursor = db.cursor()
 def update_db_by_disk():
     """
     根据网盘内的文件，更新数据库
+    1. 更新mp3记录：
+        把网盘里有的所有mp3的code拿到，设置db中downloaded为1
+        为什么会出现有的code不在db中？
+    2. 更新txt记录：
+        同上
+    3. 删除多余的mp3：
+        扫描db中所有downloaded为1的，检查其是否在网盘中，如果不在就把字段重置为null
+        但是downloaded是从网页下载到电脑后就置为1的，可能还没来得及上传到网盘，如果过快重置会导致频繁重复下载
+            解决：新增一个succeed_time字段，记录下载成功时间，清楚5天前的
     """
 
     # 更新MP3
@@ -27,34 +36,34 @@ def update_db_by_disk():
     mp3_names_list=[int(i.split('.')[0]) for i in mp3_names_list]
     print("--------------------开始更新mp3记录------------------")
     
-    # count_all=0
-    # count_act=0
-    # task_num=len(mp3_names_list)
-    # for name in mp3_names_list:
+    count_all=0
+    count_act=0
+    task_num=len(mp3_names_list)
+    for name in mp3_names_list:
 
-    #     select_query = "select downloaded from total where code=%s"
-    #     cursor.execute(select_query,(name))
-    #     try:
-    #         db_code_exist=cursor.fetchone()[0]
-    #     except:
-    #         print(str(name)+"有下载的mp3但是不在数据库中")
-    #         continue
-    #     if 1==db_code_exist:
-    #         # print(str(name)+"downloaded已经是1")
-    #         count_all+=1
-    #         print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
-    #         # sys.stdout.flush()
-    #         continue
-    #     # pdb.set_trace()
+        select_query = "select downloaded from total where code=%s"
+        cursor.execute(select_query,(name))
+        try:
+            db_code_exist=cursor.fetchone()[0]
+        except:
+            print(str(name)+"有下载的mp3但是不在数据库中")
+            continue
+        if 1==db_code_exist:
+            # print(str(name)+"downloaded已经是1")
+            count_all+=1
+            print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
+            # sys.stdout.flush()
+            continue
+        # pdb.set_trace()
 
-    #     # update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
-    #     update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
-    #     cursor.execute(update_query, (1, name))
-    #     db.commit()
-    #     count_all+=1
-    #     count_act+=1
-    #     print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
-    #     sys.stdout.flush()
+        # update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
+        update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
+        cursor.execute(update_query, (1, name))
+        db.commit()
+        count_all+=1
+        count_act+=1
+        print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
+        sys.stdout.flush()
 
     print("\n--------------------mp3记录更新完毕------------------")
     print('\n\n')
@@ -67,41 +76,43 @@ def update_db_by_disk():
     txt_names_list=[int(i.split('.')[0]) for i in txt_names_list]
     print("--------------------开始更新txt记录------------------")
     
-    # count_all=0
-    # count_act=0
-    # task_num=len(txt_names_list)
-    # for name in txt_names_list:
+    count_all=0
+    count_act=0
+    task_num=len(txt_names_list)
+    for name in txt_names_list:
 
-    #     select_query = "select stt from total where code=%s"
-    #     cursor.execute(select_query,(name))
-    #     try:
-    #         db_code_exist=cursor.fetchone()[0]
-    #     except:
-    #         print(str(name)+"有下载的txt但是不在数据库中")
-    #         continue
+        select_query = "select stt from total where code=%s"
+        cursor.execute(select_query,(name))
+        try:
+            db_code_exist=cursor.fetchone()[0]
+        except:
+            print(str(name)+"有下载的txt但是不在数据库中")
+            continue
 
-    #     if 1==db_code_exist:
-    #         # print(str(name)+"stt已经是1")
-    #         count_all+=1
-    #         print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
-    #         sys.stdout.flush()
-    #         continue
-    #     # pdb.set_trace()
+        if 1==db_code_exist:
+            # print(str(name)+"stt已经是1")
+            count_all+=1
+            print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
+            sys.stdout.flush()
+            continue
+        # pdb.set_trace()
 
-    #     update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
-    #     # update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
-    #     cursor.execute(update_query, (1, name))
-    #     db.commit()
-    #     count_all+=1
-    #     count_act+=1
-    #     print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
-    #     sys.stdout.flush()
+        update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
+        # update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
+        cursor.execute(update_query, (1, name))
+        db.commit()
+        count_all+=1
+        count_act+=1
+        print(f"进度：{count_all}/{task_num}，已更新{count_act}", end='\r')
+        sys.stdout.flush()
 
 
     print("\n--------------------txt记录更新完毕------------------")
     print('\n\n')
     print("--------------------开始删除多余的MP3记录------------------")
-    select_query = "select code from total where downloaded=1"
+    ####注：这里还有问题，下载和上传有时间差，如果下载后15天内没有被上传网盘，会被认为没有下载，清除下载记录，会被重新下载
+    ###这个日期应该设的长一些，或等全部下载、转录好之后，设的短一点，然后运行删除实际漏下的mp3
+    select_query = "select code from total where downloaded=1 and (down_succeed_time IS NULL OR down_succeed_time <= DATE_SUB(CURDATE(), INTERVAL 15 DAY))"
     cursor.execute(select_query,)
     db_down_list=cursor.fetchall()
     db_down_list=[i[0] for i in db_down_list]
@@ -137,33 +148,5 @@ def update_db_by_disk():
     print('\n\n')
 
 
-def update_download():
-    count=0
-# 把MP3_raw/translated目录里的文件在数据库上downloaded列都改为1
-# 把translated目录里的文件在数据库上stt列都改为1
-    names_list=disk.get_names(folder_path='/fund_stream_project/MP3_translated',file_or_folder_or_both='file_only')
-    # names_list=disk.get_names(folder_path='/fund_stream_project/MP3_translated',file_or_folder_or_both='file_only')
-    names_list=[int(name.split('.')[0]) for name in names_list]
 
-    # print(len(db_code_list))
-
-    for name in names_list:
-        # 检查是否存在
-        # select_query = "select code from total where code=%s"
-        # cursor.execute(select_query,(name))
-        # db_code_exist=cursor.fetchone()
-        # if db_code_exist:
-        #     update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
-        #     cursor.execute(update_query, (1, name))
-        #     db.commit()
-        # else:
-        #     print(str(name)+"不存在于db")
-
-        # 不检查是否存在
-        update_query = "UPDATE total SET stt =%s  WHERE CODE = %s"
-        # update_query = "UPDATE total SET downloaded =%s  WHERE CODE = %s"
-        cursor.execute(update_query, (1, name))
-        db.commit()
-        count+=1
-        print(count)
 update_db_by_disk()
