@@ -1,5 +1,4 @@
 import os
-import pdb
 import re
 import sys
 import queue
@@ -56,13 +55,24 @@ class M3u8Download:
 
         self.get_m3u8_info(self._url, self._num_retries)
         print('Downloading: %s' % self._name, 'Save path: %s' % self._file_path, sep='\n')
+        
+        with open(os.path.join(os.getcwd(), 'tmp_ignore_sync','downloading.txt'),'w') as f:
+            f.writelines(self._name)
+
         with ThreadPoolExecutorWithQueueSizeLimit(self._max_workers) as pool:
             for k, ts_url in enumerate(self._ts_url_list):
                 pool.submit(self.download_ts, ts_url, os.path.join(self._file_path, str(k)), self._num_retries)
-        pdb.set_trace()
         if self._success_sum == self._ts_sum:
-            self.output_mp3()
-            self.delete_file()
+            file_path=os.path.join(os.getcwd(), 'tmp_ignore_sync','succeeded',self._name)
+            try:  
+                with open(file_path, 'x'):  
+                    pass  # 文件被创建，但没有写入任何内容  
+
+            except FileExistsError:  
+                print(f"文件 {file_path} 已存在，无法创建。")
+
+            # self.output_mp3()
+            # self.delete_file()
             print(f"Download successfully --> {self._name}")
 
     def shell_run_cmd_block(self, cmd):
@@ -200,13 +210,14 @@ class M3u8Download:
 
 
 def download_m3u8(url, name, max_workers=64, num_retries=5, base64_key=None):
-    
     M3u8Download(url, name, max_workers, num_retries, base64_key)
 
 
 if __name__ == "__main__":
     if not os.path.exists(os.path.join(os.getcwd(), 'tmp_ignore_sync')):
         os.mkdir(os.path.join(os.getcwd(), 'tmp_ignore_sync'))
+    if not os.path.exists(os.path.join(os.getcwd(), 'tmp_ignore_sync','succeeded')):
+        os.mkdir(os.path.join(os.getcwd(), 'tmp_ignore_sync','succeeded'))
  
     # 从db获取一个任务
 
@@ -244,18 +255,7 @@ if __name__ == "__main__":
         except:
             print(str(working_code)+"下载失败")
 
-        # try:   #在这里上传太慢，还经常失败，还是手动百度网盘上传吧
-        # #上传
-        #     print("正在上传"+str(working_code))
-        #     myupload(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code),'/fund_stream_project/MP3_raw')
 
-        # # 成功就释放
-        #     # 上传mp3后释放
-        #     release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
-        #     # print(occupy_query)
-        #     print(str(working_code)+"上传成功")
-        # except:
-        #     print(str(working_code)+"上传失败")
 
     # 下载成功就释放
         

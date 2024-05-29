@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 import os
 def action():
-    start_code=3961336
+    start_code=4026672
     db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',
                             user='root',
                             password='UIBE_chat_2023',
@@ -25,7 +25,7 @@ def action():
     index = db_code_list.index(start_code)
 
     # 截取 code 所在位置后面的全部内容
-    # db_code_list = db_code_list[index+1:]
+    db_code_list = db_code_list[index+1:]
 
 
     
