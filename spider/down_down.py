@@ -20,6 +20,7 @@ from datetime import datetime
 # 1.新建一个空目录，地址中不含中文、空格
 
 # 2.运行该程序
+# 仅下载，不合并
 
 
 
@@ -56,6 +57,7 @@ class M3u8Download:
         self.get_m3u8_info(self._url, self._num_retries)
         print('Downloading: %s' % self._name, 'Save path: %s' % self._file_path, sep='\n')
         
+        # 记录当前正在下载的编号，免得清理时删了
         with open(os.path.join(os.getcwd(), 'tmp_ignore_sync','downloading.txt'),'w') as f:
             f.writelines(self._name)
 
@@ -63,6 +65,7 @@ class M3u8Download:
             for k, ts_url in enumerate(self._ts_url_list):
                 pool.submit(self.download_ts, ts_url, os.path.join(self._file_path, str(k)), self._num_retries)
         if self._success_sum == self._ts_sum:
+            # 下载成功后，再succeed目录下新建同名文件，表明是下载好的
             file_path=os.path.join(os.getcwd(), 'tmp_ignore_sync','succeeded',self._name)
             try:  
                 with open(file_path, 'x'):  
@@ -254,13 +257,16 @@ if __name__ == "__main__":
             print(str(working_code)+"下载成功")
         except:
             print(str(working_code)+"下载失败")
+            release_query = "UPDATE total SET downloaded=NULL,occupied =NULL,occupied_time=NULL  WHERE CODE = %s"
+            cursor.execute(release_query, (working_code))
+            db.commit()
 
 
 
+        # release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL,down_succeed_time=CURDATE()  WHERE CODE = %s"
+        # cursor.execute(release_query, (working_code))
+        # db.commit()
     # 下载成功就释放
         
-        release_query = "UPDATE total SET downloaded=1,occupied =NULL,occupied_time=NULL,down_succeed_time=CURDATE()  WHERE CODE = %s"
-        cursor.execute(release_query, (working_code))
-        db.commit()
         # os.remove(BASE_DIR+'/tmp_ignore_sync/{}.mp3'.format(working_code))
 

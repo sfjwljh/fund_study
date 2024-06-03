@@ -59,7 +59,7 @@ class M3u8Download:
         with ThreadPoolExecutorWithQueueSizeLimit(self._max_workers) as pool:
             for k, ts_url in enumerate(self._ts_url_list):
                 pool.submit(self.download_ts, ts_url, os.path.join(self._file_path, str(k)), self._num_retries)
-        pdb.set_trace()
+        # pdb.set_trace()
         if self._success_sum == self._ts_sum:
             self.output_mp3()
             self.delete_file()
@@ -185,11 +185,13 @@ class M3u8Download:
         self.shell_run_cmd_block(cmd)
 
     def output_mp3(self):
+        # pdb.set_trace()
         cmd =  cmd = 'ffmpeg -allowed_extensions ALL -i "%s.m3u8" -acodec libmp3lame -vn %s.mp3' % (self._file_path, self._file_path)
         print(cmd)
         self.shell_run_cmd_block(cmd)
 
     def delete_file(self):
+        # pdb.set_trace()
         file = os.listdir(self._file_path)
         for item in file:
             os.remove(os.path.join(self._file_path, item))
