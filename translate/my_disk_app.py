@@ -2,7 +2,7 @@ import requests
 import json
 from math import ceil
 import os
-access_token="121.e9a71493deeec8a3ed50a86b74dd243a.Yaiys4d9C0vmYVhEo7xus_onRcL5pWIdaLNjbVe.SqVxbQ"
+access_token="121.9f925e631696b8dc283cfdcc923a10ad.YBPId7_xGCiw3AB0ZQyxFmD3g9pa7K6rRAb-Gz5.eoL5qg"
 """
 说明：
 根据baidu_disk提供的基础API，自定义了一些函数，方便使用
@@ -167,7 +167,7 @@ def merge(filename,suffix,task_num,block_size):
 
 
 
-def delete_file(path,check_exist):
+def delete_file(path,check_exist=1,confirm=1):
   """
   注意，如果删除的路径不存在，删除不会报错，不会有任何提示
   删除前请务必一定确保文件路径正确，否则以为删了但实际上没删
@@ -185,16 +185,18 @@ def delete_file(path,check_exist):
   'filelist': '[\"'+path+'\"]'
   }
   #
-  confirm=input('确认删除'+path+'吗？\ny/n:')
-  if confirm=='y':
-    print('确认删除'+path)
-  else:
-    print('取消删除')
-    return
+  if confirm==1:
+    confirm_ans=input('确认删除'+path+'吗？\ny/n:')
+    if confirm_ans=='y':
+      print('确认删除'+path)
+    else:
+      print('取消删除')
+      return
   response = requests.request("POST", url, data = payload)
   response_dict = json.loads(response.text)
   if response_dict['errno']==0:
     # success
+    print("成功删除"+path)
     pass
   elif response_dict['errno']==111:
     raise ValueError(path+'删除时，有其他异步任务正在执行')
@@ -213,10 +215,10 @@ def delete_abundant_files(folder_path):
   for name in names:
     print(name)
     tmp_name="{}.{}".format(name.split('(1).')[0],name.split('(1).')[1])
-    if tmp_name in file_names:
+    if tmp_name in file_names:  #去（1）后的文件存在，删掉多的
       delete_file(folder_path+'/'+name,check_exist=0)
       print('已删除')
-    else:
+    else:   #去（1）后的文件不存在，改名
       move_file(folder_path+'/'+name,folder_path+'/'+tmp_name)
       print('已经修改')
 

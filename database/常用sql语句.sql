@@ -48,10 +48,14 @@ SELECT COUNT(*) FROM total WHERE (LENGTH(m3u8_url)<>0 );
 
 SELECT COUNT(*) FROM total WHERE downloaded =1;
 
+#新的url总数目 25103
 SELECT COUNT(* )FROM total WHERE LENGTH(m3u8_url_new)>0;
 
+# 之前下载错的url   14775 
 SELECT COUNT(* )FROM total WHERE (LENGTH(m3u8_url)>0 AND LENGTH(m3u8_url_new)>0 AND m3u8_url<>m3u8_url_new);
+ 
 
+# 判断新的url有没有重复的
 SELECT m3u8_url_new, COUNT(m3u8_url_new) AS COUNT
 FROM total
 GROUP BY m3u8_url_new
@@ -59,3 +63,6 @@ HAVING COUNT > 1
 ORDER BY COUNT DESC;
 
 UPDATE total SET downloaded=NULL WHERE m3u8_url<>m3u8_url_new;
+
+# 本来正确下载的数目
+SELECT COUNT(*) FROM total WHERE LENGTH(m3u8_url)>0 AND m3u8_url=m3u8_url_new;
