@@ -1,4 +1,4 @@
-# 把sql数据库里的（语料，情感）拿下来形成训练语料
+# 把sql数据库里的（语料，情感）拿下来形成情感分类的训练语料
 import pymysql
 from tool import get_inudstry_code
 import pdb

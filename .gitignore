@@ -16,3 +16,4 @@ spider/mitm_url.txt
 spider/__pycache__/mitm_script.cpython-39.pyc
 /tmp_ignore_sync/*
 *.pyc
+/framework/train_data/*
