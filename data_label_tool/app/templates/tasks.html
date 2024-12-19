@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>任务列表 - 文本标注系统</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="task-container">
+        <div class="header">
+            <h2>任务列表</h2>
+            <div class="user-info">
+                <span>当前用户: {{ session.username }}</span>
+                <a href="{{ url_for('logout') }}" class="logout-btn">退出登录</a>
+            </div>
+        </div>
+        
+        {% if is_admin %}
+        <div class="admin-section">
+            <h3>未分配的任务</h3>
+            <div class="task-list">
+                {% for task in unassigned_tasks %}
+                <div class="task-item unassigned">
+                    <div class="task-info">
+                        <h4>{{ task.filename }}</h4>
+                    </div>
+                    <div class="task-actions">
+                        <select class="user-select" data-task-id="{{ task.task_id }}">
+                            <option value="">选择用户</option>
+                            {% for username in users %}
+                            <option value="{{ username }}">{{ username }}</option>
+                            {% endfor %}
+                        </select>
+                        <button onclick="assignTask({{ task.task_id }})">分配任务</button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        
+        <div class="task-list">
+            <h3>我的任务</h3>
+            {% for task in tasks %}
+            <div class="task-item">
+                <div class="task-info">
+                    <h4>{{ task.filename }}</h4>
+                    {% if is_admin %}
+                    <p>已分配给: {{ task.assigned_to }}</p>
+                    {% endif %}
+                    <div class="progress-bar">
+                        <div class="progress" style="width: {{ task.progress }}%"></div>
+                    </div>
+                    <span class="progress-text">{{ "%.1f"|format(task.progress) }}%</span>
+                </div>
+                <div class="task-actions">
+                    <a href="{{ url_for('select_task', task_id=task.task_id) }}" class="btn">
+                        继续标注
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% if is_admin %}
+    <script>
+    function assignTask(taskId) {
+        const select = document.querySelector(`.user-select[data-task-id="${taskId}"]`);
+        const username = select.value;
+        if (username) {
+            window.location.href = `/assign_task/${taskId}/${username}`;
+        }
+    }
+    </script>
+    {% endif %}
+</body>
+</html> 
