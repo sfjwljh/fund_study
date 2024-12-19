@@ -1,0 +1,248 @@
+/* 基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 句子列表样式 */
+.sentence-list {
+    width: 100%;
+}
+
+.sentence-container {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sentence-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.sentence-item.selected {
+    background-color: #e3f2fd;
+    border-radius: 8px 8px 0 0;
+}
+
+/* 实体标注表单样式 */
+.entity-form {
+    padding: 15px;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    display: none; /* 默认隐藏 */
+}
+
+.entity-form.active {
+    display: block; /* 选中时显示 */
+}
+
+/* 实体输入区域样式 */
+.entity-input {
+    position: relative;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+    display: flex;  /* 使用 flex 布局 */
+    gap: 10px;      /* 字段之间的间距 */
+    align-items: start;
+}
+
+/* 每个输入字段的容器 */
+.field-container {
+    flex: 1;        /* 平均分配空间 */
+    min-width: 0;   /* 防止溢出 */
+}
+
+/* 字段标签 */
+.field-label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+/* 输入框和选择框样式 */
+.entity-input input,
+.entity-input select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.entity-input:last-child {
+    margin-bottom: 10px;
+}
+
+.entity-input input:focus,
+.entity-input select:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+}
+
+.entity-controls {
+    text-align: right;
+    padding: 10px 0;
+}
+
+.add-entity-btn {
+    background-color: #2196f3;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.add-entity-btn:hover {
+    background-color: #1976d2;
+}
+
+/* 删除按钮位置调整 */
+.remove-entity-btn {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 1;
+    background-color: #ff5252;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    transition: background-color 0.2s;
+}
+
+.remove-entity-btn:hover {
+    background-color: #d32f2f;
+}
+
+/* 建议列表样式 */
+.suggestion-list {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    width: auto;
+    min-width: 150px;
+}
+
+.suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+}
+
+.suggestion-item:hover {
+    background-color: #f5f5f5;
+}
+
+/* 存疑备注高亮样式 */
+.field-container.has-doubt {
+    background-color: #fff3e0; /* 浅橙色背景 */
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.field-container.has-doubt .field-label {
+    color: #e65100; /* 深橙色文字 */
+    font-weight: bold;
+}
+
+.field-container.has-doubt input {
+    border-color: #ff9800; /* 橙色边框 */
+    background-color: #fff; /* 保持输入框背景为白色 */
+}
+
+.field-container.has-doubt input:focus {
+    border-color: #f57c00;
+    box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.1);
+}
+
+/* 存疑句子高亮样式 */
+.sentence-container.has-doubt {
+    border: 2px solid #ff9800;
+    box-shadow: 0 2px 8px rgba(255, 152, 0, 0.2);
+}
+
+.sentence-container.has-doubt .sentence-item {
+    background-color: #fff3e0;
+}
+
+.sentence-container.has-doubt .sentence-item.selected {
+    background-color: #ffe0b2;
+}
+
+/* 添加存疑标记 */
+.doubt-marker {
+    display: inline-block;
+    background-color: #ff9800;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* 已标注句子样式 */
+.sentence-container.has-labels {
+    border: 2px solid #4caf50;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.2);
+}
+
+.sentence-container.has-labels .sentence-item {
+    background-color: #e8f5e9;
+}
+
+.sentence-container.has-labels .sentence-item.selected {
+    background-color: #c8e6c9;
+}
+
+/* 已标注标记 */
+.label-marker {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* 标记容器 */
+.markers-container {
+    display: inline-flex;
+    gap: 8px;
+    margin-left: 10px;
+    vertical-align: middle;
+}

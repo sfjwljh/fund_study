@@ -17,3 +17,6 @@ spider/__pycache__/mitm_script.cpython-39.pyc
 /tmp_ignore_sync/*
 *.pyc
 /framework/train_data/*
+
+/本科/*
+/data_label_tool/app/data/*

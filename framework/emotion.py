@@ -3,7 +3,7 @@ from doubao_api import get_doubao
 import os
 import pdb
 import pymysql
-from tool import get_inudstry_code
+from tool import get_inudstry_name
 db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',
                         user='root',
                         password='UIBE_chat_2023',
@@ -33,14 +33,14 @@ system="""
 现在的问题是：【sec1】
 请你根据上面的要求和例子直接打出分数，不要返回其他任何多余的内容："""
 def get_emotion(result):
-    prompt=system.replace('【sec1】',result[0]+"板块："+get_inudstry_code(bankuai_path,result[1]))
+    prompt=system.replace('【sec1】',result[0]+"板块："+get_inudstry_name(bankuai_path,result[1]))
     # pdb.set_trace()
     ans=(get_doubao('',prompt))
     try:
         ans=int(ans)
         update_query="""update opinions set emotion={} where op='{}' and industry={}""".format(ans,result[0],result[1])
         cursor.execute(update_query.format(result[0],result[1]))
-        print(result[0]+' '+get_inudstry_code(bankuai_path,result[1])+' '+str(ans))
+        print(result[0]+' '+get_inudstry_name(bankuai_path,result[1])+' '+str(ans))
         db.commit()
     except:# 插入-1，防止有的问题就是打不出来，死循环
         ans=-1

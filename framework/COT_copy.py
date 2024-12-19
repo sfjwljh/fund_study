@@ -5,11 +5,7 @@ from pathlib import Path
 import os
 import sys
 # 获取当前 notebook 文件的路径
-notebook_path = os.path.dirname(os.path.abspath(__file__))
-BASE_DIR = os.path.dirname(notebook_path)
-# 将项目根目录添加到 Python 路径中
-sys.path.append(BASE_DIR)
-
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from utils.database.connect import connect_db
 db,cursor=connect_db()
 def deal_text(file_path,code):
@@ -100,7 +96,7 @@ for file in directory.iterdir():
             continue
         try:
             code=int(code)
-            if code%2==0:
+            if code%2==1:
                 continue
         except:
             continue

@@ -2,10 +2,19 @@
 from doubao_api import get_doubao
 import os
 import pymysql
-from tool import get_inudstry_code
+from tool import get_inudstry_name
 from concurrent.futures import ProcessPoolExecutor
+import os
+import sys
+# 获取当前 notebook 文件的路径
+notebook_path = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(notebook_path)
+# 将项目根目录添加到 Python 路径中
+sys.path.append(BASE_DIR)
 
-bankuai_path = r'F:\obsidian\Master\fund_stream_project\codes\framework\板块.txt'
+from utils.database.connect import connect_db
+
+bankuai_path = r'framework\板块.txt'
 system = """
 你是一个金融情感分析专家，请根据提示完成下面的任务。
 任务要求：根据一句金融文本（可能是噪声），判断其对给定板块领域的情感。如果是正向情感，就打1分；如果是负向情感，打2分；如果是中立情感，打3分；如果是噪声，所说内容和板块不想关，打0分。
@@ -24,21 +33,20 @@ system = """
 请你根据上面的要求和例子直接打出分数，不要返回其他任何多余的内容："""
 
 def get_emotion(result):
-    db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',
-                         user='root',
-                         password='UIBE_chat_2023',
-                         database='fund_stream',
-                         charset='utf8mb4',
-                         port=25445,)
-    cursor = db.cursor()
+    """
+    输入：一行undustry非-1的、emotion为空的（op,industry）
 
-    prompt = system.replace('【sec1】', result[0] + "板块：" + get_inudstry_code(bankuai_path, result[1]))
+    无输出，直接更新数据库
+    """
+    db,cursor=connect_db()
+
+    prompt = system.replace('【sec1】', result[0] + "板块：" + get_inudstry_name(bankuai_path, result[1]))
     ans = (get_doubao('', prompt))
     try:
         ans = int(ans)
         update_query = """update opinions set emotion={} where op='{}' and industry={}""".format(ans, result[0], result[1])
         cursor.execute(update_query)
-        print(result[0] + ' ' + get_inudstry_code(bankuai_path, result[1]) + ' ' + str(ans))
+        print(result[0] + ' ' + get_inudstry_name(bankuai_path, result[1]) + ' ' + str(ans))
         db.commit()
     except:
         ans = -1
@@ -50,13 +58,12 @@ def get_emotion(result):
     db.close()
 
 def process_data(worker_id, num_workers):
-    db = pymysql.connect(host='bj-cynosdbmysql-grp-igalwqqk.sql.tencentcdb.com',
-                         user='root',
-                         password='UIBE_chat_2023',
-                         database='fund_stream',
-                         charset='utf8mb4',
-                         port=25445,)
-    cursor = db.cursor()
+    """
+    输入：进程的序号，总的进程数
+
+    获取行业非-1的、emotion为空的（op,industry），按照进程序号分配任务，并调用get_emotion函数处理
+    """
+    db,cursor=connect_db()
 
     # 根据进程的序号和总的进程数来分配数据
     select_query = "select op,industry from opinions where isnull(emotion) and industry<>-1"
@@ -72,7 +79,7 @@ def process_data(worker_id, num_workers):
     db.close()
 
 if __name__ == "__main__":
-    num_workers = 10  # 假设我们有4个进程
+    num_workers = 10  # 进程数
     with ProcessPoolExecutor(max_workers=num_workers) as executor:
         for worker_id in range(num_workers):
             executor.submit(process_data, worker_id, num_workers)
