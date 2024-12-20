@@ -478,3 +478,12 @@ body {
         font-size: 16px;  /* 防止 iOS 缩放 */
     }
 }
+
+.entity-number {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: #666;
+}

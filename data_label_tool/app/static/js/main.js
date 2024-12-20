@@ -1,7 +1,8 @@
 $(document).ready(function() {
-    let usedLevel2Values = new Set();
+    let usedLevel2Values = [];
     let saveTimeout = null;
     let allEntities = []; // 存储所有实体数据
+    let lastUsedIndustry = '';
 
     // 预定义的选项
     const LEVEL1_OPTIONS = [
@@ -10,7 +11,8 @@ $(document).ready(function() {
         '下游产业情况',
         '行业自身情况',
         '国家政策方向',
-        '宏观市场'
+        '宏观市场',
+        '子板块'
     ];
 
     const TIME_ATTR_OPTIONS = [
@@ -20,7 +22,7 @@ $(document).ready(function() {
         '未来'
     ];
 
-    const SCORE_OPTIONS = ['-2', '-1', '0', '1', '2'];
+    const SCORE_OPTIONS = ['2', '1', '0', '-1', '-2'];
 
     // 创建选择框 HTML
     function createSelectOptions(options, value) {
@@ -40,7 +42,6 @@ $(document).ready(function() {
         let sentenceId = selectedSentence.data('id');
         let entities = [];
         
-        // 获取当前显示的表单的实体数据
         $(`#entity-form-${sentenceId} .entity-input`).each(function() {
             let entity = {
                 industry: $(this).find('.industry-input').val(),
@@ -51,9 +52,6 @@ $(document).ready(function() {
                 status: $(this).find('.status-input').val(),
                 doubt_remark: $(this).find('.doubt-input').val()
             };
-            if (entity.level2) {
-                usedLevel2Values.add(entity.level2);
-            }
             entities.push(entity);
         });
 
@@ -129,7 +127,10 @@ $(document).ready(function() {
 
     // 修改过滤建议列表函数
     function filterSuggestions(input, values, keyword) {
-        let filteredValues = values.filter(value => 
+        // 将 Set 转换为数组并反转，确保最新添加的在前面
+        let valuesArray = Array.from(values).reverse();
+        
+        let filteredValues = valuesArray.filter(value => 
             value.toLowerCase().includes(keyword.toLowerCase())
         );
         
@@ -137,7 +138,6 @@ $(document).ready(function() {
         $('.suggestion-list').remove();
         
         if (filteredValues.length > 0) {
-            // 创建新的建议列表
             let suggestionList = $('<div class="suggestion-list"></div>');
             
             // 添加建议项
@@ -213,7 +213,7 @@ $(document).ready(function() {
         
         // 如果 level2 有值但 level1 为空，尝试自动填充 level1
         if (keyword && !level1Input.val()) {
-            console.log('尝试查找匹配的level1值');
+            console.log('尝试查��匹配的level1值');
             let lastLevel1 = findLastLevel1ForLevel2(keyword);
             if (lastLevel1) {
                 console.log('找到匹配的level1值，正在填充:', lastLevel1);
@@ -243,18 +243,23 @@ $(document).ready(function() {
 
     // 添加函数：从所有数据中收集已使用的值
     function collectHistoricalValues(data) {
-        // 清空之前的值，确保只包含当前文档的推荐
-        usedLevel2Values.clear();
+        // 清空之前的值
+        usedLevel2Values = [];
         
-        data.forEach(item => {
+        // 从最新的数据开始收集
+        for (let i = data.length - 1; i >= 0; i--) {
+            let item = data[i];
             if (item.entities && Array.isArray(item.entities)) {
                 item.entities.forEach(entity => {
                     if (entity.level2 && entity.level2.trim() !== '') {
-                        usedLevel2Values.add(entity.level2.trim());
+                        // 如果值不存在，则添加到数组开头
+                        if (!usedLevel2Values.includes(entity.level2.trim())) {
+                            usedLevel2Values.unshift(entity.level2.trim());
+                        }
                     }
                 });
             }
-        });
+        }
     }
 
     // 修改 loadSentences 函数
@@ -304,7 +309,7 @@ $(document).ready(function() {
                             ${markersHtml}
                         </div>
                         <div class="entity-form ${isSelected ? 'active' : ''}" id="entity-form-${index}">
-                            <!-- 实体表单将在点击时动态加载 -->
+                            <!-- 实体表单将在点���时动态加载 -->
                         </div>
                     </div>
                 `);
@@ -321,7 +326,7 @@ $(document).ready(function() {
         });
     }
 
-    // 修改点击句子的处理函数，添加强制保存
+    // 修改点击句子的处理函数，移除重置 lastUsedIndustry
     $(document).on('click', '.sentence-item', function() {
         // 先保存当前正在编辑的句子
         if (saveTimeout) {
@@ -358,7 +363,7 @@ $(document).ready(function() {
             entities.forEach((entity, index) => {
                 let entityInput = $(createEntityInput(entity, index));
                 entityForm.append(entityInput);
-                // 检查新创建��实体是否需要自动填充行业
+                // 检查新创建的实体是否需要自动填充行业
                 autoFillIndustry(entityInput);
             });
 
@@ -422,7 +427,7 @@ $(document).ready(function() {
         }
     });
 
-    // 修改文档点击事件，处理建议列表的隐藏
+    // 修改文档点事件，处理建议列表的隐藏
     $(document).on('click', function(e) {
         if (!$(e.target).closest('.field-container').length) {
             $('.suggestion-list').remove();
@@ -458,6 +463,7 @@ $(document).ready(function() {
         
         return `
             <div class="entity-input" data-index="${index}">
+                <div class="entity-number">${index + 1}</div>
                 <button class="remove-entity-btn" title="删除此实体">×</button>
                 
                 <div class="field-container">
@@ -533,6 +539,9 @@ $(document).ready(function() {
             $(this).attr('data-index', index);
         });
         
+        // 自动填充新实体的行业
+        autoFillIndustry(newEntity);
+        
         debouncedSave();
     });
 
@@ -551,15 +560,20 @@ $(document).ready(function() {
         }
     });
 
-    // 添加一个新函数来查找最近使用的行业值
+    // 修改查找最近使用的行业值的函数
     function findLastIndustry() {
-        // 先在当前表单中查找
+        // 如果有最近使用的值，优先使用
+        if (lastUsedIndustry) {
+            return lastUsedIndustry;
+        }
+
+        // 否则在当前表单中查找，从后向前遍历
         let currentForm = $('.entity-form.active');
-        let currentInputs = currentForm.find('.entity-input');
+        let currentInputs = currentForm.find('.entity-input').get().reverse();
         
-        // 从当前行向上查找
-        for (let i = currentInputs.length - 1; i >= 0; i--) {
-            let industry = currentInputs.eq(i).find('.industry-input').val();
+        // 从后向前查找第一个非空的行业值
+        for (let input of currentInputs) {
+            let industry = $(input).find('.industry-input').val();
             if (industry && industry.trim() !== '') {
                 return industry;
             }
@@ -596,10 +610,9 @@ $(document).ready(function() {
         }
     }
 
-    // 修改事件处理，添加 industry-input 的输入事件监听
-    $(document).on('input', '.industry-input, .level2-input, .status-input, .doubt-input', function() {
+    // 修改事件处理，移除 level2-input ���实时保存
+    $(document).on('input', '.industry-input, .status-input, .doubt-input', function() {
         let inputContainer = $(this).closest('.entity-input');
-        // 只有当不是 industry-input 在输入时才自动填充行业
         if (!$(this).hasClass('industry-input')) {
             autoFillIndustry(inputContainer);
         }
@@ -627,57 +640,53 @@ $(document).ready(function() {
         debouncedSave();
     });
 
-    // 修改事件监听，区分实时保存和完成保存
-    $(document).on('input', '.level2-input, .status-input', function() {
-        // 输入时只显示建议，不保存
-        let keyword = $(this).val();
-        if ($(this).hasClass('level2-input')) {
-            filterSuggestions($(this), Array.from(usedLevel2Values), keyword);
-        } else if ($(this).hasClass('status-input')) {
-            let level2Value = $(this).closest('.entity-input').find('.level2-input').val();
-            if (level2Value) {
-                let relevantStatuses = getStatusesByLevel2(level2Value);
-                filterSuggestions($(this), relevantStatuses, keyword);
-            }
-        }
-    });
-
-    // 添加失去焦点事件，在输入完成时保存和更新推荐列表
-    $(document).on('blur', '.level2-input, .status-input', function() {
-        let value = $(this).val().trim();
-        if (value) {  // 只有当值不为空时才保存和更新推荐
-            if ($(this).hasClass('level2-input')) {
-                usedLevel2Values.add(value);
-            }
-            debouncedSave();
-        }
-    });
-
-    // 修改输入事件的保存逻辑
+    // 修改输入事件的保存逻辑，移除实时保存
     $(document).on('input', '.level2-input', function() {
         let keyword = $(this).val();
         let level1Input = $(this).closest('.entity-input').find('.level1-input');
         
-        // 只在输入框内容变化时更新建议
-        if (keyword) {
-            filterSuggestions($(this), Array.from(usedLevel2Values), keyword);
-        }
+        // 只更新建议列表
+        filterSuggestions($(this), Array.from(usedLevel2Values), keyword);
 
-        // 只有在输入完成后才保存
-        clearTimeout(saveTimeout);
-        saveTimeout = setTimeout(() => {
-            if (!level1Input.val()) {
-                let lastLevel1 = findLastLevel1ForLevel2(keyword);
-                if (lastLevel1) {
-                    level1Input.val(lastLevel1);
+        // 自动填充 level1
+        if (keyword && !level1Input.val()) {
+            let lastLevel1 = findLastLevel1ForLevel2(keyword);
+            if (lastLevel1) {
+                level1Input.val(lastLevel1);
+            }
+        }
+    });
+
+    // 失去焦点时的保存逻辑保持不变
+    $(document).on('blur', '.level2-input, .status-input', function() {
+        let value = $(this).val().trim();
+        if (value) {
+            if ($(this).hasClass('level2-input')) {
+                // 如果值已存在，先删除旧的
+                let index = usedLevel2Values.indexOf(value);
+                if (index !== -1) {
+                    usedLevel2Values.splice(index, 1);
                 }
+                // 添加到数组开头
+                usedLevel2Values.unshift(value);
             }
             debouncedSave();
-        }, 500);  // 500毫秒后保存
+        }
     });
 
     // 其他输入框（如行业、一级分类等）保持实时保存
     $(document).on('input', '.industry-input, .level1-input, .time-attr-input, .score-input, .doubt-input', function() {
+        if (!$(this).hasClass('level2-input')) {  // 确保不处理 level2-input
+            debouncedSave();
+        }
+    });
+
+    // 添加行业输入框的事件监听
+    $(document).on('input', '.industry-input', function() {
+        let value = $(this).val().trim();
+        if (value) {
+            lastUsedIndustry = value;
+        }
         debouncedSave();
     });
 });
