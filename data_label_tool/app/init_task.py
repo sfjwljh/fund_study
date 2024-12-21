@@ -36,12 +36,25 @@ def create_json(txt_path):
 if __name__ == '__main__':
     import sys
     if len(sys.argv) != 2:
-        print("使用方法: python init_task.py <txt文件路径>")
+        print("使用方法: python init_task.py <目录路径>")
         sys.exit(1)
     
-    txt_path = sys.argv[1]
-    if not txt_path.endswith('.txt'):
-        print("请提供 .txt 文件")
+    dir_path = sys.argv[1]
+    if not os.path.isdir(dir_path):
+        print("请提供有效的目录路径")
         sys.exit(1)
     
-    create_json(txt_path) 
+    # 遍历目录下的所有文件
+    for filename in os.listdir(dir_path):
+        if filename.endswith('.txt'):
+            txt_path = os.path.join(dir_path, filename)
+            # 构造对应的 json 文件路径
+            json_filename = os.path.splitext(filename)[0] + '.json'
+            json_path = os.path.join(dir_path, json_filename)
+            
+            # 检查是否已存在对应的 json 文件
+            if not os.path.exists(json_path):
+                print(f"处理文件：{filename}")
+                create_json(txt_path)
+            else:
+                print(f"跳过已存在的文件：{filename}") 

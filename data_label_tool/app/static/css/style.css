@@ -487,3 +487,10 @@ body {
     font-weight: bold;
     color: #666;
 }
+
+/* 添加文件大小显示的样式 */
+.file-size {
+    color: #666;
+    font-size: 0.9em;
+    margin: 4px 0;
+}

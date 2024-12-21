@@ -22,6 +22,7 @@
                 <div class="task-item unassigned">
                     <div class="task-info">
                         <h4>{{ task.filename }}</h4>
+                        <p class="file-size">文件大小: {{ task.txt_size }}KB</p>
                     </div>
                     <div class="task-actions">
                         <select class="user-select" data-task-id="{{ task.task_id }}">
@@ -44,6 +45,7 @@
             <div class="task-item">
                 <div class="task-info">
                     <h4>{{ task.filename }}</h4>
+                    <p class="file-size">文件大小: {{ task.txt_size }}KB</p>
                     {% if is_admin %}
                     <p>已分配给: {{ task.assigned_to }}</p>
                     {% endif %}

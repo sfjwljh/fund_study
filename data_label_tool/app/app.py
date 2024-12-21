@@ -121,7 +121,17 @@ def get_task_filename(task_id):
     """从任务ID生成文件名"""
     return f"{task_id}.json"
 
-# 修改任务列表路由
+# 在get_task_id函数后添加新的辅助函数
+def get_txt_size(task_id):
+    """获取txt文件大小"""
+    txt_path = os.path.join(DATA_DIR, f"{task_id}.txt")
+    if os.path.exists(txt_path):
+        size_bytes = os.path.getsize(txt_path)
+        # 转换为KB并保留2位小数
+        return round(size_bytes / 1024, 2)
+    return 0
+
+# 修改task_list函数中的相关代码部分
 @app.route('/tasks')
 def task_list():
     if 'username' not in session:
@@ -161,7 +171,8 @@ def task_list():
                             'task_id': task_id,
                             'filename': filename,
                             'assigned_to': username,
-                            'progress': progress
+                            'progress': progress,
+                            'txt_size': get_txt_size(task_id)  # 添加txt大小
                         })
             
             # 找出未分配的任务
@@ -169,7 +180,8 @@ def task_list():
                 if task_id not in assigned_ids:
                     unassigned_tasks.append({
                         'task_id': task_id,
-                        'filename': get_task_filename(task_id)
+                        'filename': get_task_filename(task_id),
+                        'txt_size': get_txt_size(task_id)  # 添加txt大小
                     })
         else:
             # 普通用户只能看到分配给自己的任务
@@ -185,7 +197,8 @@ def task_list():
                     assigned_tasks.append({
                         'task_id': task_id,
                         'filename': filename,
-                        'progress': progress
+                        'progress': progress,
+                        'txt_size': get_txt_size(task_id)  # 添加txt大小
                     })
             unassigned_tasks = []
 
