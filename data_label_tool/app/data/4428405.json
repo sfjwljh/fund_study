@@ -5068,7 +5068,7 @@
     "sentence": "嗯，还有朋友说银行又冲高了后市，怎么看",
     "entities": [
       {
-        "industry": "医药市场",
+        "industry": "银行",
         "level1": "无关",
         "level2": "无关",
         "time_attr": "",
@@ -5082,7 +5082,49 @@
     "sentence": "银行今年还是很优秀的，大家还是持有",
     "entities": [
       {
-        "industry": "医药市场",
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "",
+        "score": "2",
+        "status": "冲高",
+        "doubt_remark": ""
+      }
+    ]
+  },
+  {
+    "sentence": "也不算冲高，现在就 0.39 涨了，但是我建议大家短期还是先把银行拿着，目前来说银行没有什么坏消息，哈哈，都是好消息",
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "涨了",
+        "doubt_remark": ""
+      }
+    ]
+  },
+  {
+    "sentence": "嗯，好的，今天市场跌的还是你，挺惨的",
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "宏观市场",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "-2",
+        "status": "跌",
+        "doubt_remark": ""
+      }
+    ]
+  },
+  {
+    "sentence": "500 家公司",
+    "entities": [
+      {
+        "industry": "银行",
         "level1": "无关",
         "level2": "无关",
         "time_attr": "",
@@ -5093,1195 +5135,4160 @@
     ]
   },
   {
-    "sentence": "也不算冲高，现在就 0.39 涨了，但是我建议大家短期还是先把银行拿着，目前来说银行没有什么坏消息，哈哈，都是好消息",
-    "entities": []
-  },
-  {
-    "sentence": "嗯，好的，今天市场跌的还是你，挺惨的",
-    "entities": []
-  },
-  {
-    "sentence": "500 家公司",
-    "entities": []
-  },
-  {
     "sentence": "代涨，哈哈哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "5, 000 家公司代涨",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是确实是说明空间很大嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "未来",
+        "score": "0",
+        "status": "空间很大",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，以后",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我觉得大家如果说今天有这个加仓意愿的朋友，也可以这个顺便加一点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股价",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "可以加仓",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "毕竟这种 5, 000 家下跌这种曲面也不是特别常见，也不是特别多见",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，大家还是可以来这个注意一下今天的操作",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好，那我们下一个要讲的是我们的洪泽短债，在左下角购物袋 22 号链接",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，这个产品我多说一句，就这个产品我还是觉得大家还是可以去加一下自选，因为这个作为一个余额宝进阶还是很不错的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个余额宝进阶产品大家其实洪泽的老朋友都知道，他更多的就是从那个受益挑战活动进来的一些用户，他选择了洪泽",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "为什么呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那个文件包发现谁赚钱呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "发现这个产品居然赚的比余额宝多，所以大家都去加仓洪泽，其实洪泽它就是一个货币增强的产品，它就是目标就是超越货币基金这么一个策略，所以它这个严控回撤，大家是有这么多年，也可以看到它是稳稳的一个向上的一个收益线，近一年的收益率是2.4%，其实已经超过了银行理财大部分的，还有一些货币资基金嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "洪泽短债",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "稳稳向上",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以就是说对于这个日开型的债，我们还是让大家可以加一下自选，或者是，嗯买一些体验一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "洪泽短债",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "可以体验",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后它的日开型投资的标的大部分都是金融债券这种超短期融债这种，嗯，比较，嗯保守的资产，所以它这个波动还是特别小的，所以那他也是我们有保基金经理王昌俊管理的，他是清华大学硕士，然后又有 17 年的从业经验，还有 6 年的经营管理经验，所以完全可以相信他这个业界的资深专家",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "洪泽短债",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "基金经理资深管理",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "洪泽短债",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "保守波动小",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后这就是洪泽日开型短债的这个产品解读，嗯，大家可以看一下购物袋的 22 号链接，看近一年的收益是在2.23",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，可以加一下自选关注一下好好的，包括还有什么补充吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，红色短债这个产品其实非常的简单",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，非常的简单，直接就是大家有这种想要去严控回撤的需求的资金，其实可以看一下我们的洪泽短债，同样是短债，市场上有千千万万短债",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是我们这个产品的这个收益怎么说确实也打不过人家别家因为它的策略不一样，就是大家知道风险越高，收益可能也就越高",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我们为了去严控风险，所以相对来说也会去折损一部分收益",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "洪泽短债",
+        "time_attr": "始终",
+        "score": "-1",
+        "status": "风险低收益折损",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是它确实它的这个波动性大家可以看，基本上就没有特别大的一些抖动，一些回撤，哪怕是在两轮近期，就是最近几年两轮这个债券牛熊市的时候",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "洪泽短债",
+        "time_attr": "过去",
+        "score": "0",
+        "status": "波动小",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在最近两年债券爆雷的时候，他也没有说出现那些什么一下跌零点几，一下跌了三个月收益这样的一些极端情况，所以我觉得这个就是适合大家去进行",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "洪泽短债",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "无极端情况，适合进行",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "一方面就是流动资金的配置，然后另一方面就是一些就是非常需要低风险的产品的这种资金的配置",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，那我们这个产品就讲到这，辛苦小助理可以打点啦",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，会飞的猪",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "666，这个朋友说 4, 900 个孩子嗷嗷带走",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "哈哈，怎么说呀",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我觉得周末的时候也大概能猜到有今天这样的情况，感觉昨天是给利好消息买单，今天是给外围的利空消息买单",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "利空",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "毕竟就大家也都熟悉嘛，就是全球有什么利空，可能最后都会大 a 来买单一下，就是这种很无奈，但是又确实是这样的一个情况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "无奈",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，不过我个人坚信这个情况应该不会持续太久",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "不会太久",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，为什么呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为也没有太大的关系，可能就是被商品市场分流了一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "上游产业情况",
+        "level2": "商品市场",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "分流",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "可能商品市场近最近涨的又比较好，那我们下一个要讲的产品是银行，嗯，这个产品刚才有朋友在问银行，就必须得点名表扬他一下，这个在我关注的这几十个常见的板块里面，银行是唯二红着的，一个红着的叫煤炭，另一个红着的叫银行",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "上游产业情况",
+        "level2": "银行",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "表扬",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "如果是持有的朋友可以来举手一下银行",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "举手银行确实是近一年，不是就今年表现很优异的一个板块",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "很优异",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后再历次这种行情，有大的一些调，整体市场有一些大的风险的时候，银行居然能够去逆势上涨，这个力度我跟你说和大家一起长的时候，它也在长，这个力度是完全不一样的，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "逆势上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家也能知道万绿丛中一点红是多么大的魅力",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "万花丛中一点绿",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们就再说一下，为什么银行能走出这种情况，就是因为银行它首先它非常的就跟黄金一样，它属于 a 股里面相对避险的品种",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，它是避险资金比较喜欢的品种，因为大家知道大银行，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家这个满大街都可以见到各种网点，它首先自己本身资产质量是很过硬的，一个个都是非常大市值的一些公司，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "本身资产质量",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "过硬",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就大家也知道这些金融巨头多么的有实力，这些都是我们就是整个国家经济发展的一个可以说是吗的存在，哈哈，嗯，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "影响",
+        "time_attr": "",
+        "score": "2",
+        "status": "对市场影响大",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个就是营业之母",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，是的，这个其实就是银行它很大的一个支撑",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "支撑",
+        "time_attr": "",
+        "score": "2",
+        "status": "发展的支撑",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那在股市上面，其实各个银行股大家可能有参与过的朋友也知道，银行就是一个非常大市值、高分红的一个品种，每年挣的也很多，然后挣的钱还拿出来一大部分来分红消费，分红投资者",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股票",
+        "time_attr": "始终",
+        "score": "2",
+        "status": "大市值，高分红",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以银行这个在 a 股市场上我觉得还是一个比较优秀的尖子生的存在，这个所以在一些市场出现整个有一些波动，有一些问题的时候，资金一定要选择一些产品进行购买的时候，那你如果有钱你会买啥，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股票",
+        "time_attr": "始终",
+        "score": "2",
+        "status": "尖子生",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那肯定会选一些相对来说避险低估值、高股息的一些板块，银行就这样被筛选了出来",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股票",
+        "time_attr": "始终",
+        "score": "2",
+        "status": "低估值，高股息",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以在这样的角度来看，过去 3 个月银行为什么涨就一目了然，未来银行会不会继续涨也可以用这个逻辑来进行一个推演，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股票",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "假如说 a 股市场继续还是会有一些我们预料不到的一些风险和波动的话，其实还是有很多资金倾向于去选择这种相对防守一点的选择，那银行依然还是相对来说更有优势的一个存在啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股票",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "风险低",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外的话就是大家也知道，就现在的新规出来之后，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那其实对于分红的要求也是比较高的，有一些公司它确实是能赚钱，但是它不分红，那跟我们投资者来说就没有太大的关系，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那钱都赚到这个企业药包里了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是还有一类像银行就是很典型的代表，它的股息就是以高股息来著称的，它的分红比例也相对比较高",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股票",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "高股息，高分红",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，然后这个分红现在对大家来说就是好同志能把赚出来的钱能够分给大家，这样的话也能够证明银行本身是不缺钱的，是能够继续赚钱的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "资金",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "不缺钱，持续赚钱",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以就这么简单的一个逻辑，大家其实也可以去通过把握银行股票、银行基金、银行指数基金来把握这个接下来的这一波银行的分红",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "分红",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大厂",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，这样的话我觉得也是一个比较好的一个参与方式，所以这个是我们银行，最后就是有一个银行不值一提的优点，它本身的估值非常低，对，它的 PB 只有百分，只有 0.57 倍",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "估值",
+        "time_attr": "",
+        "score": "1",
+        "status": "低",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "什么意思",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是你用5毛 7 的价格，你能买到 a 股市场上一块钱的银行的净资产，这样听起来是不是很有诱惑力啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "打了个五折多的一个水平，然后就能够买到银行的这个 a 股上面的净资产",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后分位数也是近 14 年以来的这个非常低的位置，在 10% 左右的一个位置，也就是说过去的这 44 年里面有 90% 的时间都比现在要贵",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股价",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "非常低，适合入手",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以虽然银行涨了 4 个多月，但是不影响它依然是一个比较底部的一个区域，所以大家也不用说太担心银行会不会涨的太多之类的问题，因为它本身就属于一个很底部的位置，所以现在涨的，嗯，虽然涨了一些，但是不妨碍它后续的一个空间",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股票",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "后续空间大",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，这个就是对于银行的整个产品的解读，大家有什么问题也可以来提问",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，我总结来说就是银行是一个比较适合当下这种不确定性比较大的这种市场的资产，因为它比较防御，对于很多的一些黑天鹅事件，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "宏观市场",
+        "level2": "",
+        "time_attr": "",
+        "score": "1",
+        "status": "不确定性较大",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "",
+        "score": "1",
+        "status": "风险低",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "很多的一些大家无法预测的一些风险，能够有更好的承托能力，所以我觉得银行作为今年的资产配置是一个推荐，大家选择的一个产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "股票",
+        "time_attr": "",
+        "score": "2",
+        "status": "推荐",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在左下角购物袋的第 21 号链接也是我们的精选产品，更准更省事，它的一个操作的要求",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好的，嗯，那我们刚才讲的就是银行，然后顺便再插一嘴，如果说大家喜欢银行这一类的品种，我们还有一个产品叫做红利低波动，这个也是高高自己配置比较多的一个产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "红利低波动它就是兼顾了低估值、低波动和高股息这两个很优秀的品质的一个策略的产品啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "过去",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个产品我们小助理也给大家上架一下，我觉得在这样的行情节点下，大家其实配一些这个整体来说受伤的空间会有限一些，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后后续这个上涨，而且它也是我们就是年年正收益的一个产品，大家可以去看一下它的产品的详情",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "页，成立 5 年历史，年年正收益，然后对，每年的股息大部分在 5% 左右，对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "股息在5%，对，所以看也是一个好同志们，哈哈哈，所以大家就一定要在这个顺应行情，顺应环境，然后去寻找现在的一个新的机会，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "红利低波动",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "新的机会",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "尤其是",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "高干所说的国家鼓励公司分红，然后这都是有利于国同利资产的一个利好的一个那个政策",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "国家政策方向",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "利好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是的，所以大家可以去看一下我们 33 号链接，给大家上了自成立以来 55.97% 的收益，虽然每年有时候在那种行情特别好的时候，大家可能没感觉，但是在行情一差的时候，它的这个关注度还是会很高的，大家可以去加一下自选，然后去长期的关注他一下，我真是挺喜欢他的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家可以看讨论区域用户晒收益的情况，大家都很开心买了红利",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是的，所以，嗯，大家可以去喜欢银行的朋友也不要错过红利低波动这个产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "红利低波动",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "不要错过",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好，下一个我们要讲的是按",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "月 90 天",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对对，小助理，记得我们银行要打点，然后下一个按月 90 天",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "唉，这个也是一个稳健类型的产品，我们请彤彤来聊一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实阿夜 90 天大家就会就感觉，唉",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "90 天封闭期你是不是给我封闭了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "感觉不太好啊，然后也不能灵活存取",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实从一个自身的需求出发来看，怎么看持有期",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是其实根据自己的需求来看我这个理财，我是月度理财还是季度理财呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后我这一个月不操作的话，我会有一个收益，然后我季度不操作的话，它这个收益可能会被会比月度不操作的时候多那么一点，它损失了一个封闭期的一个时间，损失了一个灵活存取的时间，然后去争取得一个更高的收益，是这样的一个持有期产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后对于我们的好处就是有两点，第一个就是让我们管住手，然后去，嗯，那个降低这种，嗯短期波动的一个风险",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "第二个就是给金经理留一些时间，帮助我们去获得更多的一个收益",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后我们看按月 90 天这个收益情况，近一年的收益率有 3 点多的 3.37 的这么一个情况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后它是 2021 年9月成立以来，连续九个季度都是季挣收益，所以这样的一个持有期短债还是一个收益表现比较好的一个产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "按月90天",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "正收益",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后刚才高高也说了，在债市下跌情况下，其实它这个产品的修复能力也是很强的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "按月90天",
+        "time_attr": "",
+        "score": "1",
+        "status": "债市下跌，修复能力强",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它在 202022 年 11 月 10 和 12 月期间有一个短债的一个波动的这个状态，下跌0.3，那按月 90 天，在一周的时间它就修复了净值，然后涨到了一个历史的一个新高的这么一个状态",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "按月90天",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "修复",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后他也是我们余额宝的心理经理王昌俊管理的，所以这个也是一个比较值得信赖的一个产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "按月90天",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "管理到位，值得信赖",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家可以看一下购物袋的链是他多少号链接是 20 号链接，大家可以关注一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，有闲钱的可以去买入",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，这是2月 9 之间的一个产品讲解，看我有什么补充吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "按月 90 天",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，按月 90 天，反正他就是刚刚自己说的安安家三姐妹，安月 90 天，安恒 60 天，还有安姨 30 天",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家，其实我个人建议大家就首先对比一下他们的业绩，然后在自己能接受的这个持有期范围内去进行选择",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我自己其实选择的是安恒 60 天，对，因为当时就是元旦那个时候买的，但元旦时候安恒那个业绩比较好，所以我就自己选择了安恒，那小助理也可以给我们上架一下那个安恒",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实这几个产品说实话也差不太多，最大的区别对大家来说可能就是持有期的一个限制，但假如说大家这笔钱本来也是闲钱，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "三个月一个月没什么太大差别，到期的还会自动去续存啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那这个时候我就觉得大家可以对比业绩就可以了，嗯，没有什么太大的区别，本身也是给大家去设置的不同阶段的一个投资工具，大家就根据自己的需求来进行选择",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后说完按月 90 天，我们小助理记得打点哦",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后我们再讲一下那个安恒，安姨，三姨，三姨",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，安家三姐妹的中间那个第一个，是吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "第一个对，它也是个持有其产品，就刚才说它是月度理财的一个产品，然后如果是有一笔钱，我 30 天我不用，然后我们就可以买这个产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就像刚刚说的就是我们这些日开呀持有期 30 天、 60 天、 90 天，其实大家都是可以去买的，然后把自己这个资金流动起来这样子，嗯，通过不同的持有期会赚不同持有期的一个钱，然后也可以把自己的钱、那个资金闲钱去管理起来",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，这是阿恒 30 天，然后他也是，他是姨，阿姨 30 天",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，安家三姐妹这个名字确实是有一点点难记",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好的，阿姨， 30 天",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，大家就只要记得这个区分清楚那个几十天就可以了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，但是他的名字也没有那么重要",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后，嗯，对，安怡 30 天滚动持有短债这个产品，就大家看到这个自成立以来的这个业绩可能不同，它是因为它成立的时间也不太一样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "主要还是就是针对大家不同时间的这个需求，然后来给大家设立的这个产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯嗯，然后对，大家其实也都能看到他们的基金经理团队，我们整个天虹的固收团队在业内还是比较这个有名的，有很多这种大机构、大资金其实会选择安，就是天虹的这个固收系列的产品，而且我们固收团队整体投研的这个实人员，对，实力很强，人员也比较多，也比较这个都是这种高精尖顶尖学府毕业的，总体来说还是，嗯，比较优秀的这个团队啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "安怡30天",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "团队优秀",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，所以还是可以给大家去推荐一下，大家也是可以去加一下自选，因为如果后续 a 股跌的不行了，我相信还是有很多朋友发现还是债券箱这个加资权了，一个月可能它涨了零点几，然后同期加资权的，比如说其他一些权益产品，可能是亏了几个点甚至十几个点，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个时候相信还是有很多朋友会回过头来关注到我们的这个债券类型的产品，不过总的来说还是建议大家，不管是高风险中低风险的朋友，还是建议大家都进行一些配置，只不过到底是股债三七开还是七三开，嗯，这个根据大家的嗯风险承受能力去进行匹配，但是不建议大家全部都梭哈股票，或者全部都梭哈债券",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，还是可以去两手机会两手抓好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，我们小助理口袋上一下天虹证券008591，所以给大家上一下那个全职证券，我看有朋友可能对于证券有这个加仓需求，这个朋友我觉得还蛮懂的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，因为其实果酒调出来之后对于证券的利好还是比较大的，只不过属于证券这个板块，我真的觉得就是老司机可能会很喜欢，但是一般朋友也很难去把握，他也熊了 3 年了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "国家政策方向",
+        "level2": "国九条",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "厉好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，不过在证券一旦要是有机会还是很刺激的，所以我建议大家对于证券公司的投资，把自己的负亏或者是就持仓收益尽量能调整的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "证券",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "刺激",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，就是低一些，这样能够把自己的不是尽量能调整，就是不要太浮亏太大，这样的话如果行情的时候才能够抓住，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "证券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就这么一个小建议，大家可以去关注",
-    "entities": []
+    "entities": [
+      {
+        "industry": "证券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "证券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，股债搭配，投资不累",
-    "entities": []
+    "entities": [
+      {
+        "industry": "证券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "说的对，阳仔 11 怎么降级了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "证券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我记得以前是一个钻粉，哈哈，现在成一个铁粉了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "证券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，我们下一个要讲的产品是天虹越南",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，股票在左下角购物袋的第十八号链接，自成立以来挣 45% 的收益",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好，那刚刚就给大家讲一下那个越南啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，对，大家",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "问了为什么跌昨天",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "天宏越南",
+        "time_attr": "过去",
+        "score": "-1",
+        "status": "跌了",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以昨天为什么跌这个问题",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好，那我跟大家说一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "首先就是有一些小道消息，对，但是我们也不方便讲，反正就是关于一些他们一些高层、一些领导的一些些些人事调动，或者是一些东西，当然这些也是小道消息，我也不太确定",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后但是这个事情我觉得这个事情也不算太新鲜了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实从去年到现在，不是从去年，从我们基金成立以来到现在其实发生过很多次，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个事情屡见不鲜，然后对于行情的这个影响波动，其实也不是说完全出现了一些不可逆的一些影响，更多就是最多调整个几天，然后后面又慢慢的自己找补回来这样的一个历史的行情就是这样走的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "",
+        "time_attr": "过去",
+        "score": "0",
+        "status": "不可影响，补回来",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后对于昨天来说，下跌确实也是出现了一些当时的一些消息面的情况，然后出现了这种行情的一个波动，但是大家看今天会给大家看一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "天宏越南",
+        "time_attr": "",
+        "score": "-1",
+        "status": "下跌",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，截止到 2: 45 的话，我们越南 VN 30 指数的涨跌幅是负的0.45，这个听起来是不是很好接受啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "并不是很大，对不对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "说明昨天这个事情的这个消息的影响可能也就局限在昨天那一个大的跳水了，慢慢的后续如果说这个事情慢慢成真或者是怎么样，反正就是实锤了之后，对于这个股票来说，其实它的影响反而会慢慢的消减，所以我觉得这个大家不用太在意",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "天宏越南",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "负面影响消减",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后关于越南其实还是我们的常逻辑啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，对于越南市场，我们还是处于 5 年至 10 年维度的看好，因为它确实是我们目前能接触到的这个投资的品种里面增速真的很快的国家，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "越南市场",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "增速快",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家去投什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "美国去投这个日本，其实他们都属于成熟的资本市场，说实话经济增速大家也能够看到，对吧啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是一个相对平稳的一个走势，但是越南这个国家它属于一个高速发展的新兴国家，新兴这个发展中国家，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "新兴经济体它的整体每年的 GDP 增速目标依然在 6% 以上，是超越这个中国的一个增速",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以就大家发现想要去投资整个国家的一个经济增长，其实还是选这种高增速的国家，可能会更有盼头一些",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "越南市场",
+        "time_attr": "",
+        "score": "2",
+        "status": "高增速，有盼头",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外我们这个产品它也是一个纯 QD 类型的产品，它投资的都是境外市场的股票，所以它跟 a 股可以说是风险非常分散的一个存在",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "天宏越南",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "风险分散",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家如果说去买 a 股的什么食品饮料、创业板什么的，其实说实话，嗯",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "没有完全的去分散掉风险，因为如果 a 股有一些系统性的风险，比如今天，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它其实都是下跌的，但是越南它其实跟 a 股基本上没有太大的关系，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以从某种程度上来说也算是做到了鸡蛋放在不同的篮子里这样的这个情况，所以这个是我们对于越南的一个推荐，就是我们想找一个海外的发展快的国家，然后去投资它未来的一个经济增长",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外就是它还能够去给我们分散一些我们本身投资组合里面的这个风险，所以它就是一举多得",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当然对于越南的配置也不建议大家太多，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "天宏越南",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "不要配置太多",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "毕竟我们对越南也不是那么那么熟悉，不是那么了解，甚至我都没有去过越南",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以就是什么呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "基金经理也推荐大家整个对于 QD 的这个配置，仓位的配置也不建议大家太高，不要超过百分之二三十，其中一半还是推荐大家可以去考虑港，考虑美股，美股考虑美股",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，因为美股是很成熟的这个资本市场，嗯，然后整个增长什么的也都大家能看得见",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后越南，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是剩下的，那大家就可以越南新兴市场分一分，对，所以最后总体来说可能就是 5%- 10% 这样的一个仓位是比较推荐大家的，也不建议大家去梭哈太多，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "万一有哪天有什么事，其实咱也不知道呀",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，那以上就是关于越南的产品讲解，辛苦小助理可以打点在左下角购物袋 18 号链接，大家记得去加一下自选，这个是我们公务产品里面唯一一只越南市场，大家想买可能还得回到这儿来，所以它很稀缺，大家记得居家自选哦",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好，那我们下一个",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "还是一个短债产品增利",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，下一个是增利短债",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个其实逻辑很简单，其实，嗯，持有洪泽的小伙伴可以关注一下这个产品，它这个比更细心的小伙伴可以看到比洪泽稍微多一点的收益",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "行业自身情况",
+        "level2": "增利短债",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "收益较多",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以它的政策，它的策略是比较相对比较，它是稍微有一点激进的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "行业自身情况",
+        "level2": "增利短债",
+        "time_attr": "始终",
+        "score": "0",
+        "status": "策略激进",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，但是它的一个九气还是控制在比较短的范围内，然后杠杆水平也是比较适中",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以他这个近一年的收益率达到了 3% 这个点，日开型短债达到 3% 还是很难得的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "行业自身情况",
+        "level2": "增利短债",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "收益难得",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，所以说日开喜欢日开心小伙伴的那个可以关注一下增利短债产品，然后它的五大持仓也可以看看一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是第一个是工商银行永续债，然后再就国开债这种都是特别稳健的一个资产",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "行业自身情况",
+        "level2": "工商银行永续债",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "稳健",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后为什么就是在这个时点下推荐这个稳短债产品呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家也可以看，就是06，自 06 年成立以来，这个 16 年都是连续收红的这样的日开型短债产品，所以就是买短债，其实闭着眼合规吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "闭着眼买还是可以的，这不合规啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是说大家可以就把自己的现金流去放到这个短债产品去做一个选择",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "不合规，刚才",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，那个短债，对，大家还是要去这个去，就是关于短债怎么挑，我就刚刚可以分享一个我自己的一个操作，就是，嗯，大家可能比如说有一笔闲钱想要去买短债的时候，嗯，可能会在市场整个比如说排行榜推荐里面，嗯，挑花了眼，因为各家都有非常多的短债，然后大家肯定会去先看这个短期业绩，什么近三个月、近一年，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "哪个基金排跑的比较好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是我也发现一个问题，就是这样可能也不是那么的靠谱，因为这种短期的这种好的收益是很难去持续的，就可能这个基金经理在这三个月可能跑出了这个阶段性的比较好的收益，但是它不代表说我这一年都能跑持续领先，或者近两年都能持续领先啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以要看它这个收益到底是怎么样的一个来源，它这个整个盈利的这个能力到底是不是稳定",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以对比来说可能推荐大家去看这种可能近一年甚至更长时间维度的这种长期收益，再去进行对比可能是比较好的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外就是推荐大家注意去看它这个收益曲线上面的这个波动",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为短债说实话就是做好收益可能也相对有空间，但是控制波动是这个产品或者这个基金经理它的一个底线，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，只有波动控制的好，才会保证大家在这个一些极端的市场情况的时候不要那么受伤害，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，因为像之前像一些什么银行理财，一些债券产品真的是出现过一天可能跌了半年收益的情况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "过去",
+        "score": "-2",
+        "status": "跌了半年收益",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，那如果是这样的话，大家谁也不愿意面对嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以大家一定要看看过往有没有出现这样的情况，收益控这个回撤控制到底怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个是我觉得债券产品非常重要的一点，可以给大家去提个醒",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外就是看看它是不是固收大厂，大家还是看一下它的一个实力情况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，是的，像有的公司说实话它可能确实是权益能力",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，权益投资很强",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，养了很多的基金经理、研究员，但是他们是看股票的，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "和看债券的，哈哈，不是一个逻辑",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，不是一类的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是像天虹它其实",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，真的是这个，大家也能够发现我们的这个产品的规模主要集中在指数和固收啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "确实是指数大厂和固收大厂，所以我们整个大家看到推荐的产品也都是指数和固收类型的产品，大家可以在这个品类里面放心挑选啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯嗯嗯，好，我看有朋友说到底看一年期还是三年是什么意思",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "他这个收益曲线，他说的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "意思我觉得那这个当然是都可以看了，但是三年可能会覆盖之前几次这个债券爆雷的事嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，一年的话可能只能看到去年的一个情况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯嗯，好的，那我们下一个要讲的产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是啊，最后生三个，第二个了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，沪深 300A 这个产品",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，沪深 300 刚才说过了，就是说",
-    "entities": []
+    "entities": [
+      {
+        "industry": "债券",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，在国务院发布这种国九条的一个大背景下，它是有利于 a 股市场的一个向上发展的一个政策",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "国家政策方向",
+        "level2": "国九条",
+        "time_attr": "未来",
+        "score": "2",
+        "status": "利于A股市场发展",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，所以在这个节点下推荐这个 a 股核心资产，也就是沪深300，它是汇聚了沪深两市市值比较大、流动性比较好的 300 只龙头股，再加上这个节点短期资金和长期资金都容易去选择这种 a 股核心资产的产品，所以在这个低位区域，就是沪指再去处于这个 3, 000 点附近这个区域，再加上估值比较低的这样的一个情况下，大家还是建议大家去布局这个雇人 300 这个产品，嗯，对，然后一键布局这个各行各业 300 只龙头股呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "沪深300",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "推荐",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它避免了过度集中到某一个特定行业或者板块完了，然后实现了这种均衡配置的这么一个组合配置能够在低位积累这种便宜的筹码，然后期待一个向上市场向上的一个机会嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "市场环境",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "市场向上",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，所以大家可以看一下购物袋的第多少号链接",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "Aisha. Urusan bayi. 第十六号链接可以加一下自选，这个 a 适合长期投资，大家定投可以去选择 a 份额",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是的，大家肯定也比较熟悉了， AC 其实是一支产品，然后大家根据自己的持有时长来选择吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，一年以内选c，一年以上选a",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，好的，然后我们最后再讲一个产品，就是大家前面有问到的那个医药",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，之前也没有讲过，但是出于我们这个产品的一些这个客户陪伴的诉求也是比较强的，我们给大家去进行这个覆盖在左下角购物袋的 1 号和 2 号链接是我们的国政生物医药 ETF 连接 a C，自成立以来这个业绩比较惨淡啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "国政生物医药",
+        "time_attr": "过去",
+        "score": "-2",
+        "status": "惨淡",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "关于医药，首先我们要说明它的客观情况，就是这个行业当前的估值处于一个绝对低位，是市净率是处于历史最低的这个 1% 的这个估值分位，但是这么低的一个估值水平，我们去再看它的基本面，发现它基本面没有那么糟，对不对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "估值低，基本面没那么糟",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "没有那么糟，已经走出了明确的底部，像这个血制品、疫苗这些板块其实都是走到了这个拐点的向右的这个靠近向右的这个向上的趋势，因为大家知道就过去医药行业也是经历过一些事件的，也是经历过一些政策调整的，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "走出底部",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是经过了这几年的一个消化，整体这些行业最后他们也迎来了自己的一个复苏",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "复苏",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "疫苗其实 20 年的时候，就是当时刚新冠的时候，其实炒的特别凶，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "炒的特别凶",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当时那个疫苗什么第一股什么，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这当然现在大家已经不说了，嗯，但是那个时候确实炒得很凶，一下子把估值拉得贼高",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是后续，嗯，大家该接种的接种，然后没有这个需求了，然后整体这个量也放完了，然后这个时候估值不足以支撑这么高的时候，一下就开始垮了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "过去",
+        "score": "-2",
+        "status": "估值不足以支撑，垮了",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "不过现在疫苗，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我们就以疫苗为例，其实疫苗它本身不光只有新冠疫苗，它本身就是一个自己有一个庞大的市场，有很多这个常规的疫苗，也是有他自己的接种的一个速率的，然后再加上也有一些新品，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "产品",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "常规疫苗、新品多",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为药物它也是靠创新、靠研发的，这些都会带来增量，所以像医药板块其实它整体来说自己虽然大家很久没有关注了，但它其实自己是在进行快速的这个修复和这个回血状态的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "快速修复",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "药物",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "创新研发",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以整体来说这种消费性的这个生物药，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为我们这产品是生物医药，整个来说整体的这种消生物药，你，嗯，这一类其实是都处于一个复苏和比较好的一个增量的一个情况啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "国家政策方向",
+        "level2": "行情",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "复苏、增量好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外的话就是整个这个生物医药整个行业里面也是出现一些比较好的一些事件影响，一个就是创新药领域的政策啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "国家政策方向",
+        "level2": "创新药领域政策",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "利好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们其实能够看到，对于医药，虽然说之前有一些大家不理不觉得是好消息的一些东西，比如说集采，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它是会对价格直接产生影响的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是也会有一些真的是好消息的一些东西，比如说就是对于创新药的支持，其实国家对于创新药的扶持，对于创新药的这个激励来说，是真的是没有发生过偏移的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "国家政策方向",
+        "level2": "创新药扶持",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "非常好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为大家知道我们这个医药板块只有持续的去做创新，持续的去做技术，才能够去走出国内市场，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "走出国内市场之后咱们就不用担心什么集采了，对，所以需要去在这个技术研发上面去达标，才能够去顺利的出海，所以这一块，这一块其实是更大更广阔的空间，也是未来的一个增量啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "出海",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "旷阔的空间",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这一块的话其实我们是持续在做的，也是一直有政策扶持的，这个是大家不用放心，大家可以去放心的一个事情啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，嗯，所以整体来说利好的这个强度也是强于预期的，虽然我觉得市场可能现在也没有太大的预期，但确实这个利好还是有的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "宏观市场",
+        "level2": "预期",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "利好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，然后另外就是我们也能够看到市场上有一些这个投股组合，其实是有在加仓医药的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "宏观市场",
+        "level2": "控股组合",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "加仓医药",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，这个其实不管这个投股组合，我觉得出于各种心态，比如说出于对于基本面的这个跟踪，或者是出于对于低估值板块的配置等等",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是真金白银的买入也能够代表他们的一些看好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以其实现在来说医药板块是一个，至少就是大家可以如果在车上的朋友建议大家也不用着急抛弃医药，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "不着急抛弃",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为医药板块它已经处于这么一个谷底了，向下其实还是很有限的，建议大家可以再耐心的等待一下后续的一些机会",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "",
+        "score": "1",
+        "status": "后续机会",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好的，那以上就是我们关于医药板块的产品讲解，辛苦小助理可以打点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后我看我的情人这个小朋友说，嗯，要上架一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "中证 1, 000 增强指数增强， a 和沪深 300 指数增强a",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，那我们小助理给大家快速操作一下，我不知道能不能赶到 3 点之前，不过还是感谢大家还愿意操作了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对啊，好好好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，那还是感谢大家还愿意来到我们直播间来进行支持啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，谢谢，非常的感谢大家",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们也 3 点了，正好也圆满的完成了我们本天今天的任务",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "小助理记得给生物医药进行打点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，那我们产品都讲完了，然后小助理再检查一下这个打点情况，我们今天的直播也就到这里要结束了，后续大家还是可以去持续的看我们的回放，来了解我们这些大产品的最新的一些观点的集合",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "谢谢大家",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好，那我们",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "一个半小时的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "陪伴",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，那我们今天的直播呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就到这里结束了，然后给大家预告一下明天的直播，明天上午，周三上午 10 点钟是我们的这个光伏人集合，到时候会有我们的光伏人代表小琪和他的这个新搭档可跟大家一起来进行这个制造赛道的一些解读，包括大家最近感兴趣的机器人，然后像光伏、绿电等等给大家去进行这个讲解",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后另外的话，明天下午实操几点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "明天下午是 2 点吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "应该是 2 点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，明天下午 2 点是我们的这个红利地波动的专场，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "红利和制造增强专题的一点半到两点半",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，是和研究员世操、世超总",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好的，然后周四上午 10 点到 11 点是邀请到沙川总来进行这个黄金，然后包括农业相关的讲解",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家这个感兴趣黄金的朋友也不要错过我们基金经理的直播场次，大家记得关注直播间，然后这样后续直播不会错过啦",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，那我们今天直播就到这里啦，然后感谢大家支持，然后明天记得再来看噢，拜拜拜拜",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "选择恒生科技，挖掘中国新经济代表的巨大潜力，或者选择境内首支越南基金，投资 15 年前的中国，你的资产配置需求我们全力满足",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "天弘基金深耕公募基金行业 19 年，致力于成为领先的综合性资产管理公司，前瞻性布局多类型产品线，以全方位的基金投资服务帮助每一位客户实现合理的资产配置",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "放大投资优势，选择天虹基金与优质资产同行，不负每一分耕耘",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你肯定听过，不要把鸡蛋放在一个篮子里，那你知道这句话对投资究竟有什么用吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "测算发现科学的资产配置可以在更小波动下实现较好收益",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么如何才能做到科学的资产配置",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "有一个经典的资产配置策略，核心卫星策略目标就是通过不同品类搭配，在不同市场环境下都能有较好收益表现",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "他把资金分成两个部分，核心部分配置低波动资产，控制风险，卫星部分投资高弹性资产，增强收益",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么核心池应该如何配置呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "首先固收加产品可以作为底仓",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "固收，一般只投债券，例如天弘安恒 60 天，风格稳健，买的安心",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "如果想更进一步，可以选择固收家，例如天虹永利四夺金牛奖，追求较低风险下的较高收益核心池，还可以选优质宽机指数基金，例如沪深 300 创业板指数、中证 1, 000，分享大国崛起的长期红利",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "接下来是构建卫星池，可以关注细分赛道，股票基金抓住风口行业的好机会",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "全市场行业那么多可能，你更看好能源革命、制造升级，就和中国光伏、机器人、新材料、新能源汽车产业共同成长",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "期待 AI 引爆科技创新周期，可以关注芯片国产替代机遇，或者和人工智能、电子计算机产业一起迎接极具未来感的生活",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "医药消费需求永续不想错过，就选生物医药、食品饮料龙头家电农业等优质赛道指数基金",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "还有低估的大金融赛道，银行证券指数基金也是配置好选择",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "如果你想省心省力配置这些好赛道，可以和制造赛道隐形冠军、捕手、硬科技投资能手同行，挖掘高景气、低估值的好机会，或者让价值投资派医药内行人帮你",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   }
 ]

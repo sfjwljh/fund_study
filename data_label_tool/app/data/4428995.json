@@ -189,31 +189,101 @@
   },
   {
     "sentence": "那么再往前我在关于瑞信那个时候，大哥，那个时候 1, 600， 1, 700 的时候，我就无数次说那个黄金是有非常大的这样一个机会的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "看好上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，那么现在大概在 2, 300，我还是说黄金有很大的这样机会，因为每一次黄金的涨幅它要不涨，它这个平台上升，平台跃升的这种涨幅，这种关系啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "大幅上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么从布雷顿森林体系破坏以来， 70 年代到现在其实就是搭了几个大的平台和几个大的跃升期，所以黄金是特别适合做右侧的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "",
+        "score": "1",
+        "status": "适合右侧",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所有的有色金属当中，黄金最适合做右侧，为什么呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其他的金属它可能你都可以做个左侧，因为它都存在这样一个，比如说一个斜率向上的这样一个关系啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是黄金大部分时间他躺着是不动的，有可能十年不动，也有可能 15 年不动啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "不变",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家去看一下八九十年的黄金， 15 年不动，但是移动起来它的涨幅是非常大的，所以当黄金启动之后，大家其实上车那么其实是一个非常好的这样一个选择，因为黄金比较适合做右侧，那么这一次黄金的右侧机会或者黄金的行情为什么会起来",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "大幅上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "为什么我前期这么看好黄金",
@@ -221,67 +291,227 @@
   },
   {
     "sentence": "其实最根本的原因就是美元银的太多了，黄金的兑价物是美元，这一点大家都知道，每个人都知道黄金兑价物是美元，或者说美元，黄金是所有全球所有的法币的对手，因为所有的法币对应的都是政府的信用，那么黄金对应的是什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "对价物",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "是政府的信用",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "黄金对应的实实在在的资产，哈哈哈哈，它是真金白银，所谓的真金白银那么好啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我们所有的货币，它的毛是美元，所有国家的法币的毛是美元，毕竟美元占全球的储备和支付的地位是核心地位，所以大家可以这样认为，也就是 70 年代之后， 70 年代之前，大家挂过黄金，黄挂过美元，美元挂过黄金， 30 年代的时候是大家直接挂钩黄金，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "对价物",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "挂钩美元",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么现在其实大家挂钩美元不挂钩黄金，是现代的货币体系， 70 年代之后全球货币体系就是我们各家的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "把 b 去挂钩美元，就相信美元的信用了，美元不挂钩黄金，那么所以从根本上来说，这轮黄金点涨是什么道理了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "不挂钩黄金",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "很简单的把美元的信用下降了，美元的信用为什么会下降啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "降价",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那个原因非常多，其实最关键的其实就是我们现在看到的，我们这一代人成长起来看到的是一个全球化的进程",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "全球化进程代表什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "全球 GDP 的生长、全球贸易的繁荣，那么在贸易的繁荣， GDP 的增长当中，大家想想看，我会需要更多的美元还是更少的美元啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "需要美元",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当然是更多的美元，对不对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "美元的信用，美元的地位会不断的加深的这个过程，那么在这个过程当中黄金就被压制了，那么好，现在我们看到的是百年未有之大变局，所谓的美元的信用被怎么样在逆全球化的过程当中，美元不光信用地位受到损失，美元的起用价值其实也在信用单",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "美元需求减少",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家想想看，如果我在一个逆全球化的这样一个过程当中，在一个新能源革命，我不需要买那么多石铁、石油的这样一个过程当中，大家想想看我在全球支付当中其实我不再需要这么多美元了，那么在这个过程当中，既然美元不需要了，或者需要求篮减少了，那么长期被美元压制的黄金，那岂不就更值钱了啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "美元需求减少",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "道理其实是非常简单的，这是根本原因，那么我们不说根本原因，我们再说说一个实际的原因，这个实际的原因可能大家也都可能大家有人提过，但是我在这里再强调一下，其实就是美元这一次大泛滥，印的太多钱的后遗症，后劲，哈哈，每一次这么多的美元，当时印了这么多钱，在那个新冠疫情期间，美国的通货膨胀达到了这么高的比例，史不起百二十年来最高的比例",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "通货膨胀",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为那么多钱，为什么当时美国的黄金没有啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当时全球黄金没有涨，那么我告诉大家，根据历史上来看，黄金的涨幅其实都是怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "过去",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "都是美元的后劲，也就是说美国上一轮通胀之后的 1- 2 年当中，黄金才会来到一个主推浪，这是一个后劲，也",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "后于美元上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是从去年，哎货币",
@@ -293,7 +523,17 @@
   },
   {
     "sentence": "那么嗯，这个顺便提一下，当然我们中国的情况要好了很多，但是大家去看看4万亿也好，棚改也好，过去两年之后，当前一轮货币出现超发情况之下，那么后面确实会提升资产的价格的，对不对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "货币超发",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "提升资产价格",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这一点其实全球都是一样的，货币银行权全球都是一样的",
@@ -301,19 +541,59 @@
   },
   {
     "sentence": "那美元，大家可以认为美元是世界的央行，那当美元被超发之后，那么也一样的，它跑不了两年之后的后劲，嗯，那么前两轮的后劲是多少呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "美元",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "超发",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家可以看一下在 Q1 one 和 Q1 two 当中近 20 年来的第一轮量化宽松，第二轮量化宽松当中，美元在超发之后的两年之后，黄金涨幅都在 75% 左右，那么这一轮美国是史无前例的超发了，它的怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "量化宽松",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "美元超发",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它的美元的货币，那么后面所以黄金在一年到两年之后这一轮后劲所推动的黄金价格的涨幅是非常值得大家期待的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "量化宽松",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "美元超发",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实逻辑，也就是这个逻辑，常见来看美国的，全球的这样的地位下降，美元怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "美元需求减少",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "很道很简单道理吗",
@@ -341,7 +621,17 @@
   },
   {
     "sentence": "代表美元信用下降了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "信用下降",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家买过美国国债，对不起，我现在再要买美国国债，要求你美元，给我百分之 5 块钱的美元，对不对",
@@ -365,7 +655,17 @@
   },
   {
     "sentence": "我不相信美国人了，不相信美元的信用货币地位了，不相信美国还能持续",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "信用下降",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "全球的什么呀",
@@ -381,7 +681,17 @@
   },
   {
     "sentence": "哈哈，这个这道理是很简单的，那么这实际上是远程逻辑，那么近期其实很简单，就是美元超发的后劲，其实在后这个后劲当中，大家不但看到了黄金的涨幅，其实大家也看看数字货币，包括比特币的涨幅，其实道理是一样的，其实都是因为怎样一轮货币超发之后对资产价格的推高，这是短期的原因",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "货币超发",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "提升资产价格",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "希望我讲到了主要的一些原因啊",
@@ -393,7 +703,17 @@
   },
   {
     "sentence": "还有一个现象，嗯，就是前段时间这个美元就是美联储它这个降息的预期其实又是往后推了，往后延迟了，然后当时市场上大家可能会觉得金价要回调，但是实际上其实走金价其实和这个每家利率走出了一样的，都是在往上走",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美联储降息",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "预期后推",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这样的，对",
@@ -413,7 +733,17 @@
   },
   {
     "sentence": "大家要知道黄金价格有好几次跃升其实都来自于全球货币体系的这样一个变化，第一次最明显的就是当 30 年代之前，也就是 29 年全球金融危机之前，那么黄金是全球，是金本位的，嗯，这个时候黄金和美元是固定的，毛的，大概就是 15 美元每盎司的，黄金 15 美元每盎司，哎，到了怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "金融危机",
+        "time_attr": "过去",
+        "score": "-1",
+        "status": "之前是金本位",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "29 年之后金本位怎么样",
@@ -429,7 +759,17 @@
   },
   {
     "sentence": "全球大萧条，金本位破产了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "全球大萧条",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "金本位破产",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "原先的估值体系一下子崩坏了8万，一下子变成了 35 亿美元每盎司",
@@ -437,31 +777,101 @@
   },
   {
     "sentence": "好的，到了下一轮是在什么时候并列定森林体系",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "布莱顿森林体系",
+        "time_attr": "过去",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "原来我们卯足了 35 美元每盎司这样一个当，怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当第一次石油危机、第二次石油危机分别在 71 年和 73 年的时候发展，两次石油危机之后，美元怎么样挂钩不做黄金了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "石油危机",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "美元不挂钩黄金",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "全球货币体系出现重估了，这个时候怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "全球货币体系",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "重新估值",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "长期被压制了，真正压制 40 年的黄金梆一下跳起来，从 35 美元到多少",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "全球货币体系",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "重新估值",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "到 150- 200 美元，这么大的一个涨幅，下一次涨幅在哪里啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在 911 事件 2000 年之后，原先的这样一个以美国为中心的体系受到了地缘种植的重大挑战",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家可以看一下美元从长，黄金从长期的 600 美元左右的这样一个宗旨绑起来调到了 1, 800 美元",

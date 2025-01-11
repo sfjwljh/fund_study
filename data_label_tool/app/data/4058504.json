@@ -1,335 +1,1219 @@
 [
   {
     "sentence": "2024年9月25日 上午 2:17|59分钟 51秒\n\n关键词:\n指数、创新高、老师、医疗、板块、龙头、创业板、产品、估值、龙头公司、基金经理、创新能力、科技创新、行业结构、智能家居、投资机会、投资价值、风险偏好\n\n文字记录:\n就算渺小也没关系，就算孤独也没关系",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "没有 go whoa",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是这样，继续去赢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你很强，你比昨天更强，你比自己更强，新的比赛，新的对手，这是属于你的主场，你的舞台，下一场比赛，下一个对手，见招拆招，再来自强者用赢，你知道你很厉害吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下一位准备对手的挑衅，自然的现实，简单来说是最难救的，现实的强大",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "hello，大家早上好，现在看得到我们这个画面吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，秘密先给大家测试一下我们这个直播间的画面和声音，现在应该是可以的，是吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我看我们现在这个画面应该是没有问题啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，大家早上好，欢迎大家来到简单有趣、干货满满的永银基金直播间",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我是永银基金的主播秘密，然后坐在我右边的这位是我们今天的给大家重磅邀请的新嘉宾，是我们这个，嗯，我们现在的金经理助理，然后也是北京大学的一个硕士，我们的罗少文老师",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么在正式开始直播之前，我想，嗯，先为大家来介绍一下我们罗老师，先为大家打个招呼吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，各位直播间的小伙伴早上好，然后我是来自那个永银智慧数量投资部的，嗯，然后今天的话很高兴给大家做一个早间的一个分享",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "的，谢谢罗老师，那我在这里也为大家再做一下，就是把我们罗老师做一个详细的一个介绍，我们罗老师是 ETF 投资经验非常丰富的，有 3 年证券相关从业经验，那么曾经是国泰基金量化的一个投资事业部研究员，是具备多年的一个指数开发以及基本面量化研究的经验",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "现在是我们永银基金管理有限公司指数和数量投资部的基金经理助理，专注于指数研发、基本面量化、 ETF 运营等等相关的一些方向啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那这个是给大家介绍了我们罗老师，然后今天是我们有一款新基金，永银升创 110 TF 连接，我们就重磅发行了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后关于指数相关的问题，以及我们这个身创 100 ETF 它和其他指数的一些区别，以及它到底有什么投资价值啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么在这场直播中，罗老师将会为大家一一解答",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好了，那我们我看看大家有什么评论啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对我们其他的就不多说了，我们就切入主题，想先首先去请教一下我们罗老师，就是我们发现最近这个市场呢，还是比较震荡的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是想请罗老师对目前的一个市场环境为大家做一个整体的一个把握，以及对于普通的投资者来说，现在到底是不是一个投资上车的一个布局",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "10 点，而且我们看到最近这个南非的这个变异病株有来袭了，就很多人又觉得这个疫情反复了，那么这个病毒又会带对我们这个市场带来哪些影响",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们就请教罗老师，现在把时间交给罗老师，为大家进行一个解读",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好的，就是我先给大家就自上而下的话，就去梳理一下近期的一个市场",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后近期的话其实它整个市场的话是比较偏震荡格局的，然后大家也可以去观察各个宽级指数，像 300 的话今年可能已经跌了超过 7 个点，嗯，然后像 500 可能和创业板走的稍微好一些，因为今年可能整体还是偏向这个小盘成长的一个风格",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "创业板",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "小盘成长",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "500",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "小盘成长",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "300",
+        "time_attr": "过去",
+        "score": "-1",
+        "status": "跌",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "市场状况",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "震荡",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后另外的话，从这个宏观经济数据来看的话，其实近期无论是这个社融数据 M2 增速的话，它都是处在疫情来了一个相对低点的一个位置，也就是说可能像疫情期间的话，这种流动性就是放松的，这种情形的话在目前来看可能不会再继续存在了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "宏观经济数据",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "社融数据处于低点",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后另外的话，像这个疫情反复的话，其实也给整个的风险名号带来了比较大的一个压制",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "市场状况",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "风险压制",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后昨天晚上的话，这个美联储的话也出现了这种鹰派的一个信号",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后可能会提前推出一些这个所在的一个计划，这也使得这个目前的话， a 股整个情绪的话可能还是不是特别高，然后在这种情况下的话， a 股想要出现这种趋势性的行情的话，可能难度比较大，也就是说出现像今年年初或者像去年的话，二季度的一个一个一个全场的一个大反弹的话，可能就是比较困难",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "A股情绪",
+        "time_attr": "未来",
+        "score": "-2",
+        "status": "不高",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后我们觉得目前可能还是以这个震荡为主，然后可能一些板块性的结构性机会的话值得大家把握",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "板块性结构机会",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "值得把握",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但目前这个市场的主要特点的话，就是这个轮沌比较快，因为说大家发现今年可能没有一个行业它能够持续从年头涨到年尾，比较典型的话就像这个周期板块，可能到 9 月份之前的话可能都有将近百分之六七十的一个涨幅了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "周期",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "9月前涨幅大",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "基金",
+        "level1": "宏观市场",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "没有从年头涨到年尾的",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但经过 9 月份到 10 月份之间一个月的一个时间的话，基本上跌幅超过30%，嗯，这就使得大家可能在投资上难度会比较大，就是你可能去追涨杀跌的话，可能并不一定能赚到钱",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "过去",
+        "score": "-2",
+        "status": "投资难度大",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对的，对，所以这个是今年，这个今年整个一个大概一个市场的情况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后我们从电商去看的话，就从市场流动性来看的话，就是目前的话就是中国可能整就处在这个权益刚开始就是起步的一个阶段，因为目前的话像这个房租不炒的话，其实也是被比较严格的执行，然后目前不管是银行缩贷还是这个，我们这个就买房子的首付比都是比较高的，也就是说通过这个去加杠杆，继续走这个炒房地产的老路的话，可能空间比较小",
-    "entities": []
+    "entities": [
+      {
+        "industry": "房地产",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "空间小",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "房地产",
+        "level1": "国家政策方向",
+        "level2": "租房不炒房",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "严格",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后但这个银行打破刚路的话，也使得这个我们传统的这个银行理财业务受到了一定压缩",
-    "entities": []
+    "entities": [
+      {
+        "industry": "银行",
+        "level1": "行业自身情况",
+        "level2": "理财业务",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "压缩",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以有很多这个居民的话，他会把这个钱从房地产市场或者从其他一些这个刚兑的这个市场去转移到这个权益市场",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "行业自身情况",
+        "level2": "资金转移",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "流动",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后我们现在目前国内的情况可能和美国这个 80 年代比较类似，然后目前我们这个居民的一个有一个数据的话，就是我们中国权益资产占目前的话只占居民总资产的6%，而这些数据在美国的话23%，然后中间差距的话可能在 3 到 4 倍、 4 倍，将近 4 倍的一个一个",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "水平，对，所以说还有很大的发展空间",
-    "entities": []
+    "entities": [
+      {
+        "industry": "权益资产",
+        "level1": "行业自身情况",
+        "level2": "权益资产占居民资产比重",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "有很大发展空间",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对对对对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "权益资产",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后目前我们看就是从 a 股流动性来看的话，当前其实整个全年的话，整个成交额平均日均成交额大概在 10, 500 亿左右",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后这个流动性的话，就是纵观 a 股的就是近 20 多年历史来看的话，还是一个比较高的一个水平，也就是说目前的话整个流动性还是比较健康的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "行业自身情况",
+        "level2": "A股流动性",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "健康",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后如果它这个流动性不出现特别大的一个下滑的话，就是 a 股出现这种系统性的下跌的风险可能比较小，然后所以说我们可能还是维持一个震荡的一个观点，但大家可能去值得去把握一些有结构性的机会，但也不建议大家去做太频繁的追涨杀跌，因为像今年这种行情的话，它追涨杀跌可能升位并不高",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "未来",
+        "score": "-1",
+        "status": "震荡，追杀涨跌升位地",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后我们从海外来看的话，像海外就近两天的话，它的这个恐慌指数是有一个比较大的一个反弹的，然后之前的话一直在16、 17 左右，然后到昨天到上周末可能反弹到接近 30 的一个位置呃",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "行业自身情况",
+        "level2": "恐慌指数",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "反弹大",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当然这个可能我们觉得可能只是脉冲的影响",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为目前的话国内的这个防疫措施和国外不太一样，它相当于是一个从严去防控的一个这种态度，然后基本上是通过这种接种疫苗来实现这种全民免疫的一个效果",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后国外的话可能它是管控相对松一些，所以说这个病毒变异的话，对国外的冲击可能要比国内要更大",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后对国内的话虽然情绪会有一定压制，但我觉得可能大家已经有一个学习曲线了，就可能不会有特别大的影响，不会像去年年初刚爆发的时候有那么大的一个一个杀跌",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "宏观市场",
+        "level2": "市场情绪",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "有影响但不要太大",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，这是我们近期对于这个流动性的一个看法嗯",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后另外我们可以看到就是从北上经营来看的话，就是外资的话，其实它对 a 股还是比较看好的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "行业自身情况",
+        "level2": "外资",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "看好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后像整个 11 月份的话，大概净流入超过将近200、 220 个亿，当然这个和今年年初大概 4 月份、 5 月份的 500 亿左右的一个水平还是有一定差距的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "行业自身情况",
+        "level2": "资金净流入",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "200亿",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但基本上只要这个北上不出现大幅净流出的情况下的话， a 股的线下空间一般都会比较有限",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后这也是近几年 a 股的一个现象吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，那刚才罗老师为大家去盘了一下我们今年这个市场，以及最近这个震荡市场的一个具体的情况嗯",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那其实在开播之前我和罗老师谈到我们今天要新发的这款基金永云升创 100 ETF 链接",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "罗老师就是说就很自信的说我们目前这个震荡的这个格局，就是这个布局，这个产品上车的最好的一个时机",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那关于这一点能不能请罗老师为大家来分享一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是我们这款产品，它聚焦的是升创 100 指数，为什么说这个升创 100 指数在目前来说有一个很不错的投资价值，能不能给大家分享一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "行，我就从两点来说一下，一个是短期的话，大家都知道这个 a 股它这个日历上映会比较强，嗯，然后像春节的话，不管是今年，不管是 2021 年，还是此前的七八年时间，它这个春节前后都会有一波这种反弹行情，一般就称作这个春季躁动嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "春节躁动，反弹行情",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，所以大家如果是看短期的话，就是当前这个疫情冲击下，这个情绪不太高的一个时点，可能是比较好的一个上升时点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "比较好的上升时点",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后长期来看的话，我们就是推荐品种的话，其实我们就是推荐大家可以去重点关注我们目前这个生创龙头ETF，嗯，它的代码是159721，嗯，然后它的我们给大家做了一个统计，因为可能投资者就是有一个比较大的困惑，就是很多很多这个产品它可能涨幅很大，但因为它的波动也大，所以说它的涨幅可能大，就大概率和你没有关系，可能你进的时间是高点，然后你拿一段时间之后发现还是亏钱的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，然后这个主要痛点就是它这个产品创新高能力不强，就是说你持有之后你可能就买在高点了，可能再过三年、五年他才创新高",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，但这种产品的 CEO 体验就不是特别好嗯",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后我们今天给大家推荐的这个，就这款产品的话， 159 Q21 的话，它的创新钢能力的话是在所有宽机里面都是比较突出的，嗯，我们给大家做了一个简单的一个统计，嗯，就近五年，就是从 16 年 11 月底到今年 11 月底五年时间，因为这个可能主要是为了剥离这个 15 年的一个大牛市的一个这个影响",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对对对对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后我们给他我们发现的话就是创龙头这个ETF，它相当于是近五年创新高次数是 99 次，也就是说平均每年有 20 次的一个创新高的一个情况，嗯，平均每月的话大概是有 1.7 次，也就是说你买入之后可能平均持有 10 个，十几个交易日就会出现一次创新高，这个也就是说你进入时点的话对你影响不会特别大，只要你拿的时间足够久，比如说半年或者一年，大概率是肯定会赚钱的，就肯定是能够等到它的一个创新高的一个出现的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后我们也给大家看了其他的一些会计划计指数，比如像 300 的话，它大概是 60 左右，六十左右",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后像这个 500 个创业板的话可能就更少了，只有 20 ~ 30 次左右的一个水平",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，也就是说大家在买这个基金资产的时候，其实可以去参考这个标的，它的创新高能力来作为你这个选基因的一个重要的一个一个，一个一个参考标准",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为相当于只有你持有过程中它能不断创新高，才能为你带来这个持有的一个收益，并且给你带来一个比较好的体验，因为相当于这个投资本身就是一个反人性的一个存在",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对的，比如说如果你在高点买入的时候，可能你等不到它的反弹，可能又你又已经把它割肉了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，这个也是大部分投资者，可能 80% 投资者不赚钱的一个重要原因，就是可能你忍受不了这个中间的一个一个大的回撤",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对的，但只要如果这个基金它能够不断的创新高的话，其实相当于你这个持有体现会更好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，一样会给持有人有一个信心在",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，所以就是从历史来看的话，这个指数还是就是创新高能力是比较强的一个一个存在",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后并且它的一个突出特点就是它也是一个宽机，所以说如果你买一个某一个行业的话，它这个风口一旦过去的话，可能需要 2 ~ 3 年的一个一个估值消化的一个一个一个区间嗯",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但这个宽机的话，它的它天生优势就是比较分散，嗯，不是说在某一个行业或某一个风格上去压比较大的权重",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这就是这也是另，这也是它这个能够不断创新高的一个另外的一个原因，也比较适合当前的一个这种震荡的市场，就相当于每个行业都是波动比较大的，然后轮动比较快",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，你去压某一个行业的话胜率可能不高",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，当然你去买宽机的话可能就会有一个比较好的一个游，一个持有体验",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后我们看到就截止到昨天的话，这个升创100，你今年的涨幅大概是5%",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后相对于混 300 的第二 7% 还是一个比较好的一个一个一个，这个一个一个体验的嗯",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，谢谢罗老师",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "刚才罗老师用数据说话给大家分享说我们这个升创 100 它到底为什么具有投资价值",
-    "entities": []
+    "entities": [
+      {
+        "industry": "A股",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，先是分享了一下，我们这个像是这个呼声 300 创业板纸，还有中证 500 和我们这个升创 100 做了一个对比，它的这个近五年创新高的一个次数其实是不一样的",
