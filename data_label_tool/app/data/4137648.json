@@ -1,643 +1,2261 @@
 [
   {
     "sentence": "2024年9月25日 上午 2:26|59分钟 53秒\n\n关键词:\n半导体、周期、库存、板块、芯片、增速、估值、厂商、5g、资本开支、存储芯片、智能手机、资本市场、金融环境、数据中心、供求关系、汽车电子、科技公司\n\n文字记录:\n好的，各位投资者朋友，大家好，欢迎各位来到鹏华特色行业大学堂半导体行业的专场现场，那么本次行业的这个课程内容是一小时学透半导体行业逻辑",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们本次邀请的是半导体基金经理罗恩于总，那通过一小时的一个深度学习，我们将会为大家分析和破解读整个行业的投资框架",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那今天下午的 2 点，那么我们正式运用腾讯会议链接的形式，邀约各位投者朋友进行一个收听啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么在这个本次的一个交流会期间，大家如果有任何的问题，可以在腾讯会议的这个评论区为我们留言，那么想要去提问的这位朋友，这些朋友可以举手，这个举手进行一个这个问答的一个邀请",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么本次的这个直播也同步在同花顺和欢聚等平台进行一个同步，那么下面我们把时间交给龙宇总，来让他为大家展开一个半导体行业的专场解读",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，那各位投资者，大家下午好啊，今天这个就咱们半导体的这个行业啊，这个投资逻辑做一个简单的一个交流，主要还是想反映一下当前半导体当中的主要的一些问题和矛盾，这个给各位做一个投资的一个参考",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那这个核心的一个要点我先简单的介绍一下，待会儿我们还会继续再进一步的展开，第一个就是当前的这样的一个半导体的周期到底是处于什么样的一个位置",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们这边的一个观点是，这一轮的这个周期是创新驱动和供给失衡的一个结合体，所以它比市场预期的要具有这个持续性，也会更具有这种波动性啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "周期",
+        "time_attr": "未来",
+        "score": "0",
+        "status": "比市场预期具有持续性和波动性",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后第二个就是这种金融的环境，就是包括这个全球的这样的一些金融环境的收缩，对于板块的这个估值是有一定的这个压制效用的哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "宏观市场",
+        "level2": "金融环境",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "对市场有压制作用",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后第三个就是中美的这样的一些科技竞争，对于半导体行业也形成了一些约束，这个里面包括技术上面的一些脱钩，包括金融资源，就是最近这个大家看得到的一些这个准入的一些那个约束限制啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "宏观市场",
+        "level2": "中美竞争",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "约束限制",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对于半导体的这样的一个行业也都是有一些那个冲击的，那从需求这一侧来看的话，智能手机为代表的消费电子是在持续的向下回落的这样的一个过程，那服务器这一块是在以服务器为代表的这样的一些算力设施是在向上啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "需求侧",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "智能手机向下回落，算力设施向上",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后还有就是像半导体设备、功率器件、模拟器件等等这样的一些那个方向其实是在一个国产突破的这样的一个过程当中，这个很多投资者对这一块也都比较关注，那供给侧这一块，这个由于前两年的一个供不应求的这样的一个状况，那今年会不会回落",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "上游产业情况",
+        "level2": "供给侧",
+        "time_attr": "未来",
+        "score": "0",
+        "status": "供给侧回落幅度不会特别大",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那可能这个回落的幅度可能不会特别大，而且会呈现出来一个结构化的一个分化啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "上游产业情况",
+        "level2": "供给侧",
+        "time_attr": "未来",
+        "score": "0",
+        "status": "供给侧回落呈现结构化分化",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那这个可能会持续到 23 年，那我们也看到相关的一些厂商在持续的一个扩产，那个半导体的设备供货周期也是在拉长的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "上游产业情况",
+        "level2": "供给侧",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "供货周期拉长",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后新冠疫情对于半导体的供给也都形成了一些扰动",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "宏观市场",
+        "level2": "疫情",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "对供给造成扰动",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后还有一个就是成本端的这个问题，就是上游的成本提升，然后下游的需求又下行，对于行业可能会有一些那个挤压的这个效用啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "需求侧",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "需求下行",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "半导体",
+        "level1": "上游产业情况",
+        "level2": "成本端",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "成本提升",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后第七个就是当前的股价里面到底包含了什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个里面包含了包括我们的消费电子走弱的一些预期，包括分离元器件的这种景气周期，景气的这样的一个预期也都包含在当前的股价里面",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "预期",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "消费电子走弱",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那中美的科技预竞争的这样的预期，也都是在计入这个股价的过程当中吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那第八个就是当前股价还没有包含什么东西，这里面主要还是金融环境的这个变化预期还有待于进一步的定价，然后科技创新的周期还没走完，这个会不会在当前的这个股价里面会有进一步的反应",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外就是像存储这个芯片的这个周期波动，也在当前的这个股价里面也没有反应，然后这个板块内部也是存在一些周期的一些波动，或者是一些分化，那没关系，反正我们先简单的把这样的一些逻辑要点做了一个总结，那么我们现在开始来进一步的来看一下整个这个半导体的当前的几个核心的一些问题吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "第一个就是我们今天的这个介绍或者交流分四个部分",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "第一个部分就是板块的总体的一个情况，第二个就大家非常关心的这样的一个供需矛盾的这个进展的这个情况，因为从 21 年开始到 20 年开始到现在，其实供需矛盾一直是资本市场非常关注的一个话题啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后第三个就是对于下一阶段咱们这个板块关键性的一些驱动因素，我们做一个简单的一个展望",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那第四个就是咱们回到这个资本市场，对于这个半导体板块当前的估值做一个评估，然后对未来的这样的一些走势做一个简单的一个展望吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们今天就四个部分，那第一个部分我们还是简单的对整个这个板块的整体情况做一个简单的一个梳理和介绍",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们这个图是我们国振芯片指数，这个从 12 年最近十年的一个走势，那么我们可以看得到整个这个板块的景气度的提升是在 18 年底， 19 年初",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那从那个时候开始整个这个板块有了一个非常明显的一个提升",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "景气度",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "明显提升",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们为什么要把最近十年的这样的一个走势拉出来呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为我们回顾一下，我们国内的半导体产业在十年以前基本上是趋近于零的，在全球的半导体的市占率来说都是很低很低的，基本上是处于一个来料加工的这么一个过程",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "市占率",
+        "time_attr": "过去",
+        "score": "-2",
+        "status": "十年前很低",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那从 19 年， 18 年， 19 年开始，整个这个半导体的板块有了一个突飞猛进的一个发展，这个里面不单单是股价的一个变化，也包括半导体销售层面上面的一些那个变化，都取得了一个非常明显的一个展进啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "股价和销售",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "取得明显进展",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那这个里面到底什么原因，或者说什么样的一些因素导致从 18 年底， 19 年开始整个这个半导体有一个，这个大幅的一个增长的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个里面主要有几个方面的原因，第一个就是 19 年，我们大家都知道 19 年是有一个 5G 的牌照的一个发放，然后从那个时候开始，这个整个这个通讯进入到第五代这个通讯技术，然后在 18 年， 19 年的时候还有一个比较大的一个宏观事件，就是在那个时候有一个这个稳增长，或者是有一个周期向上的这么一个过程，这个也是一个大的一个宏观的一个背景",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "宏观市场",
+        "level2": "宏观背景",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "5G牌照发放",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么从半导体的这个应用的这个角度来说，从那个时候开始，智能化、联网化的这样的一个发展，带动了设备的，就是咱们终端设备也好，还是数据中心也好，这样的一些行规量是在逐步的一个提升的过程",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "需求侧",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "智能、联网带动设备发展提升",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那另外还有一个就是大家也都非常的关注的，像云计算、电动汽车、智能汽车、物联网等等这样的一些，包括人工智能这样的一些新兴的一些应用模式，激发了大量的一些增量的需求啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "需求侧",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "云计算、电动汽车、AI激发增量需求",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后第三个就是大家一定很清楚的一点，就是 18 年和 19 年那个时候是这个中美竞争，包括贸易战，包括这个对于国内一些比较有这个优势的这样的一些科技公司进行一些围堵，在那个时候开始国产化成为整个资本市场一个非常重要的一个，这个演绎的这么一个主逻辑，所以在这个之后国产化也是得到了一个非常大的一个推进",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "宏观市场",
+        "level2": "中美贸易战",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "推动半导体国产化",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那第四个就是说这个产业投资周期从 19 年以后，尤其是 20 年以后，整个这个半导体产业都进入到新一轮的这个产业投资周期当中",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个里面主要还是跟咱们的 5G 通信技术，还有这个云一大物联这样的一些应用场景是紧密相关的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那这个里面主要的投资的方向还是咱们的这个算力以及高性能计算 HPC 这个方向为主的这样的一些资本开支，在那个时候是有一个大幅的一个这个增进啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "算力和高性能计算HPC",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "投资大幅增长",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那第五个就是我们看得到就是在这个 2019 年以后，整个这个板块它的周期性是明显的这个下降了，然后它的这个成长的属性是得到了明显的一个这个舒展啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "周期",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "19年后周期性下降，成长性得到舒展",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们能够看得到就是整个这个板块在 2019 年前后是一个非常重要的一个分水岭",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们回顾一下，还是回顾一下过往十年整个这个半导体板块它的这个周期的一个波动，我们看得到就是从 2020 啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "09 年到 2011 年左右，那个时候是一个大的一个周期",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那个周期是我们在金融危机以后所呈现出来的这么一个需求扩张的这么一个这个半导体的这么一个周期",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "周期",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "09-11半导体需求扩张",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在那个周期当中包括智能手机的早期的一个应用，包括 PC 电脑的一个存量需求的一个消化，带动了整个这个半导体出现了一波明显的这个周期性的一个行情，那到 2012 年到 2015 年这样的一个周期，它其实跟咱们的这个日常生活相关性就非常强了，也就是智能手机的一个渗透率的提升",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "周期",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "12-15渗透率提升",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在这样的一个过程当中，我们的这个智能手机从早期的一个高端的玩具变成了普罗大众的一个日常生活的一个工具，那在这样的一个过程当中，整个这个半导体周期也呈现出来一个非常明显的一个波动啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后到 2017 年到 2019 年这又是一个新的一个周期",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "周期",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "17-19需求扩张",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这一个周期其实更大的是因为咱们的这个存储芯片的这样的一个扩畅扩单的这么一个周期所带动的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在这样的一个过程当中，咱们的智能手机有早期的16G、32G，一下子扩到了128G， 2 百五十六 g 等等这样的一些扩容的，这样的一个过程，在这样的一个周期里面体现的非常的淋漓尽致啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么到 2019 年以后，我们进入了新一轮的这样的一个半导体的创新周期",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "周期",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "19年之后供需失衡",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们看最后的这个图的最后这个第六个和第七个箭头哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "2019 年那个时候开始，其实整个全球的半导体是进入到了一轮新的创新周期过程当中，那到了 20 年，它又叠加了一个新的扰动性的一个因素，就是我们的供求失衡啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以大家看得到就 2019 年到 2020 年它是一波上行，然后到 2020 年到 20 到现在又是一波新的这个扇形",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们说最近的这一波的这样的一个半导体的这个景气度或者是一个扇形的周期，它其实是两个部分结合起来的，第一个部分就是创新周期的这个和它所带来的这么一个增长",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "周期",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "创新周期增长",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外还有一个就是供求关系这个失痕所带来的这么一个增长，所以这两个部分结合起来是从 2019 年以来这个半导体行业景气度的一个非常重要的两个驱动性的因素啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们整个来看，过往十年，从 2012 年以前整个半导体行业它的波动是非常大的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "波动性",
+        "time_attr": "过去",
+        "score": "0",
+        "status": "过去十年波动性大",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它的这个增长的这个均值也都是比较偏高的，那 2012 年以后，整个这个增长的这个均值是有一个回落，但是它的这个波动性是有所这个收敛，所以从这个角度来说的话，我们能够看得到作为一个周期成长的这个板块，它的周期属性在收敛，它的成长的这个属性得到了一个非常大的一个这个扩张，这是这个我们一个非常重要的一个观点，就是 19 年以来的这样的一个增长，是创新周期叠加供求失衡的这样的一个结合体啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "增长均值",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "偏高",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们从这个营收的这样的一个变化来看的话，我们也能够得到类似的这样一个结论",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么最上面的这个图它其实是由两根线组成的，第一根线就是存储芯片，也就是深色的这个红色的这条线，它是存储芯片的这样的一个营收的一个波动",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那另外还有一块还有一根线，就是非以非存储的芯片的营收的一个波动",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们可以看得到存储芯片的这个营收波动的，这个波动幅度是非常大的，相对于非存储芯片来说，它的这个波动显得非常的夸张啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后非存储芯片这一块它的这个波动相对来说比较偏弱一些，它更多的呈现出来这样的一个成长的一个属性",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以刚才我们讲这个 2012 年以后，这个波动的这一块的这个幅度相对来说收敛，然后成长的这个属性相对来说更这个清晰一些，也是因为这样的一个原因啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们从最近这一段时间的这个走势来看的话，我们能够看得到存储芯片的这个它处于它的一波上行的这个周期过程当中",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后非存储芯片也处于它的一波扇形的这个过程当中，也就是说以存储芯片为代表的这样的一些偏周期的这样的一些品类，它是处于一个扇形，以这个非存储芯片这样的一些偏成长的这样的一些方向的这个半导体，它也呈现出来一个扇形，所以这两个部分结合起来是这一轮这个扇形的一个非常重要的一个驱动因素",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么从全球的半导体的营收增速的具体的数据来看的话，我们也能够看得到 2012 年的半导体的增速是 24.5 左右，这个 24 点 5 到 25 左右，那么我们看得到 2012 年整个这个半导体的这个增速依然维持一个非常高的一个增速，大概在 15 左右， 15% 左右，所以这个是整个这个半导体现在呈现出来的一个状况，也就是说周期的这个属性偏弱，然后成长的这个属性比较偏强，这么一个整体的这么一个向上的一个格局啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们再来看一下，就是整个这个行业在最近这几年发生了什么啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "从最左上角的这个图我们可以看得到，整个这个半导体行业的这个资本开支在最近这几年是一个波动的一个状态",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那在 1617 年那一轮的这个资本开支扩张周期里面，主要的扩张的一个方向是咱们的半导体的这个存储芯片，也就是 RAM 和这个 none 的这样的一些那个芯片",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那这一轮从 2020 年开始的，这一轮的这个资本开支增速里面高性能计算的这个扩展，是这个里面非常重要的一个，这个投资的一个主题和方向，这个是一个，然后第二个这个周期为什么会减弱呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "还有两个非常重要的原因，第一个就是半导体的这个设计成本在逐步的一个爬升过程当中，从早期的 65 纳米到现在的 5 纳米，大家从右边右上角的这个图可以看得到，整个这个半导体的这个设计成本是一个非常大的一个增幅，也就是低纳米素的这个设计成本比高纳米素的这个涉及成本要高得多啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后包括半导体的这个制造成本，它的这个资本密度也高很多，也就是说现在整个这个半导体产业它的这个集中度是在不断的提升的，也就是这样的一些产能，这样的一些技术在不断的聚集到一些寡头垄断的这样的一些巨头手里面",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那从半导体的这个芯片的发货量这个角度我们也看得到，就是 2012 年的发货量，它的增幅大概有 10% 多一点点的这样的一个增幅",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是我们刚才也聊到了，就整个这个半导体的营收是增长 25% 左右",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那这个里面多出来的那个部分就是咱们的这个价格上涨的这个因素所导致的，所以我们可以看得到就是整个这个半导体的这个产业处于一个量价齐升的这样的一个过程当中啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么 2020 年以来这个供求失衡问题一直是半导体产业一个非常核心的一个矛盾啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "21 年整个资本市场大家关注的一个焦点也都是供求的一个失衡的矛盾，很多公司在这样的一个这个矛盾体当中是得到了一个包括它的毛利率，也包括它的营收都得到了一个非常明显的一个增长",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们可以看得到半导体的这个价格在过往几十年，从九几年到 2021 年、 2020 年年下半年，整个这个半导体的这个价格，其实它的这个价格都是一个持续的一个回落的过程，因为制造单位半导体的这个成本是在下降的，但是在 2020 年以后有一个非常明显的一个改变，就是半导体的价格在上涨，这个是一个非常这个异常的这么一个现象",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们可以看得到，从这个圆圈里面我们可以看得到就是整个这个半导体的价格在过往的一年多不到两年的这个时间里面是有一个大幅的一个走高，然后我们从右上角的这个图我们也可以看得到，就是半导体的交货周期",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个是最新的数据，这个达到了 25.8 周左右，也就是半导体，你从下单到最后拿到这个半导体，它的整个这个时间长度是在不断的拉长的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后半导体产业的架崩率，也就是大家换个词，大家叫做产能利用率，这个产能利用率在一度能够达到百分将近100%，超过 100% 的这样的一个状态",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "也就是说整个这个半导体的这个产业是供不应求的，那从半导体产业的这个总体的营收的利润率这个角度来看的话，我们也看得到从 2020 年以后，整个这个行业的这个营收的利润率也都是在向上的上行的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "行业营收利润率",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "2020年后上行",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们从整个这个各个方面来看的话，我们都能够感受到整个这个板块由于供求关系的一个原因，导致整个板块的景气度是在这个持续的，这个持续维持一个非常高的一个状态啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "景气度",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "持续且非常高",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那另外一个角度，就刚才我们说这个半导体一个是供求关系导致的这样的一个上涨，另外还有一个就是创新周期",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那创新周期这个方向我们再来看一下，我们看以台积电为例，台积电 21 年的这个营收里面增速最快的几个领域",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "第一个就是这个汽车半导体，第二个就是咱们的高性能计算HPC",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "第三个就是IoT，就是物联网这个方向，所以我们能够看得到就是这三个方向",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "都市跟我们刚才讲到的这个创新周期，以5G，以这个电动化这样的一些方向，智能化的这样的一些方向为代表的这样的一些应用，下游应用都得到了一个非常大的一个扩张，这个才是我们整个半导体创新的一个来源啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们分三块来看，第一个就看物联网，那物联网我们对于未来的这个增长来看的话，我们到 2030 年整个 card 的这个增速大概都有百分之二十几到30%，汽车半导体这一个板块差不多也有 30% 左右的一个card",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "物联网",
+        "time_attr": "未来",
+        "score": "2",
+        "status": "增涨30%左右",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后这个高性能计算这一块，这个主要还是咱们的这个数据中心，包括这个数字货币等等这样的一些方向，也都维持一个高增的一个方向",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "高性能计算",
+        "time_attr": "未来",
+        "score": "2",
+        "status": "高增长",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们从几个大的这个领域来看的话，我们确实处于一个半导体的一个创新周期的这个过程当中，这个是总体的一个情况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我相信投资者都非常的关心现在供需的这个矛盾到底怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为现在市面上面很多这样的一些信息，给大家一个非常迷惑的一个这个状态，有一些信息会告诉大家说现在这个库存非常的高",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "有一些信息又告诉大家说，现在这个供求的矛盾依然没有解决，你看还有很多缺货的这个情况，那么我们现在简单的来交流一下，就是整个这个供求到底是什么样一个状况啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么首先我想给大家一个总体的一个概念，也就是当前的这个库存的一个状况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们分成三个这个场景来看，第一个场景就是常规或者是一个比较正常的一个供货的这样的一个状态，就是从呈现出一个金字塔型，从这个半导体的这个芯片设计公司到渠道或者代理商到终端客户这么一个流转的一个过程，那在那个时候都很多都是 Justin in time 这个及时供货的这么一个状态",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么 18 年我们可以看得到那个时候也经历了一轮这个库存的这个积压，在那个时候这个咱们的这个库存主要是堆积在这个渠道商和代理商的这个环节，那终端的这个客户其实是缺货的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们现在整个这个行业当前的这个库存状况是什么样子的呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是最右边的这样一个状况，也就是终端的这个客户的这个库存相对来说是比较高的，那么我们说的终端库存就是像这种安卓手机的制造商，包括这个 ODM 的这些厂商，包括这个苹果系的这样的一些厂商，它的这个终端的这样的一些库存相对来说是偏高的，那渠道商和代理商的这个环节，它的这个库存是相对来说偏低的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "库存",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "终端库存偏高，渠道和代理库存偏低",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么芯片的这样的一些设计厂商和 IDM 的这样的一些厂商，它的库存是适中的这样的一个状况，那么为什么会形成这样的一个库存的一个结构呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个主要是因为在 20 年以来，大家听得到的就是 our Booking 就是超额订单，我本来我只需要1亿 1, 000 万片这个芯片，我可能要订 1, 500 万片芯片来向上游去下单，这个所有很多厂商都是超额的订单去订购这样的一些芯片来保证自己的供应",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外还有就是捆板销售，我这有一个非常畅销的一个芯片，我还有一个不是那么畅销的芯片，我要搭起来一起卖给你",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外就是对于渠道商的管控，因为经过 18 年这样的一个哄抬物价之后，在 20 年、 21 年这样的一些过程当中，对于渠道商和代理商这个厂商这边是有一个非常明显的一些管控的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以这几个方向来看的话，我们现在的整个这个库存的这个状况其实是呈现出来一个反锤形的这么一个状况啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们具体来看一下四个这个方向的这个子领域，他们的这个库存状况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "首先我们看一下就是半导体设计公司，那么它的这个库存的天数维持在一个相对来说比较合理的这样的一个水平，这个深红色的这条线是库存的天数，那大家可以看得到它的这个库存是处于一个历史同期的一个基本平均的这样的一个位置",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们看分销商这一块，分销商的这个库存天数是低于历史的一个平均的一个位置的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后从代工厂的这个角度来说的话，我们也看得到它的这个库存基本上是在一个历史的一个库存的这样的一个位置上面",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那最后我们再来看一下终端的这个厂商，也是看这个红色的这条线，我们能够看得到它的这个库存天数是在急剧的爬升的过程的，这个里面代表的是什么呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "代表的是咱们的这个终端厂商的这个库存，当前的这个库存是一个偏高的一个状态，这个对于终端厂商来说，至少代表他不会在一季度再去大规模的拉货，就是对上游的半导体去拉货了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "终端厂商",
+        "time_attr": "未来",
+        "score": "0",
+        "status": "库存偏高",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个是从几个维度来看的这么一个库存的一个状况，那么我们从这个库存商的这个就是渠道商的这样一个角度，再来看一下这个库存的状况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "渠道商刚才我们也讲到了，就是它整个这个库存相对来说是比较合理的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "渠道商",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "库存合理",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么它里面也呈现出来一些结构性的一些分化，有一些品类，它的这个库存已经回到了一个相对来说比较合理的这样的一个水平",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是有一些品类依然是处于一个非常紧张的一些状况，这个里面包括像MCU，尤其是中高端的一些MCU，就是微控制器，还有一些可偏层的一些器件等等这样的一些方向，它的这个库存依然是非常紧张的，它的供货右边是供货的这个周期，左边是这个库存的这个周期啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后从右边的这个供货的这个周期来看的话，也是能够反映这一点，就是对于中高端的这样的一些品类，它的供货的这个周期依然是非常强的，也就非常的这个紧张的一个状态",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "库存",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "中高端品类库存紧张",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么从国内和国外的这个情况来看，国内很多品类的这样的一些供货，现在它的这个供求关系得到了一个非常明显的一个缓和",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "供求关系",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "国内品内供求关系缓和",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是国外你像 ST 或者是 NXP 等等瑞煞这样的一些公司还在持续的涨价，前上周也有几家公司也是在提升他们的 MCU 或者是功率期间的一些那个价格， PM MPIMS 的这样的一些价格，也就说明了国内和国外的这样的一些供货的情况来看的话，也是存在一些分化的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "供求关系",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "国外品类供求关系分化",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以从右边的这张图来看的话，我们能够得到一个浅显的一个结论，就是总体的这个供货会在今年的年底到明年的上半年得到一个缓解，这个缓解既有这个向需求回落的一些原因，也有供应的一个扩张的一些原因，总之就是到明年可能会有一个回落的一个过程",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "供应",
+        "time_attr": "未来",
+        "score": "-1",
+        "status": "回落",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们从这个渠道商的这个角度来看，这个数据是到2月的 22 号，我们从这个数据来看的话，我们能够得到就是整个这个供求关系是一个结构分化的这么一个过程",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "OK，那么我们刚才讲到的是这个供求关系，我们讲的是供这一端，就是供给这一端",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们讲供求矛盾，我们再来看看需求这一端到底发生了什么事情啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "需求这一端我们半导体的下游需求其中 25% 是这个 PC 机， 32% 是智能手机，所以我们还有汽车电子和IoT，这个也是占了一些主要的这个份额，所以我们主要从几个方面来仔细的来观察一下整个这个下游的需求的变化",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "首先我们来看占比最大的 32% 的这个智能手机，这个它的这个下游需求的一个变化，那么我们从右边的这个图，这个是智能手机全球的这个出货的一个同比的一个增速，我们能看得到从 2021 年的 6 月份之后，整个手机的这个出货是在一个持续的增速，是在持续的回落过程当中",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "手机",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "出货增速回落",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "到去年年底乃至今年的一二月份，整个这个手机的这个出货是一个进入到一个负增长，同比负增长的这样的一个状态啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那刚刚这个上周这个信通院披露的数据来看的话，它的 2 月份的手机的一个国内的销售的一个同比增速是百负的31.7%",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以大家能感受到整个这个手机的出货的这个情况其实不是太理想，虽然我们整个资本市场对于手机一季度消费电子一季度的这个出货是有一个预期的，但是这样的一个出货数据来看的话，依然还是低于咱们市场的一个普遍预期的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "手机",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "出货数据低于市场预期",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这是从手机的这样的一个出货的情况来看",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么我们从披露的四季度的数据来看的话， 53 家 a 股的半导体供应商当中有 37 家它的这个净利润是环比下降的，且它的库存是存在累库的这样的一个情况，所以我们能够看得到，虽然我们在过往 19 年到 21 年，由于 5G 渗透率的提升所导致的刺激整个手机出货的一个增长的过程，在逐步的一个回落过程啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "也就是说从 19 年开始，那一波的手机的出货是主要是由于 5G 的手机渗透率提升所拉动的这么一个周期，在逐步的回落的一个过程当中，所以我们能够感受到就是作为最大的一个下游应用品类，它的增速是在回落的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么第二个我们来看一下这个手机的这个成本，那么手机的成本以小米 11 为例，它的 BOM 的这个成本，我们如果对它做一个分拣的话，我们能够观察的到就是它的整个这个成本会有一个提升，大概提升个 5% 左右的一个提升，虽然这个 5% 大家感觉不是特别多， 4% 到 5% 左右的一个提升",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是对于手机这样的一个品类来说，它对它的这个毛利率的这个影响还是非常大的，所以这个手机的这样的一些厂商来说，它面对下游需求的其走弱，那它上游的成本又由于这个原材料的一些原因，它的成本有所提升，所以对于这样的一些厂商来说，它的这个毛利率可能会存在一定的这个压力啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "手机",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "成本高，需求走弱，毛利率存在压力",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么下游还有两个非常重要的应用领域，一个就是笔记本电脑，还有一个是咱们的PC7，那从笔记本电脑的这个角度来看的话，跟手机非常的类似，它的这出货的这个情况同比增速也都是持续的一个回落，那么 PC 机这个非常有韧性，依然维持在一个高度高位上面",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "笔记本电脑",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "出货增速回落",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "PC机",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "出货维持高位",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那他的这个出货从 20 年以后，由于新冠疫情带来的这种在家办公、远程办公给 PC 机的这个出货带来一个非常大的一个增幅",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "PC机",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "疫情带来增速",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么目前我们看得到的 PC 机的出货量依然还是维持在一个高位啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外从后面的这个眼镜的方向来看的话，有可能 PC 机的销量有可能是会回落到它的一个均值的这样的一个过程",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "PC机",
+        "time_attr": "未来",
+        "score": "-1",
+        "status": "回落到均值",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们从这两个方向来看的话，我们也感觉到就是它的下游需求也有走弱的这样的一个这个可能性，那咱们投资者可能会关心了这个，这两个主要的方向都在走弱的这样的一个过程",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "需求侧",
+        "time_attr": "未来",
+        "score": "-1",
+        "status": "走弱",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么今年的景气的方向在哪里呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "或者大家觉得今年预期的相对来说比较好的一些方向在哪里呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "主要是由这么两个方向，第一个就半导体的这个设备出货量，那它主要是受到了半导体产业链的资本开支增速的所带动，那么我们可以看得到半导体的社会出设备出货量的同比是维持在百分之五十几啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "设备",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "设备出货量同比增长",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "上周日本半导体制造装制协会也披露了一个数据，从日本的这半导体设备出货的情况来看，也是维持在百分之五十几体的一个同比增速，所以这一块确实是一处于一个高景气的一个状况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "日本半导体设备",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "出货量同比增长高景气",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么从另外一个角度，这个汽车的半导体，汽车的电动化和智能化这个方向来看的话，也是维持在一个高景气的一个状态",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "汽车半导体",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "高景气",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这里面且不论现在的智能化、电动化的如火如荼的推进，它的渗透率的提升关是汽车的整体的库存销售比依然维持在一个历史的一个底部",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么从美国这边来看的话，它的汽车依然存在一个补库存的需求，它的库存销售比处于一个历史的底部",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么另外一个驱动因素就是汽车的电动化，汽车的智能化一直在推进过程当中，它的渗透率今年可能会做到百分之三十几啊，那去年还不到20%",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以这一块，这个也都会带动汽车半导体，包括功率器件，包括智能驾驶座舱等等这样的一些方向的这个出货的持续的一个爬升啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们简单的回顾总结一下，就是供求关系的矛盾有结构性的分化，有一些方向上面依然是维持在一个非常紧张的状态，有一些方向是得到了一个非常大的一个缓解啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "供求关系",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "紧张得到缓解",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后下游的需求也是同样的，有一些方向的这些需求是在走弱，有一些方向的需求依然是维持在一个非常警惕的一个状态",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "需求侧",
+        "time_attr": "未来",
+        "score": "-1",
+        "status": "需求走弱",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么接下来我们再来交流一下，就是 22 年，咱们往前看， 22 年的关键性的驱动因素有什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "也就是说我们今年怎么看的问题",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "今年在半导体的这个下游的需求这个层面上面到底有哪些看点啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
-    "sentence": "那么我们分几个方面来看，就是第一个是一个总体的一个概括",
-    "entities": []
+    "sentenc": "那么我们分几个方面来看，就是第一个是一个总体的一个概括",
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "首先如果全球的 GDP 能够维持在 3% 点几，那这样的话就能够带动半导体产业增速达到 10% 以上，这是一个过往经验的一个推演，就是跟咱们的 GDP 的增速会有一个同步的一个关系",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "宏观市场",
+        "level2": "GDP",
+        "time_attr": "",
+        "score": "1",
+        "status": "维持会带动半导体产业增长10%",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么刚才也提到了，像这个云计算和超级运算中心这样的一些方向，今年会有一个大幅的资本开支，可能会在 30% 以上，那这一部分会对半导体会有一个比较强的一个拉动，这个拉动主要体现在存储芯片，包括高性能计算的芯片这样的一些方向",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "上游产业情况",
+        "level2": "云计算和超级计算增大资本开支",
+        "time_attr": "未来",
+        "score": "2",
+        "status": "拉动半导体",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那还有就是英特尔 AMD 的新计算架构在今年会推出来，那这样的一些新技术架构会推动或者是拉动下游的一些这个需求的一些扩张，包括咱们的 PC 机的一些扩张，也包括咱们数据中心的一些扩张",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "上游产业情况",
+        "level2": "",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "拉动需求扩张",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那第五个就是我们的这个 5G 智能手机将维持在一个这个高增长的状态，我说的是 5G 智能手机，不是整体的这个手机出货量，手机整体的出货量大概只有 2% ~ 4% 的一个增幅，所以我们能够感受得到的就是 5G 的渗透率会继续提升，总体的出货会维持一个轻微增长的这么一个状态，那增幅的来源从哪来呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "5G智能手机",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "高增长状态",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "成熟市场可能更多的是以折叠手机等等这样的一些中高端的品类为竞争要点，也说白了也就是提价，就是价格的提升，带动整个相关的这样的一些公司的营收的一个增长",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么中低端的这样的一些手机，或者说冲量的这样的一些手机，主要还是在亚非拉，主要是包括中东、非洲这样的一些国家，他们处于功能型的手机向智能手机转换的过程当中",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么另外还有一个就是 5G 基站， 5G 基站在后疫情时代，全球大概会有 20% ~ 22% 左右的一个增速，中国地区可能会有 40% 左右的增速啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外大家也非常关注的乘用车这一块，全球的乘用车可能会有百分之 9 的增幅，那电动汽车全球来看的话可能有那么百分之二、三十的一个增幅啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "下游产业情况",
+        "level2": "乘用车",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "增长",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个里面都会对半导体的需求会有一个拉动，那么还有就是设计和封测的这样的一些厂，这个它的这个利润可能会有一定的压力，这个是一个上下游挤压的这么一个效用啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "半导体",
+        "level1": "行业自身情况",
+        "level2": "需求",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "拉动",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我们具体来看，就是刚才我们笼笼统统说了那么多，我们具体来看一下游需求的一些变动吧",

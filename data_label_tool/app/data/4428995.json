@@ -1,127 +1,437 @@
 [
   {
     "sentence": "2024年5月17日 下午 12:08|1小时 7分钟 45秒\n\n关键词:\n黄金、美元、投资、全球、信用、货币、中国、资产、重估、基金经理、货币体系、二级市场、风险偏好、资产负债表、国际金融、投资方式、美国国债、投资组合\n\n文字记录:\n对，说的就是你努力的样子，真的很帅，只要你够坚定，每一条都是对的路",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "财新大学国际金融，除非你不想赢，否则没人能让你输，赢过平凡，赢得梦想，赢过恐惧，赢得掌声，赢过阻碍，赢得尊重，赢到满足，赢到不满足，总有人在为失败找借糕，但你知道，那些打不倒你的，都会让你变得更强",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "去赢吧，就算跌倒也没关系，就算渺小也没关系，就算孤独也没关系",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "where you go whoa",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是这样，继续去赢，你很强，你比昨天更强，你比自己更强",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "新的比赛，新的对手，这是属于你的主场，你的舞台",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下一场比赛，下一个对手，见招拆招，再来",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "自强者用赢，你知道你很厉害吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下一位准备对手的挑衅",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "自然的现实，简单来说是最难救的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "现实的强大都不足以让你动摇一分一毫",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你说我吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，说的就是你",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你努力的样子真的很帅，只要你够坚定，每一条都是对的路",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "财经大学国际金融，除非你不想赢，否则没人能让你输",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "赢过平凡，赢得梦想，赢过恐惧，赢得掌声，赢过阻碍，赢得尊重，赢到满足，赢到不满足",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "总有人在为失败找借口，但你知道，那些打不倒你的，都会让你变得更强",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "去赢吧，就算跌倒也没关系，就算渺小也没关系，就算孤独也没关系",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "here you go whoa",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是这样，继续去赢，你很强，你比昨天更强，你比自己更强",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "新的比赛，新的对手，这是属于你的主场，你的舞台，下一场比赛，下一个对手，见招拆招再来see，自强者用赢，你知道你很厉害吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下一位准备对手的挑衅，自然的现实，简单来说是最难救的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "现实的强大都不足以让你动摇一分一毫",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你说我吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，说的就是你",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你努力的样子真的很帅，只要你够坚定，每一条都是对的路",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "财经大学、国际金融，除非你不想赢，否则没人能让你输，赢过平凡，赢得梦想，赢过恐惧，赢得掌声，赢过阻碍，赢得尊重，赢到满足，赢到不满足",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "总有人在为失败找借高，但你知道那些打不倒你的都会让你变得更强",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "去赢，就算跌倒也没关系，就算渺小也没关系，就算孤独也没关系",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "目前的各位观众朋友们，大家下午1点好，大家下午这一时间可能是刚要上班，或者是刚刚结束一个午休，那我们今天就开始今天的这场直播，欢迎来到语音今天直播间，我是本场直播的主持人桃子",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "今天我们请到了永银基金指数与量化投资部总经理以及永银黄金股 ETF 的基金经理张云总来到我们的直播现场",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家好，这个其实也是我们的一个，大家可能很多朋友已经非常熟悉了，其实我们上周这个两位主播在直播的时候，我们就看到评论里面特别多的人在呼吁我们说把我们的张总请来给我们讲一讲黄金这个事情",
@@ -189,31 +499,101 @@
   },
   {
     "sentence": "那么再往前我在关于瑞信那个时候，大哥，那个时候 1, 600， 1, 700 的时候，我就无数次说那个黄金是有非常大的这样一个机会的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "看好上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，那么现在大概在 2, 300，我还是说黄金有很大的这样机会，因为每一次黄金的涨幅它要不涨，它这个平台上升，平台跃升的这种涨幅，这种关系啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "过去",
+        "score": "2",
+        "status": "大幅上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么从布雷顿森林体系破坏以来， 70 年代到现在其实就是搭了几个大的平台和几个大的跃升期，所以黄金是特别适合做右侧的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "",
+        "score": "1",
+        "status": "适合右侧",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所有的有色金属当中，黄金最适合做右侧，为什么呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其他的金属它可能你都可以做个左侧，因为它都存在这样一个，比如说一个斜率向上的这样一个关系啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是黄金大部分时间他躺着是不动的，有可能十年不动，也有可能 15 年不动啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "不变",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家去看一下八九十年的黄金， 15 年不动，但是移动起来它的涨幅是非常大的，所以当黄金启动之后，大家其实上车那么其实是一个非常好的这样一个选择，因为黄金比较适合做右侧，那么这一次黄金的右侧机会或者黄金的行情为什么会起来",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "大幅上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "为什么我前期这么看好黄金",
@@ -221,67 +601,227 @@
   },
   {
     "sentence": "其实最根本的原因就是美元银的太多了，黄金的兑价物是美元，这一点大家都知道，每个人都知道黄金兑价物是美元，或者说美元，黄金是所有全球所有的法币的对手，因为所有的法币对应的都是政府的信用，那么黄金对应的是什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "对价物",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "是政府的信用",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "黄金对应的实实在在的资产，哈哈哈哈，它是真金白银，所谓的真金白银那么好啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我们所有的货币，它的毛是美元，所有国家的法币的毛是美元，毕竟美元占全球的储备和支付的地位是核心地位，所以大家可以这样认为，也就是 70 年代之后， 70 年代之前，大家挂过黄金，黄挂过美元，美元挂过黄金， 30 年代的时候是大家直接挂钩黄金，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "对价物",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "挂钩美元",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么现在其实大家挂钩美元不挂钩黄金，是现代的货币体系， 70 年代之后全球货币体系就是我们各家的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "把 b 去挂钩美元，就相信美元的信用了，美元不挂钩黄金，那么所以从根本上来说，这轮黄金点涨是什么道理了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "不挂钩黄金",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "很简单的把美元的信用下降了，美元的信用为什么会下降啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "降价",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那个原因非常多，其实最关键的其实就是我们现在看到的，我们这一代人成长起来看到的是一个全球化的进程",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "全球化进程代表什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "全球 GDP 的生长、全球贸易的繁荣，那么在贸易的繁荣， GDP 的增长当中，大家想想看，我会需要更多的美元还是更少的美元啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "需要美元",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当然是更多的美元，对不对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "美元的信用，美元的地位会不断的加深的这个过程，那么在这个过程当中黄金就被压制了，那么好，现在我们看到的是百年未有之大变局，所谓的美元的信用被怎么样在逆全球化的过程当中，美元不光信用地位受到损失，美元的起用价值其实也在信用单",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "美元需求减少",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家想想看，如果我在一个逆全球化的这样一个过程当中，在一个新能源革命，我不需要买那么多石铁、石油的这样一个过程当中，大家想想看我在全球支付当中其实我不再需要这么多美元了，那么在这个过程当中，既然美元不需要了，或者需要求篮减少了，那么长期被美元压制的黄金，那岂不就更值钱了啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "美元需求减少",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "道理其实是非常简单的，这是根本原因，那么我们不说根本原因，我们再说说一个实际的原因，这个实际的原因可能大家也都可能大家有人提过，但是我在这里再强调一下，其实就是美元这一次大泛滥，印的太多钱的后遗症，后劲，哈哈，每一次这么多的美元，当时印了这么多钱，在那个新冠疫情期间，美国的通货膨胀达到了这么高的比例，史不起百二十年来最高的比例",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "通货膨胀",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为那么多钱，为什么当时美国的黄金没有啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当时全球黄金没有涨，那么我告诉大家，根据历史上来看，黄金的涨幅其实都是怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "过去",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "都是美元的后劲，也就是说美国上一轮通胀之后的 1- 2 年当中，黄金才会来到一个主推浪，这是一个后劲，也",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "后于美元上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是从去年，哎货币",
@@ -293,7 +833,17 @@
   },
   {
     "sentence": "那么嗯，这个顺便提一下，当然我们中国的情况要好了很多，但是大家去看看4万亿也好，棚改也好，过去两年之后，当前一轮货币出现超发情况之下，那么后面确实会提升资产的价格的，对不对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "货币超发",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "提升资产价格",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这一点其实全球都是一样的，货币银行权全球都是一样的",
@@ -301,19 +851,59 @@
   },
   {
     "sentence": "那美元，大家可以认为美元是世界的央行，那当美元被超发之后，那么也一样的，它跑不了两年之后的后劲，嗯，那么前两轮的后劲是多少呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "美元",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "超发",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家可以看一下在 Q1 one 和 Q1 two 当中近 20 年来的第一轮量化宽松，第二轮量化宽松当中，美元在超发之后的两年之后，黄金涨幅都在 75% 左右，那么这一轮美国是史无前例的超发了，它的怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "量化宽松",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "美元超发",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它的美元的货币，那么后面所以黄金在一年到两年之后这一轮后劲所推动的黄金价格的涨幅是非常值得大家期待的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "量化宽松",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "美元超发",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实逻辑，也就是这个逻辑，常见来看美国的，全球的这样的地位下降，美元怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球化",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "美元需求减少",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "很道很简单道理吗",
@@ -341,7 +931,17 @@
   },
   {
     "sentence": "代表美元信用下降了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "信用下降",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家买过美国国债，对不起，我现在再要买美国国债，要求你美元，给我百分之 5 块钱的美元，对不对",
@@ -365,7 +965,17 @@
   },
   {
     "sentence": "我不相信美国人了，不相信美元的信用货币地位了，不相信美国还能持续",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美元",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "信用下降",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "全球的什么呀",
@@ -381,7 +991,17 @@
   },
   {
     "sentence": "哈哈，这个这道理是很简单的，那么这实际上是远程逻辑，那么近期其实很简单，就是美元超发的后劲，其实在后这个后劲当中，大家不但看到了黄金的涨幅，其实大家也看看数字货币，包括比特币的涨幅，其实道理是一样的，其实都是因为怎样一轮货币超发之后对资产价格的推高，这是短期的原因",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "货币超发",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "提升资产价格",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "希望我讲到了主要的一些原因啊",
@@ -393,7 +1013,17 @@
   },
   {
     "sentence": "还有一个现象，嗯，就是前段时间这个美元就是美联储它这个降息的预期其实又是往后推了，往后延迟了，然后当时市场上大家可能会觉得金价要回调，但是实际上其实走金价其实和这个每家利率走出了一样的，都是在往上走",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "美联储降息",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "预期后推",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这样的，对",
@@ -413,7 +1043,17 @@
   },
   {
     "sentence": "大家要知道黄金价格有好几次跃升其实都来自于全球货币体系的这样一个变化，第一次最明显的就是当 30 年代之前，也就是 29 年全球金融危机之前，那么黄金是全球，是金本位的，嗯，这个时候黄金和美元是固定的，毛的，大概就是 15 美元每盎司的，黄金 15 美元每盎司，哎，到了怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "金融危机",
+        "time_attr": "过去",
+        "score": "-1",
+        "status": "之前是金本位",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "29 年之后金本位怎么样",
@@ -429,7 +1069,17 @@
   },
   {
     "sentence": "全球大萧条，金本位破产了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "全球大萧条",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "金本位破产",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "原先的估值体系一下子崩坏了8万，一下子变成了 35 亿美元每盎司",
@@ -437,47 +1087,157 @@
   },
   {
     "sentence": "好的，到了下一轮是在什么时候并列定森林体系",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "布莱顿森林体系",
+        "time_attr": "过去",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "原来我们卯足了 35 美元每盎司这样一个当，怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当第一次石油危机、第二次石油危机分别在 71 年和 73 年的时候发展，两次石油危机之后，美元怎么样挂钩不做黄金了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "石油危机",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "美元不挂钩黄金",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "全球货币体系出现重估了，这个时候怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "全球货币体系",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "重新估值",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "长期被压制了，真正压制 40 年的黄金梆一下跳起来，从 35 美元到多少",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "全球货币体系",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "重新估值",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "到 150- 200 美元，这么大的一个涨幅，下一次涨幅在哪里啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "美元",
+        "time_attr": "过去",
+        "score": "0",
+        "status": "涨价",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在 911 事件 2000 年之后，原先的这样一个以美国为中心的体系受到了地缘种植的重大挑战",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "911",
+        "time_attr": "过去",
+        "score": "-1",
+        "status": "受到挑战",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家可以看一下美元从长，黄金从长期的 600 美元左右的这样一个宗旨绑起来调到了 1, 800 美元",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "美元",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "涨价",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么这一次我们又看到了一次全球货币体系的重估，全球央行体系的重估，也就是说美国这样一个或者美元这样一个超国家、超主权地位的货币，如果真正发生重估的话，那么我们看到的就是一轮被长期压制的这样一个黄金出现了它的一个估值反转或者估值回复啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "全球央行体系",
+        "time_attr": "",
+        "score": "0",
+        "status": "重新估值",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家千万不要以为是黄金涨了，即使我们从漫长的利息来看，其实不是涨的，而是黄金回到它原来的位置，它原先怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "长期的又会这么会的，那我再解释一下，为什么我说了那么多年，说黄金是这样一种涨幅平台突破，那为什么是这样呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这不是我观察出来的，其实道理很简单的，当一个全球信用体系强大的时候，当一个世界央行体系怎么样啊",
@@ -485,7 +1245,17 @@
   },
   {
     "sentence": "以美国为中心或者以黄金为中心，它本身英国基金本物业中心的全球央行体系强劲的时候，那么政府信用是会压制黄金的，因为黄金是无限的，信用是有限的，你明白吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "压制黄金",
+        "time_attr": "始终",
+        "score": "-1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "任何一个发行货币的国家一定会压制黄金的啊",
@@ -497,11 +1267,31 @@
   },
   {
     "sentence": "压不住了而已，为什么压制 30 年压不住导向下子",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "压制 30 年压不住了，导向下子，这就是黄金的本质嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以大家看到黄金跟所有的铜吟旅孽全都不一样，为什么会这样的特征啊",
@@ -509,7 +1299,17 @@
   },
   {
     "sentence": "我相信别人，其实中国很少有人讲，但其实就是这个道理，就是全球信用体系维持了几十年维持不住了，当下的黄金回到它的本源又维持，不知道维持多少年，又维持不了当下的回到我们现在看到的是 100 年来第四次，可能全球央行体系，又或者说以美元为中心的全球主权货币体系可能维持不住了，所谓的北百年未有之大变局，那么在这种变局下，很简单的道理，我们看到了一个异常的现象，也就是说美元的信用在降低",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "全球信息体系",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "而怎么样美元信用降低就是美债利率在升高，明白了吗啊",
@@ -517,19 +1317,59 @@
   },
   {
     "sentence": "而黄金也在降，这逻辑就很顺嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "现在",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，所以说他们俩可能不是之前我们想的那种一个，对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在前面的两年当中，在前面的 20 年当中你说的这个关系是存在的，因为我们在一个稳定态当中，就平台期当中，平台词，哎，平台期当中我们应该怎么看",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "美元黄金关系",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "稳定",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "黄金是一种无息资产，美元是一种有息资产，美债是一种有息资产",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "美国的债券怎么样",
@@ -537,7 +1377,17 @@
   },
   {
     "sentence": "值钱了，那么黄金不值钱了，美国的债券不值钱了，黄金值钱了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "美元黄金关系",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "此消彼长",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这是一个稳定期的估值，平平大局就这么估，对，平平大局就这么估",
@@ -557,7 +1407,17 @@
   },
   {
     "sentence": "跃升期黄金要重新定价，也就是说过去 20 年对黄金的压制的束缚，也就是主权信用对它的压制的束缚怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "跃升期",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "被打破了",
@@ -577,19 +1437,59 @@
   },
   {
     "sentence": "这样一个主权信用的压制被打破了，嗯，那么黄金会行到他自己新的这样一个稳定性的平台",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "稳定",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好的，好的，感谢这个张总，对这个均价，对我们这个黄金非常深刻的一个理解，无论是长期的还是短期的原因，不知道大家有没有什么疑问啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我看到有一个人问，说想听听张总讲一下国际形势对于这个均价的这样的一个影响，您觉得这个国际形势的因素重要吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就，唉，这个问题我觉得非常好，这位小伙伴非常专业，因为大家都说嘛，我也就说黄金乱是藏黄金，甚是藏古董，黄金是用来避险的，对，是",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "买黄金",
@@ -597,7 +1497,17 @@
   },
   {
     "sentence": "但是但如果细心的小伙伴真的去研究这件事情，大家会发现其实很多地缘政治事件，它其实只是对黄金价格形成微了，它最终不决定黄金的走势，非常有意思",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "稳定",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "前一段时间我可以介绍一下，有一位机构投资者问我，张总，那个以色列撤兵了，那么是不是黄金要跌下去了",
@@ -633,7 +1543,17 @@
   },
   {
     "sentence": "当然有影响，但它都是短期世界，它都是在一个大趋势上的微老向，我们的黄金的中长期走势并不会因为这一些短期事件而发生改变",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "短期影响",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当然交易性机会是有的，大家如果只预先知道某个武装开炮，那你买一点，那个大概率是涨的，但是这跟事情平息之后，它还是会跌到那个长期曲线上的，这一点是没有问题的",
@@ -697,7 +1617,17 @@
   },
   {
     "sentence": "对全球货币体系，对全球主权信用体系造成冲击的很简单，大家去看看 71 年和 73 年的两次石油危机，中东战争之后，为了反制阿拉伯国家，为了反制美国，形成了欧佩克",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "欧佩克",
+        "time_attr": "过去",
+        "score": "-1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "怎么样将石油的价格大幅的提升，在这个过程当中造成了美元地位的下降，造成了布雷顿森林体系的破产啊",
@@ -733,7 +1663,17 @@
   },
   {
     "sentence": "但是如果你真正的冲击了全球法定货币信用货币低位的话，整个体系如果被你这个地缘政治冲击的话，那么它就会造成深远的影响，这就是个非常典型的事件，小一点来说就是 911 事件， 911 事件也是一个典型的地缘政治事件，但是它确实也改变了当时美国在全球的这样一个地位，那么最终造成了这样一个黄金价格的重股，也在一定程度上也会造成",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "911",
+        "time_attr": "过去",
+        "score": "-1",
+        "status": "受到挑战",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "当然它的影响之深刻，肯定是不如两次石油危机的，也就是说大家去看看，如果大家再碰到了两次石油危机，中东战争引起了第四次中东战争引起的两次石油危机，造成了 29 年、 31 年的这种全球大萧条，如果大家再碰到 911 这种事件，这种级别的全球地缘甚至事件，而这种甚源甚至事件正好会冲击美元的地位的话，那么大家可以认为这种事件确实会影响到黄金的定价，其他的事件在中长期来说对黄金定价其实没有影响",
@@ -801,19 +1741,59 @@
   },
   {
     "sentence": "我做个黄金，因为我对黄金一直是觉得就是这是我最底线的逻辑，跟大家分享一下，就是我在过去的几十几年当中，一直觉得黄金被低估了，嗯，受到了美元过分的压制，这是我的一个投资的一个底线逻辑，而且这个逻辑一直是没有变的，现在可能是这个逻辑兑现的时候",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "过去",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "现在正好在兑现这个逻辑的时候有问题了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是，然后就是也不是终于到了，其实黄金其实一直在涨，只是就是没有那个那种爆发性的，那个刚刚开始爆发性的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实那这十几年来，其实黄金的宋新其实是在往上的，这没有问题啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "价格",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "大幅上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后其实刚刚这个问题提得非常好，就是普通人比如说我们有黄金ETF，有黄金股ETF，有各种各样的黄金投资工具，究竟什么啊",
@@ -869,7 +1849,17 @@
   },
   {
     "sentence": "所以其实如果黄金是一个对于很多投资者来说其实是最稳妥、最保守的这样一种投资方式，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "",
+        "score": "1",
+        "status": "稳妥",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "虽然它交易成本高一点，但是确实是真金白银，拿在手里安全感，哈哈哈，安全感最高，对吧",
@@ -881,15 +1871,45 @@
   },
   {
     "sentence": "你买一个看不见、摸不着的东西跟你买，跟金条放在家里，你老婆对你的评价是不同的，哈哈哈啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这是黄金，但是在实物黄金的时候以上，那么大家如果我要继续降低我的交易成本，继续提高我的流动性和攻击力，那么大家就考虑考虑在银行端，比如说纸黄金基存金，在我们的二级市场，比如说黄金ETF，另一个我会进一步的增加了我的这样一点点的流动性和进攻性，也就是说我可以换手率更高了，你买 15 黄金和换手率不会太高的，对不对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "流动性",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你不大可能买一根金条，过两个礼拜我就去卖掉",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "哈哈哈，不太可能的，对吧",
@@ -905,11 +1925,31 @@
   },
   {
     "sentence": "嗯，它的特征就是黄金，全球黄金涨一块钱，你这个东西也涨一块钱，它是同步的，没有杠杆的，是同步的，斜率是一模一样的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "",
+        "score": "1",
+        "status": "同步性",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后流动性也是比较好的，基本上不管你在银行买卖的时候，还是在二级市场买卖的时候，基本上它的交易成本是要远远低于两 20 块每克的，对不对啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "",
+        "score": "1",
+        "status": "流动性强",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我们你买金条，你的交易成本是 20 块钱每课，那么这一些它的成本是远远低于的，所以适合大家做更加频繁的这些交易，对吧",
@@ -921,15 +1961,45 @@
   },
   {
     "sentence": "根据历史上的这样一个分析，我黄金股在过去 20 年来，那么过去十年来在上涨的时候，它大概的这个贝塔也就是涨幅是 1.5 倍，也就是说黄金涨一块钱的话，黄金股大概能涨 1.5 倍一块五，那么黄金下跌的时候，当然了黄金股跌的也是比较多，大概是 1.3 倍左右，这么这个在中国也是成立的，在英国、美国的市场上也是成立的，也就是说黄金股对黄金是有一定的放大作用",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "",
+        "score": "1",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我到友谊来赶紧发一个黄金股，因为我觉得黄金要涨了，哈哈哈，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "",
+        "score": "1",
+        "status": "要涨了",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在涨的时候，那么黄金股 ETF 可以比黄金 ETF 给大家获得更多的，你这个对黄金判断正确带来的回报，对不对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这就是一个回报的这样一个放大器",
@@ -953,7 +2023,17 @@
   },
   {
     "sentence": "不太建议，因为对于普通人来说，我觉得没有必要去加杠杆去做这样一个很激进的投资",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "始终",
+        "score": "-1",
+        "status": "进取型很强，没必要进行激进投资",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，因为加杠杆之后你设提到了盯盘，就你买黄金股也好，买黄金 ETF 也好，其实你是不用盯盘的，嗯，对吧",
@@ -973,11 +2053,31 @@
   },
   {
     "sentence": "他说如果跌下去，再涨起来之后可能你已经爆仓了，涨幅跟你没关了，对不对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你得盯着他来的，但跌下去之后你还得补保证金，所以那个可能不太适合普通人做啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金期货",
+        "time_attr": "始终",
+        "score": "-1",
+        "status": "需要盯盘，保证金，不适合普通人做",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，所以，嗯，我再讲一遍，就是我认为在这一轮黄金行情当中，大家可以参与的这些过程，一个就是最稳妥的保持着，那么你买点金条，对吧啊",
@@ -985,11 +2085,31 @@
   },
   {
     "sentence": "激进一点的，希望取得一些流动性和进攻性的，那么黄金 ETF 或者银行的计算金之类的，那么最那个希望就是将我们的投资的判断正确的投，各位正确的投资判断，对，黄金正确的投资判断变成一个很具，就变成放大，能够放大这块投资判断的收益的，那么黄金股 ETF 是适合大家的，毕竟我说黄金是坐右侧的， 20 年来， 20 年一轮的这样一个突破的机会，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股ETF",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "适合大家",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "每个人那个生命当中可能没有几次看到黄金股的这种黄金本身的这样一个美元体系，重估下黄金的一个大幅的这样一个突破的机会，如果大家看到这样的机会的话，其实想要利用这一种机会的话，那么黄金股是一个非常好的这样一个放大器的这样一个作用，放大器的这样作用，最后我也强调一下，就是有一些威胁小伙伴买的是那种，就是叫啥",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "机不可失，黄金股起到放大器作用",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "金豆我不知道，你知道吗",
@@ -997,7 +2117,17 @@
   },
   {
     "sentence": "金豆我知道",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金工艺品",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "适合收藏，不适合投资",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那个其实作为收藏品或作为装饰品可以，那应该",
@@ -1025,15 +2155,45 @@
   },
   {
     "sentence": "那你卖出的时候其实不加价还是550，也就是说这种投资品千万大家要注意，就是如果大家真的是从投资角度来看的话，那么实物金就是那种投资金条，可能是最简单的，因为它手续费成本是最低的，不管它造成什么形状，其实这个手续费都是很高的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "金条",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "手续费最低",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后你如果你要卖出去的话，那么回收其实不会在乎你的形状，只看客诉",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "黄金",
+        "time_attr": "始终",
+        "score": "0",
+        "status": "回收黄金不看形状",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，所以如果大家想要不是每天一点、每每什么，每个月一点小幸福过稳稳的投资，那其实还是金条比较好啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "金条",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "稳定投资，比较适合",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，那个金豆可能不太适合这个投资性需，当然了，你的装饰新需求，你的那个收藏新需求，那个满足你，其实我觉得也是可以的，对吧",
@@ -1041,7 +2201,17 @@
   },
   {
     "sentence": "而且如果金豆，如果你拿很久很久很久还是会有一定的收益的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金工艺品",
+        "time_attr": "始终",
+        "score": "0",
+        "status": "拿的很久很久会有一定收益",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是有收益的收益，我是觉得要不我们从来没说收益的问题",
@@ -1069,7 +2239,17 @@
   },
   {
     "sentence": "这个是肯定的，这个一样的上涨是一样上涨，只是就是你付在上面这些加工费你是收不回来的，对，在你卖出的时候是收不回来的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金工艺品",
+        "time_attr": "始终",
+        "score": "-1",
+        "status": "额外的加工费收不回来",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对",
@@ -1105,15 +2285,45 @@
   },
   {
     "sentence": "就是之前上那个经济课的时候说，就是你要去频繁的去存钱或者是去取钱，然后因为他通胀的时候的当时创出来这样，然后我们如果去实物的话，你要去换黄金，然后去买黄金，再去卖黄金，其实这个还是有鞋底成本，那请投资我们二级市场啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "实物黄金",
+        "time_attr": "始终",
+        "score": "-1",
+        "status": "交易有鞋底成本，银行金店不统一",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，去买这个 ETF 的话，其实是省了你这部分的时间",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "购买黄金股省了时间",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，因为确实就是各家金店的这个金条的款式是不一样的，有很多金店只收，包括银行，他只收自己银行的那个发出来的金条，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实其他的金条他可能是互相也不认的，对吧",
@@ -1125,7 +2335,17 @@
   },
   {
     "sentence": "对，这个就是就这种东西其实它的统一性来说，肯定是二级市场的投资工具，统一性更高一些",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股ETF",
+        "time_attr": "始终",
+        "score": "-1",
+        "status": "统一性更高",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对",
@@ -1157,7 +2377,17 @@
   },
   {
     "sentence": "我相信兑现一些收益其实是可以的，那其实没有什么问题，但是即使兑现收益，我也建议这位小伙伴保留手上的黄金，保留手上黄金的头寸啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "始终",
+        "score": "0",
+        "status": "资产配置里保留黄金的头寸",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在任何一个时间上，其实我相信投资者都应该保留黄金的头寸，我还是我特别喜欢尹达利奥的那句话，我们最有名的基金经理之一，我们的前辈，美国的基金经理达利奥",
@@ -1169,11 +2399,31 @@
   },
   {
     "sentence": "既不懂经济学，也不懂历史学，哈哈哈，也就是说在任何一个情况下，大家都应该去配置一点黄金的头寸",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "专家说任何情况下，都应该配置一点黄金的头寸",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为黄金投诉有两个极端的作用，一个就是极端抗通胀，第二个就是极端避风险，这两个头，这两个功效是其他任何的这样一资产配置做不到的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "黄金有极端抗通胀和避风险的作用",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以你不管怎样去构制你的资产组合，这个无所谓，跟大家的风险偏好有关，不管你怎样构筑你的市场配置组合，那么我作为看了十几年黄金的人告诉大家，不管怎么样去构渡这个组合，但是在这个组合当中大家一定要持有一点的黄金资产作为底仓，这个我相信你不辜负黄金，黄金也不会辜负",
@@ -1193,7 +2443,17 @@
   },
   {
     "sentence": "我们遇到什么样的情况，我们就觉得，噢，那这里的跃升期可能已经快接近一个问题",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "",
+        "time_attr": "",
+        "score": "1",
+        "status": "跃升期接近",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "了，这个其实本身这个跃升期它也是一个漫长的历史演化的这样一个过程啊",
@@ -1205,15 +2465,45 @@
   },
   {
     "sentence": "这是一个美元的这样一个根本，那么现在这个去美元化的这样一个过程，美元信用下降，然后美债存隐含着危机，这一些也是一个非常漫长的这样一个历史过程，所以这个过程正在进行当中",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "美元",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "去美元化过程在进行",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以我一再说黄金是做右侧的，其实你前面其实不用去赌，美国会破产，但是现在我也不认为美国会破产，它只是有这么一个趋势而已，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "美元",
+        "time_attr": "未来",
+        "score": "0",
+        "status": "美国可能有破产趋势",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "会把什么下调美国信用评级，这是唯一美元评分，只是没有那么强势，但是即使这样一个过程，它也是一个缓慢的这样过程，所以它会去配合着黄金的这样一轮，这样一个右侧的这样一个行情，所以我们在目前来看其实是看不到整个这样一个过程被扭转的，这个扭转我觉得很难，这个过程的扭转是很难，毕竟前面美国超发了这么多，对不对啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "美元",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "美国信用评级下调，配合黄金右侧行情",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "毕竟现在去全活化的过程确实是在进行当中",
@@ -1229,7 +2519,17 @@
   },
   {
     "sentence": "我们现在路上全是新能源车，大家看看我们中国的伟大发，可以说是伟大奇迹，在路上全是新能源车，其实这个也是对美元霸权的动摇有一个很重要的作用，因为美元阵芒，海外美元阵芒是石油美元，如果石油的用量没有必须那么大的话，直接对美元",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "国家政策方向",
+        "level2": "新能源政策",
+        "time_attr": "未来",
+        "score": "-1",
+        "status": "新能源车大量生产，石油需求量下降，可能动摇美元和石油的地位",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以不管从政治上还是技术上，这一轮美元的这样一个衰落，或者说美国全球法定货币地位的这样一个下降，其实它本身就是过去 20 年来各种各样事件的一个综合的结果，所以并不是某一件事情造成的，是很多事件综合的这样一个结果",
@@ -1245,7 +2545,17 @@
   },
   {
     "sentence": "还没有到平衡点的前面，其实都可能会是一个上升这样的趋势，对",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "宏观市场",
+        "level2": "黄金",
+        "time_attr": "未来",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "趋势没有变，就是原先的这些驱动因素，其实我们，嗯，因为这些驱动因素都是，其实都是长周期的和，而且是非常深刻的，甚至涉及到人类的信源革命，对吧哈",
@@ -1261,11 +2571,31 @@
   },
   {
     "sentence": "刚才张总也讲投资黄金其实可以走右侧进行布局，那目前其实就是这个黄金正在上涨的这样的一个",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "进行右侧布局，现在黄金上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "右侧，一个非常难得的右侧，大家其实在整个投资生意当中是很少见到黄金真正的右侧的，那么这一次其实是一个右侧性的机会，是一个技术性",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "非常难得的右侧技术性机会",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "机",
@@ -1285,7 +2615,17 @@
   },
   {
     "sentence": "对，我们能看到其实它是有一个很明显的，这样在上涨期会有一个超额的这样的一个放大作用的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "上涨期放大超额收益",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，那也想请张总来聊一聊，就觉得这个他们之间为什么会存在这样的一种上涨的一个弹性",
@@ -1305,7 +2645,17 @@
   },
   {
     "sentence": "当然刚才我们的主持人报了一串数据，差不多也就是 1.5 倍的这样一个放大是比例，为什么在中国是这样，在美国、英国也是这样啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "黄金股放大黄金1.5倍倍率",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它究竟是我们从光看图总结出来一个经验公式，还是它背后有真正的经济学或者金融学的本质",
@@ -1413,7 +2763,17 @@
   },
   {
     "sentence": "我的权益涨了超过 200/ 200，也就是说这就是黄金放大期的根本原因，当他怎么样，当他这个金子更值钱的时候，那么我金矿企业手中握有的黄金开产权，它的涨幅是远远的超过了黄金本身涨幅的，这就是它的根本所在啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "投资黄金股可以放大收益的原因",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "黄金上涨的时候会对我的怎么样",
@@ -1425,7 +2785,17 @@
   },
   {
     "sentence": "大家可以看一下，因为我不能提名字，但是我们黄金股的一些权重股现在都发了去年的年报，包括今年的业绩月报、快报，大量的股票都是 75% 甚至 100% 的涨",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "一些黄金权重股发布的年报涨幅很好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，在去年我不讲具体的票，大家可能自己去看报表就知道了啊",
@@ -1437,11 +2807,31 @@
   },
   {
     "sentence": "在一季度甚至在一季度就发生了这么高这么大的一个提升，那么其实都是金矿企业在黄金上涨的时候，它就会交出这么一个让人艳羡的，让人眼睛发红的成绩单哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "上游产业情况",
+        "level2": "金矿企业",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "黄金上涨时金矿企业成绩很好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以大家投资黄金股就达到了什么呀",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "投资黄金股就达到了放大黄金的效果",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "达到了放金，放大黄金的效果，这是第一个原因，其实还有一个原因比较有意思，就是怎么样当你我们重估的时候，这是一个双刃剑，当你重估的时候怎么样金矿更愿意去挖那些金子",
@@ -1473,11 +2863,31 @@
   },
   {
     "sentence": "也就是说它还有一个产能的扩张，所以我们看到的是两种扩张，第一种就是因为怎样黄金下格上涨带来的利润率的扩张，第二个就是因为黄金上涨，我赶紧去挖黄金带来的产能的扩张，叠加利润率的扩张",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "黄金上涨带来利润率扩张和产能扩张",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "黄金的上涨周期大大的利好于黄金开采企业，大家买黄金股不就是买这些黄金的开采企业吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "上游产业情况",
+        "level2": "黄金开采企业",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "黄金上涨利好与黄金开采企业，企业卖黄金股",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，不就是买他们的金矿的勘探权，记住，大家买的不是金矿的开采权",
@@ -1485,7 +2895,17 @@
   },
   {
     "sentence": "那些金矿的开展，现在黄金上涨周期当中，它的不断的重估会对大家带来丰厚的回报，这就是黄金股上涨的时候能扩大黄金涨幅的本质所在，它是有牢固的财务学的基础的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "黄金上涨周期时会不断重估回报，是黄金股扩大涨幅的原因",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家有没有听懂",
@@ -1501,7 +2921,17 @@
   },
   {
     "sentence": "我之前也是，在我本来之前也在想，就是为什么金价涨的时候，我们黄金股的这个上涨的会更多，然后我想到的可能是因为 a 股本身它会有一个流动性，或者它有一个自己的这样的一个波动会更大，所以它会带着我们黄金股上涨",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "a股的流动性也会带着黄金股上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是刚好张总，其实从这个我们投资到黄金股的这些公司的一个，他们的一个业务的角度出发的，说的是我们就是如果在金价上涨的时候，其实是这个企业的利润率和产其实都是会有一定的扩张，然后就会造成一个杠杆效应，可能涨一斤价，涨一块钱，那我们这个黄金股可能会翻一个 1.5 倍的这样的一个效果",
@@ -1517,7 +2947,17 @@
   },
   {
     "sentence": "那么刚刚说的非常好，因为它本身股票，股票的弹性肯定是大于现货金的这个弹性，那本身它具有一定的因为交易上的流动性会带来一定的溢价，这是有可能的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "股票流动性更强，有一些溢价",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那么是从交易角度出发啊",
@@ -1525,7 +2965,17 @@
   },
   {
     "sentence": "但是，嗯，我们，我觉得从我的投资角度来看，我一直是以价值它本身的真正的价值为主的，所以我没有考虑这种交易带来的这样一个额外的加成，就是从它本身的业务角度，本身的主营业务的这样一个角度，从它的收入扩张，从它的利润率的提升来看，它就能够完成这样一个所谓的对黄金的这样一个杠杆价乘效应",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以咱们黄金股的这些成分股里面，其实是这个金矿的",
@@ -1601,7 +3051,17 @@
   },
   {
     "sentence": "金殿是跟大家完全业态，我其实跟一些机构交流，机构可能没有注意到这个问题，很多看零售的机构，黄金的零售跟所有的零售是不一样的，大家一定要注意，如果大家以后看商业看零售的话，一定要注意以前所有的商业形态，零售最怕的是什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "始终",
+        "score": "0",
+        "status": "黄金零售跟所有零售不一样",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "最怕的就是存货，嗯，因为存货会过期，存货会折旧，存货会怎么样",
@@ -1621,7 +3081,17 @@
   },
   {
     "sentence": "但是黄金是全世界所有的消费品当中唯一一个没有账龄、没有存货周期的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "黄金没有账龄和存货周期",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它的价值对于银行来说就是它的克重",
@@ -1693,15 +3163,45 @@
   },
   {
     "sentence": "好的好的，OK，唉，我看到评论里有人说这个还有茅台酒，跟我想到一起去啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那你们讲的这个酒也是，但是茅酒也不，茅台确实它是一个耐处的场景，但是茅台跟黄金还是不一样的，黄金可以无损的折旧，它具有无限的流动性",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "实物黄金",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "可以无损折旧，具有无限流动性",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "茅台它只有一个，在很好的情况下它只有一个估值的价值",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "子板块",
+        "level2": "茅台",
+        "time_attr": "始终",
+        "score": "-1",
+        "status": "很多都是有价无市",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "有的银行可能会认，可能其实它的量是非常有限的",
@@ -1717,7 +3217,17 @@
   },
   {
     "sentence": "其实这个市场的流动性就是它的容量，我不说大家的容量其实远远不如黄金的，其实大家把黄金是可以分分钟的变现的，但是你要把一个老茅台按照你想要的价格变现，其实非常等一等，非常难",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "实物黄金",
+        "time_attr": "始终",
+        "score": "1",
+        "status": "可以实时变现",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "的，所以说饮酒买茅台不如买黄金",
@@ -1769,11 +3279,31 @@
   },
   {
     "sentence": "嗯，可能很多朋友都非常非常关心的，就是说既然你说现在，噢这个黄金涨的不错，黄金股也是它的一个放大气",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金股",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "黄金涨得不错，黄金股也在放大气",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我现在感觉涨最近短期涨的是有点高啊，那现在能不能是一个合适的一个入场时机",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "短期涨得有点高",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "可能前面咱已经讲了，对，之后再把这个问题再给他回答，哈哈哈",
@@ -1781,7 +3311,17 @@
   },
   {
     "sentence": "我们这个讲过很多次了，这个我觉得没有什么问题，因为确实黄金的投资它本身就是一个右侧的投资，那么现在来看就是它长，因为我也不具体",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "右侧投资合适的入场时机",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "再说了，它长期的这个逻辑，中期的逻辑其实都前面讲的逻辑都没有变化，那么在这种情况下，其实黄金其实还是应该怎么说",
@@ -1793,7 +3333,17 @@
   },
   {
     "sentence": "对，但是如果大家现在还没有黄金的这样一个持仓的话，那么黄金股其实是非常还值，还是永远值得大家配置的，这我说的是永远指的是黄金类的资产，其实应该是每个人一生当中的任何时点都应该有一定比例的这样一个资产啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "始终",
+        "score": "2",
+        "status": "黄金类资产永远值得配置",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，这个是我对投资的这样一个总结，因为世界上到今天为止还没有任何一种资产拥有黄金的这个两个功能，一个是极端抗通胀，一个是极端避风险，这两个功能没有一个市场能够替代",
@@ -1953,7 +3503,17 @@
   },
   {
     "sentence": "中国是世界黄金产量的第一名， 300 多吨黄金，全世界一年产量 3, 500 吨，我们中国占 11%- 12%",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "中国黄金产量世界第一",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "哈哈，非常厉害，我们中国黄金非常平，但是黄金还能采这么多，什么道理呢",
@@ -2005,7 +3565,17 @@
   },
   {
     "sentence": "那么我今天这个主要讲的就是大家一定要相信中国的这样一个黄金的这样一个生产能力，就是因为我们中国怎么样发展了一整套的，比如说络合物氢化法、氢化骆合物法，将这么很平静的黄金矿都能炼出黄金来啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "黄金",
+        "level1": "行业自身情况",
+        "level2": "黄金",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "中国黄金生成能力很强",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以中国对挖矿的潜力是非常大的，中国的采矿权更值钱",
