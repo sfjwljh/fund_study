@@ -1,27 +1,87 @@
 [
   {
     "sentence": "2024年9月27日 上午 1:34|52分钟 11秒\n\n关键词:\n新能源、机会、成本、增速、板块、回调、收益、估值、产品、智能汽车、龙头公司、大幅上涨、影响需求、基金经理、投资周期、行业估值、市场预期、行业发展\n\n文字记录:\n开始了，听不听吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就会逗在那边",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，这边还没出来呢，这边镜头还没有，你切过来了哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，切声音也有了哈，我这边好像没看到切过来了，有画面了，可以了可以了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，开始吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好，大家早上好，欢迎来到我们早上 9 点的践行，从直播间，今天还今天应该是今年的最后倒数第三个交易日了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，是的，嗯，然后今天呢，今天早上我们请来了这个新能源的基金经理田园全田总来给大家讲一讲新能源的这个情况",
@@ -56,7 +116,7 @@
     "entities": [
       {
         "industry": "新能源",
-        "level1": "",
+        "level1": "无关",
         "level2": "",
         "time_attr": "",
         "score": "",
@@ -67,31 +127,101 @@
   },
   {
     "sentence": "或者是现在这个时候适不适合进行一个下跌的时候进行布局",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个这些问题大家持仓过程中遇到的各种问题，都可以在今天的直播间里面进行给大家进行一个解答啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以说那我们今天的直播就正式开始了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好，稍后我们的小助理会把，刚才大家可能看到就有些小窗可能没有挂上，大家不要着急，稍后小助理正在操作这些小窗都会给大家挂上啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，入口，入口正在挂，入口正在挂",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，答题哦",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "呵呵，好了，那我们现在呢就开始今天的一个直播了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那还是先请这个，先请田总呢，给我们简单说一下，先从最近这段时间说起，就是说，嗯，新能源最近市场确实是有点动荡，是为什么",
@@ -109,15 +239,45 @@
   },
   {
     "sentence": "对，各位投资者朋友，大家早上好啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，今天确实是应该是元旦之前的第三个交易日，提前就祝大家元旦快乐，也希望大家今年应该如果经常关注我们直播间的朋友应该收获还可以，那希望大家明年也是投资顺利啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我讲一下就近期新能源行业发生的一些情况，以及为什么市场的一个表现是这样的，就是其实今年新能源整体的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是仅次于煤炭，现在是在全市场排第二位，但是因为它的撞击效应应该还是要比煤炭要好的，所以就是我们看到有比较多的重仓新能源的一个基金产品，到目前为止在全市场还是排在前面的，但是确实到了 12 月份以来，整个新能源行业出现了非常大的一个回调，可以说这个回调幅度还是比较大的",
@@ -179,7 +339,7 @@
     "entities": [
       {
         "industry": "新能源",
-        "level1": "",
+        "level1": "无关",
         "level2": "",
         "time_attr": "",
         "score": "",
@@ -232,11 +392,31 @@
   },
   {
     "sentence": "这个我觉得是非常正确的一件事情",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，然后但是就是年底的话，就是一面临基金的一个年报，所以就是年报会公布所有基金的一个所有的持仓啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那可能我们推测不排除有部分可能主题或者风格基金，它本身可能它主要投资的方向不是新能源，但是因为新能源这边的一个投资收益特别好，他就买了很多的新能源",
@@ -254,7 +434,17 @@
   },
   {
     "sentence": "那到年底这个阶段他可能就要卖掉，然后买回他自己的一个风格里面啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我不，我们推测可能会有部分基金是存在这样的情况，所以就导致了 10 月份以来整个新能源一个就出现了一个资金面的一个净流出的一个情况，所以就是整个指数走向偏弱",
@@ -272,15 +462,45 @@
   },
   {
     "sentence": "第二个就是这是可能占到 6% 七成的一个原因",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "第二方面原因我们认为就是确实是有一些市场，有些对基本面的一些隐隐的一些担忧，这些担忧目前来看还没有成为真实的情况，但是担忧是存在的，比如说我们碳酸里大幅价格大幅上涨会不会影响需求啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "行业自身情况",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "对基本面的担忧存在",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为从市场经济的角度来看的话，你的一个商品的价格上涨会是会影响需求的，你价格跟需求是负相关的关系啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "还有一个就是我们对明年的一个，现在是随着是整个新能源大幅上涨之后，我们对明年的一个电动车光伏的需求的一个是的预期是非常充分、非常乐观的",
@@ -307,7 +527,17 @@
   },
   {
     "sentence": "那明年能不能达到大家的预期",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "现在是超预期，我们知道今年是大幅超预期的，明年会继续超预期，其实到年底这个阶段是没底的，可能还需要明年一季度的一个数据来验一下啊",
@@ -325,7 +555,17 @@
   },
   {
     "sentence": "还有就是确实就是我们的某家电池企业，电池的龙头公司啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是近期有一些负面的舆情，就是像 36 氪有一篇非常可能几万字的一个长篇报道，可能有些负面的消息啊",
@@ -394,11 +634,31 @@
   },
   {
     "sentence": "其实对于还没上市的一个投资者朋友，其实是一个比较好的一个事情",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "刚才，刚才田总其实给大家分析了一下新能源为什么这段时间会有一些调整",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "有几个原因，一个就是可能有些人到年底的时候他会有获利了结的需求，因为今年可能大家觉得持仓里面可能长得最好就是新能源，我就是其中之一，但是我没有了结啊",
@@ -410,7 +670,17 @@
   },
   {
     "sentence": "对，所以他年底的时候还要把这个掰正回来",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，掰回来，所以就又抛出一些新能源，所以最近新能源的这个会有一些动荡，那我们其实大家可能更关心，当然这种动荡其实它不是基本面层面的，而是一些短期的一些交易上的，一些情绪上的一些事件上的影响",
@@ -445,7 +715,21 @@
     "entities": [
       {
         "industry": "新能源",
-        "level1": "",
+        "level1": "行业自身情况",
+        "level2": "新能源基金",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "对清仓的同学来说是一个相对布局的机会",
+        "doubt_remark": ""
+      }
+    ]
+  },
+  {
+    "sentence": "对，嗯，信息我其实可以给大家就是说一下，就是其实我们的火山哥，包括我个人近期其实也是有一定的一个加仓，对自己的一个新能源产品是有一定承诺，加糖我们认为是给明年留空间了",
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
         "level2": "",
         "time_attr": "",
         "score": "",
@@ -455,12 +739,18 @@
     ]
   },
   {
-    "sentence": "对，嗯，信息我其实可以给大家就是说一下，就是其实我们的火山哥，包括我个人近期其实也是有一定的一个加仓，对自己的一个新能源产品是有一定承诺，加糖我们认为是给明年留空间了",
-    "entities": []
-  },
-  {
     "sentence": "好，然后呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家可能更关心的就是说明年，就是今年新能源涨的这么好，明年新能源还能不能延续这个情况",
@@ -478,11 +768,31 @@
   },
   {
     "sentence": "嗯，那我们先来回顾一下今年新能源的整体的一个情况",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，为什么新能源今年会涨的这么好嗯",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "行业自身情况",
+        "level2": "新能源基金",
+        "time_attr": "过去",
+        "score": "1",
+        "status": "今年涨得好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，新能源其实从去年年中，从去年 6 月份到现在到 10 月份之前其实走得非常强，去年下半年涨幅大约是60%，今年全年涨幅也超过了40%，就是连续相当于连续两年的时间，给大家创造了比较好的一个回报",
@@ -500,7 +810,17 @@
   },
   {
     "sentence": "那这里面其实我们认为有三重逻辑，嗯，就上中下三重逻辑，嗯，这顶层逻辑其实就碳中和啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就我们知道就是我们 30 年泰达峰 60 碳融合，那我们又是一个以煤炭、以火电为主的一个能源体系",
@@ -572,7 +892,7 @@
     "entities": [
       {
         "industry": "新能源",
-        "level1": "",
+        "level1": "无关",
         "level2": "",
         "time_attr": "",
         "score": "",
@@ -861,7 +1181,17 @@
   },
   {
     "sentence": "那对于明年来说，新能源能否维持这样的一个涨势",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实刚才，嗯，田总也是简单的说一下，觉得就是他明年的这个可能它未来的涨幅，可能这个增速，嗯，不一定是有前面刚开始导入期，包括成长期的这么快，但是它也是个非常好的一个投资的方向",
@@ -879,26 +1209,56 @@
   },
   {
     "sentence": "嗯，那我们再把明年的这个可以具体的给大家分析一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，关于明年您对新能源整体的看法",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，对，这边有几个问题还说这个田总，就是刚才我说哈这个，刚才有人就针对新能源，也是针对明年的一些情况，就是说明年新能源行情是看好上半年还是下半年",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实田总认为应该是从刚才话的时候，感觉全年都比较看好，还有说明年问咱们新能源的重仓会不会从电动化转到智能化",
     "entities": [
       {
         "industry": "新能源",
-        "level1": "",
-        "level2": "",
-        "time_attr": "",
-        "score": "",
-        "status": "",
+        "level1": "行业自身情况",
+        "level2": "新能源基金",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "全年看好",
         "doubt_remark": ""
       }
     ]
@@ -1662,7 +2022,17 @@
   },
   {
     "sentence": "绿色电力",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这块，电，绿电这块今年我们看到就四季度，时不时的就会领涨一下",
@@ -1670,7 +2040,17 @@
   },
   {
     "sentence": "对，关于绿色电力这块您怎么看",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，我，对，其实我看这一块也是看了好多年了哈",
@@ -1700,7 +2080,17 @@
   },
   {
     "sentence": "第一波炒什么呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "炒涨跌价，对吧",
@@ -1820,7 +2210,17 @@
   },
   {
     "sentence": "嗯，是我的一个建议",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "觉得非常的中肯哈",
@@ -1828,7 +2228,17 @@
   },
   {
     "sentence": "除了刚才说到其实每一个新闻广告，我们给大家都好好的这个仔细的分析了一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，我们再来看一下，其实最近我们看到就是新能源今年涨的好，然后包括最近调整的话，我们从新能源全场新能源主题基因来看，它的很多产品其实投资就很多主题型的这种产品，它投资了锂矿占了相当一大部分，什么正负极，什么，什么石墨什么这些的占了很大一份，就跟锂相关，就上游材料",
@@ -2094,11 +2504,31 @@
   },
   {
     "sentence": "然后这个，这有两个同学的问题，我们来看一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，这个说，唉，这个说这个新能源这个这么多还能买吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个就是开头说的那个，就是这个它警惕度还在，如果是近期出现下跌，可能它就是一波机会，就包括前两周我们就跟着砸了很多仓，经过这一波回调，是不是说明年机构对新能源的预期差又形成了",
@@ -2148,11 +2578,31 @@
   },
   {
     "sentence": "那为什么不买呢",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我们认为还是比较不错的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，那预期差的问题其实我是这么看的，就是说，嗯，没有那么快",
@@ -2182,7 +2632,17 @@
   },
   {
     "sentence": "对，我们判断大概率行情是这样，就是它跌得很快、很急，后续它可能会有个小反弹，然后震荡",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "行业自身情况",
+        "level2": "行情",
+        "time_attr": "未来",
+        "score": "0",
+        "status": "跌的很急很快后续有小反弹然后震荡",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后大家会持续的去修正这个预期，修正预期一直可能在修正个一段时间，可能当这种，比如说 900 多万辆的需求来一个预期，包括一些对一些龙头公司的业绩下修这个预期使用市场共识的话，我觉得那时候反而明年可能会超预期，目前来看就现在预期来看的话，明年整个新能源这主要板块想大幅超越期其实是挺难的，它是一个明年大概率，是一个预期兑现的一个情况，就是大家能符合预期，但是它是在一个比较高的预期情况下，它符合预期整个状态",
@@ -2204,11 +2664,31 @@
   },
   {
     "sentence": "刚才有人有这个同学说说田总我买了你的智能汽车",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，然后心里没有底，先说说智能汽车，哼",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，对，智能汽车我们认为就是这个位置，其实挺好了，就是我前面讲到整个，嗯，板块，就新能源板块，包括电动汽车，其实电动车调的比整个新能指数还要多一些，智能调整幅度13%",
@@ -2406,7 +2886,26 @@
   },
   {
     "sentence": "近期调整的话，我们认为就是大家可以积极的进行加仓，也可以采用定投的一个方式参与对于智能汽车和新能源两支产品的话，我们认为就是这两个产品是有各的特点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "子板块",
+        "level2": "新能源",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "积极加仓",
+        "doubt_remark": ""
+      },
+      {
+        "industry": "新能源",
+        "level1": "子板块",
+        "level2": "智能汽车",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "积极加仓",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "新能源它的投资范围更广，它是可以投资于电动车、智能车，然后光伏、风电、核电、自动电网、储能，所有的环节都可以投",
@@ -2414,7 +2913,17 @@
   },
   {
     "sentence": "所以它现在一个持仓是潘先生分散它的一个未来走的会更加偏稳一些",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "行业自身情况",
+        "level2": "新能源基金",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "现在持仓未来更稳",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后当前我们的一个池塘结构，我们认为是，也是明年比较有攻进攻性的一个一些方向，所以我们认为明年的话，其实新能源我们认为可能我们也希望能够比较好的能够战胜行业指数，能取得一个不错的回报",
@@ -2442,30 +2951,100 @@
   },
   {
     "sentence": "明年一季度如果板块有机会的话，我们还要积极的进行加仓，所以明年如果说一季度开始有一个业绩预告催化了一个行情的话，明年一季度我们就能够比较好的享受到这些上涨的一个收益啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "行业自身情况",
+        "level2": "新能源基金",
+        "time_attr": "未来",
+        "score": "2",
+        "status": "明年一季度要积极加仓，如果有了业绩报告催化收益会上涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，那基本上就这样啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好，非常感谢田总啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家看看大家还没有什么问题，如果暂时没有什么问题，大家可以这个根据市场的行情，刚才包括田总所讲解的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家如果是没有前面没有听到的，可以关注我们账号，可以去看一下回放，然后也可以关注我们田总的账号，之后我们会有些信息发布在里面，所以说感谢大家今天的收看，大家如果没有什么问题，我们今天就到这里啦",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "感谢大家",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好了，呵呵",
-    "entities": []
+    "entities": [
+      {
+        "industry": "新能源",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   }
 ]
