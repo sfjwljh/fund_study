@@ -45,21 +45,18 @@ ASSIGNMENTS_FILE = os.path.join(BASE_DIR, 'data', 'task_assignments.json')
 
 # 加载任务分配数据
 def load_assignments():
-    if os.path.exists(ASSIGNMENTS_FILE):
-        try:
-            with open(ASSIGNMENTS_FILE, 'r', encoding='utf-8') as f:
-                assignments = json.load(f)
-                # 初始化新用户
-                for username in USERS:
-                    if username not in assignments:
-                        assignments[username] = {
-                            "tasks": [],
-                            "last_active": None
-                        }
-                return assignments
-        except:
-            return initialize_assignments()
-    return initialize_assignments()
+    if not os.path.exists(ASSIGNMENTS_FILE):
+        return {}
+    
+    with open(ASSIGNMENTS_FILE, 'r', encoding='utf-8') as f:
+        assignments = json.load(f)
+        
+        # 确保每个用户都有done字段
+        for user in assignments.values():
+            if 'done' not in user:
+                user['done'] = []
+                
+        return assignments
 
 # 添加初始化任务分配数据的函数
 def initialize_assignments():
@@ -74,7 +71,6 @@ def initialize_assignments():
 
 # 修改保存任务分配数据的函数
 def save_assignments(assignments):
-    # 需要确保原子性，防止多个管理员同时分配任务
     with open(ASSIGNMENTS_FILE, 'w', encoding='utf-8') as f:
         json.dump(assignments, f, ensure_ascii=False, indent=2)
 
@@ -151,15 +147,35 @@ def task_list():
                 except:
                     continue
         
+        username = session['username']
+        # 根据用户权限获取已完成任务
+        all_completed_tasks = set()
+        if USERS.get(username, {}).get('is_admin', False):
+            # 管理员可以看到所有用户的已完成任务
+            for user_data in TASK_ASSIGNMENTS.values():
+                all_completed_tasks.update(user_data.get('done', []))
+            print(f"Admin user {username} sees all completed tasks: {all_completed_tasks}")
+            # 管理员使用所有已完成任务作为completed_tasks
+            completed_tasks = all_completed_tasks
+        else:
+            # 普通用户只能看到自己的已完成任务
+            user_data = TASK_ASSIGNMENTS.get(username, {})
+            all_completed_tasks.update(user_data.get('done', []))
+            print(f"Regular user {username} sees completed tasks: {all_completed_tasks}")
+            # 普通用户使用自己的已完成任务
+            completed_tasks = all_completed_tasks
+        
         if session['is_admin']:
             # 管理员可以看到所有任务和分配情况
             assigned_tasks = []
             unassigned_tasks = []
             
-            # 找出已分配的任务
+            # 找出已分配的任务（包括已完成的）
             assigned_ids = set()
-            for username, data in TASK_ASSIGNMENTS.items():
-                for task_id in data.get('tasks', []):
+            for user, data in TASK_ASSIGNMENTS.items():
+                # 包含进行中和已完成的任务
+                user_tasks = data.get('tasks', []) + data.get('done', [])
+                for task_id in user_tasks:
                     if task_id in all_tasks:  # 只处理存在的任务
                         assigned_ids.add(task_id)
                         filename = get_task_filename(task_id)
@@ -170,24 +186,35 @@ def task_list():
                         assigned_tasks.append({
                             'task_id': task_id,
                             'filename': filename,
-                            'assigned_to': username,
+                            'assigned_to': user,
                             'progress': progress,
-                            'txt_size': get_txt_size(task_id)  # 添加txt大小
+                            'txt_size': get_txt_size(task_id)
                         })
             
-            # 找出未分配的任务
+            # 对任务列表进行排序：先按完成状态，再按分配用户名，最后按任务ID
+            assigned_tasks.sort(key=lambda x: (
+                x['task_id'] in all_completed_tasks,  # 是否完成
+                x['assigned_to'],                     # 分配给谁
+                x['task_id']                         # 任务ID
+            ))
+            
+            # 找出未分配的任务（不包括已完成的）
             for task_id in all_tasks:
-                if task_id not in assigned_ids:
+                if task_id not in assigned_ids and task_id not in all_completed_tasks:
                     unassigned_tasks.append({
                         'task_id': task_id,
                         'filename': get_task_filename(task_id),
-                        'txt_size': get_txt_size(task_id)  # 添加txt大小
+                        'txt_size': get_txt_size(task_id)
                     })
         else:
-            # 普通用户只能看到分配给自己的任务
-            username = session['username']
+            # 普通用户看到分配给自己的任务（包括进行中和已完成的）
             assigned_tasks = []
-            for task_id in TASK_ASSIGNMENTS.get(username, {}).get('tasks', []):
+            user_data = TASK_ASSIGNMENTS.get(username, {})
+            
+            # 合并进行中和已完成的任务
+            all_user_tasks = user_data.get('tasks', []) + user_data.get('done', [])
+            
+            for task_id in all_user_tasks:
                 if task_id in all_tasks:  # 只处理存在的任务
                     filename = get_task_filename(task_id)
                     try:
@@ -198,17 +225,24 @@ def task_list():
                         'task_id': task_id,
                         'filename': filename,
                         'progress': progress,
-                        'txt_size': get_txt_size(task_id)  # 添加txt大小
+                        'txt_size': get_txt_size(task_id),
+                        'is_completed': task_id in completed_tasks  # 添加完成状态标记
                     })
+            
+            # 对任务列表进行排序，已完成的放在最后
+            assigned_tasks.sort(key=lambda x: (x['is_completed'], x['task_id']))
+            
             unassigned_tasks = []
 
         return render_template('tasks.html',
                             tasks=assigned_tasks,
                             unassigned_tasks=unassigned_tasks,
                             users=list(USERS.keys()) if session['is_admin'] else [],
-                            is_admin=session['is_admin'])
+                            is_admin=session['is_admin'],
+                            completed_tasks=completed_tasks)
+                            
     except Exception as e:
-        print(f"Error in task_list: {str(e)}")  # 添加错误日志
+        print(f"Error in task_list: {str(e)}")
         flash('加载任务列表时出错')
         return redirect(url_for('logout'))
 
@@ -356,6 +390,56 @@ def save_entities():
             return jsonify({"message": "数据已保存"})
         return jsonify({"message": "保存失败"}), 500
     return jsonify({"message": "错误：句子 ID 无效"}), 400
+
+@app.route('/complete_task', methods=['POST'])
+def complete_task():
+    try:
+        data = request.json
+        task_id = data.get('task_id')
+        username = data.get('username')
+        
+        print(f"Received complete_task request - task_id: {task_id}, username: {username}")
+        
+        # 读取任务分配文件
+        with open(ASSIGNMENTS_FILE, 'r', encoding='utf-8') as f:
+            assignments = json.load(f)
+        
+        # 检查用户和任务是否存在
+        if username not in assignments:
+            return jsonify({"success": False, "message": "用户不存在"}), 400
+            
+        user_data = assignments[username]
+        if 'tasks' not in user_data:
+            return jsonify({"success": False, "message": "用户任务列表不存在"}), 400
+            
+        # 确保task_id是整数
+        task_id = int(task_id)
+        
+        # 检查任务是否在用户的任务列表中
+        if task_id not in user_data['tasks']:
+            return jsonify({"success": False, "message": "该任务不属于当前用户"}), 400
+        
+        # 初始化done列表（如果不存在）
+        if 'done' not in user_data:
+            user_data['done'] = []
+            
+        # 将任务从tasks移动到done
+        user_data['tasks'].remove(task_id)
+        user_data['done'].append(task_id)
+        
+        # 保存更新后的分配文件
+        with open(ASSIGNMENTS_FILE, 'w', encoding='utf-8') as f:
+            json.dump(assignments, f, indent=2, ensure_ascii=False)
+            
+        # 更新全局变量
+        global TASK_ASSIGNMENTS
+        TASK_ASSIGNMENTS = assignments
+            
+        return jsonify({"success": True, "message": "任务已标记为完成"})
+        
+    except Exception as e:
+        print(f"Error in complete_task: {str(e)}")
+        return jsonify({"success": False, "message": f"操作失败: {str(e)}"}), 500
 
 # 启动服务器
 if __name__ == '__main__':

@@ -213,7 +213,7 @@ $(document).ready(function() {
         
         // 如果 level2 有值但 level1 为空，尝试自动填充 level1
         if (keyword && !level1Input.val()) {
-            console.log('尝试查��匹配的level1值');
+            console.log('尝试查找匹配的level1值');
             let lastLevel1 = findLastLevel1ForLevel2(keyword);
             if (lastLevel1) {
                 console.log('找到匹配的level1值，正在填充:', lastLevel1);
@@ -309,7 +309,7 @@ $(document).ready(function() {
                             ${markersHtml}
                         </div>
                         <div class="entity-form ${isSelected ? 'active' : ''}" id="entity-form-${index}">
-                            <!-- 实体表单将在点���时动态加载 -->
+                            <!-- 实体表单将在点击时动态加载 -->
                         </div>
                     </div>
                 `);
@@ -610,7 +610,7 @@ $(document).ready(function() {
         }
     }
 
-    // 修改事件处理，移除 level2-input ���实时保存
+    // 修改事件处理，移除 level2-input 实时保存
     $(document).on('input', '.industry-input, .status-input, .doubt-input', function() {
         let inputContainer = $(this).closest('.entity-input');
         if (!$(this).hasClass('industry-input')) {
@@ -688,5 +688,28 @@ $(document).ready(function() {
             lastUsedIndustry = value;
         }
         debouncedSave();
+    });
+
+    $(document).on('click', '.complete-btn', function() {
+        const taskId = $(this).data('task-id');
+        const username = "{{ session.username }}"; // 从模板中获取当前用户名
+        
+        $.ajax({
+            url: '/complete_task',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({
+                task_id: taskId,
+                username: username
+            }),
+            success: function(response) {
+                if (response.success) {
+                    alert('任务标记完成成功');
+                    location.reload(); // 刷新页面
+                } else {
+                    alert('操作失败：' + response.message);
+                }
+            }
+        });
     });
 });
