@@ -127,7 +127,17 @@
   },
   {
     "sentence": "是它有自身的风格切换，还是说有其他的内生逻辑",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好的，关于消费板块的投资，今年可能整体的消费板块压力都比较大，原因有两个方面，第一个方面就是基本面的层面",
@@ -2381,10 +2391,30 @@
   },
   {
     "sentence": "好，谢谢主持人",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "好，那直播间的小伙伴们，我们下次再见吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   }
 ]
