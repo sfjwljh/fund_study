@@ -19,7 +19,8 @@ $(document).ready(function() {
         '始终',
         '过去',
         '现在',
-        '未来'
+        '未来',
+        '无'
     ];
 
     const SCORE_OPTIONS = ['2', '1', '0', '-1', '-2'];
