@@ -1,27 +1,87 @@
 [
   {
     "sentence": "2024年3月5日 上午 0:54|1小时 55秒\n\n关键词:\n产品、医药、复苏、经济、外资、收益、新能源、博弈、投资、基金经理、经济数据、中国经济、人工智能、风险偏好、历史新高、资本市场、市场调整、市场风险\n\n文字记录:\nhello，见得激进的小伙伴们，又到中午财经午餐的时间了，好久不见，大家来看一下这个画面和声音是否正常，如果正常的话可以在评论区扣个666",
-    "entities": []
+    "entities": [
+      {
+        "industry": "",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "黑屏的是吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "是我在这我就完全看不",
-    "entities": []
+    "entities": [
+      {
+        "industry": "",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "见你，就你，我给你放中间放一点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，好，我看到很多我们的新老朋友来到直播间了，俊明178，我们的这个林希文大家都已经在直播间，然后可以看一下这个声音和画面，如果没有问题的话可以扣个666，然后我们宁老师再要跟大家待会互动了，嗯，你好久没见",
-    "entities": []
+    "entities": [
+      {
+        "industry": "",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，大秦飞哥，我们的老朋友，如果还有我们很多这种新的粉丝的话，可以点击左上方征信建读基金的财富号关注我们，我们就有很多的这个福利，还有我们新发的产品会第一时间告诉大家，大家也能看到我们的这个消费升级的这一个产品，现在已经开始在我们的新发期间了，下周五的话就要结束募集，如果大家对消费板块这个比较看好的话，可以少量上车去体验一下，提前在这个赛道上去布局",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "另外的话就是大家也知道上周债市有所调整，但是我们的尾翼 90 天表现如何呢",
@@ -37,7 +97,17 @@
   },
   {
     "sentence": "嗯，行，那我们还是跟之前一样，我们先让宁老师回顾一下市场的情况，大家有什么问题可以在评论区打出来，我这边也会记录下来，待会请宁老师进行回复",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "无关",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那我们先把时间交给宁老师吧",
@@ -65,7 +135,17 @@
   },
   {
     "sentence": "基本上没有什么太多可持续性的行情，包括今天，今天预估大概应该是 7, 000 多亿，应该就这种行情在我看来就是你开着电都嫌，开着电脑我都嫌浪费电，所以这个好像没有什么可看的，然后怎么但是这个地方又得熬下去",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "宏观市场",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "没有持续性行情",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为它这个利好是一点一点在积累的，然后这个权益战队亏麻了，确实亏麻了，所以我准备要认输了，我打不过苏姐，我向苏姐认输，哈哈哈，老师",
@@ -73,7 +153,17 @@
   },
   {
     "sentence": "没有，是这个市场不给力啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "宏观市场",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "-2",
+        "status": "市场不给力",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "不不不不",
@@ -93,7 +183,17 @@
   },
   {
     "sentence": "然后市场其实怎么说就是没有大家想的那么差，但是也没有大家想的那么好，因为现在大家的悲观预期非常高，我只能这么说，就是包括对于中国经济复苏，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "宏观市场",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "",
+        "status": "市场",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为之前大家信心满满，然后等到 6 月份，大家一看数据就这德行，对吧",
@@ -105,23 +205,73 @@
   },
   {
     "sentence": "但是其实你可以看看近期的一些数据，就是一方面是PMI，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "它这个跌幅收款，另一方面你可以看看今天的数据，就今天刚公布的 8 模，8月规模以上工业增加值同比增加了这个4.5%，那是比预期的 4.2 要高一点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "宏观市场",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "八月规模以上工业增加值同比增长比预期高",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后另外的话就是中国 1- 8 月份的固定资产投资同比增长了3.2%",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "宏观市场",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "1-8月骨钉投资同比增长比预期高",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后预期是3.0，前值3.4，然后其中 1- 8 月份的房地产开发投资同比下降了8.8%，然后预计是8.6，然后前值是负的8.5",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后中国8月社会消费品零售总额同比增4.6%，预期是3.5%，前值是2.5%",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "宏观市场",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "8月社会消费品零售总额同比增长比预期高",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后 8 月份全国城镇失业调查率为5.2%，预期是5.3%，然后前值是5.3",
@@ -129,27 +279,87 @@
   },
   {
     "sentence": "然后这些社龄数据包括等等一系列的经济数据，看下来之后，其实就是一个信号，就是整个除地产底还没有确认以外， 8 月份几乎可以确认是中国经济的底了，可以说是中国经济的底了，就是通过这一系列经济数据的显示",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "宏观市场",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "一系列数据显示中国经济见底了",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以就是如果你觉得彻底不相信复苏，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为很多人现在是看中国衰退，那我觉得这些数据显示它在慢慢的复苏，在慢慢的，所以对于经济上不用太过于悲观，所以你可以看到 8 月份就是这个数据公布之后，外资你可以看到，就外资他没有说是因为你的这个超，就是所谓的超预期，因为这个降准这个东西其实是在这个，我记得我在周评的时候就说我这个月大概率会有一次降准，这个东西是不超任何预期的，不超机构任何预期的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "宏观市场",
+        "level2": "市场",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "数据显示经济在慢慢复苏，不用太悲观",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后这个降准虽然也来了，但你可以看到今天早盘，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "反应是什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后等到 10 点的时候公布了这个8月的经济数据的时候，市场是什么样的一个反应",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后北向又开始重新往回买了一部分，对吧",
@@ -157,11 +367,31 @@
   },
   {
     "sentence": "所以就是好多人吐槽外资怎么样，是不是有人要做空咱们中国怎么样啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "可能会有一部分的外资确实在做空中格，一方面是做空股指，另一方面是做多就是你人民币没有办法定价的一些商品，通过这种做输入性通胀来做空你",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是其实外资它也是讲道理的，如果你的经济数据真的改善的话，它还是从还是会重新买回来的，然后这个就涉及到一个问题，那既然现在，对吧",
@@ -193,7 +423,17 @@
   },
   {
     "sentence": "在于医药啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行业",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "成长方向的复苏逻辑在于医药",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "在于医药，你在说啥",
@@ -205,7 +445,17 @@
   },
   {
     "sentence": "然后现在还有一个问题，就是现在由于机构过去造的孽，就是从 21 年到 23 年就是他们抱团了很多很坑爹的品种，比如曾经把那个某海天味液，就某酱油或者是某调味品炒到 100 倍的估值，然后还有很多就是不该炒到那么高的，他抱团抱得非常高，那现在都是还债之旅嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "行业自身情况",
+        "level2": "行业",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "过去机构炒部分品种导致估值过高，导致了存量博弈问题",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后这就导致了一个问题，就是现在还是一个存量博弈的一个情况，就是哪怕你现在经济面、基本面、政策面全部已经确定到底的情况下",
@@ -213,15 +463,45 @@
   },
   {
     "sentence": "但是现在有一个问题，就是你的资金面，资金面现在是一个比较大的一个问题，你的增量资金从何而来，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "行业自身情况",
+        "level2": "行业",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "资金面是比较大的问题，需要增量资金",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "因为市场的底不是说是吹出来的，不是说是经济数据见底就完了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "真正的市场底是买出来的，这个咱们资本市场其实更多的是什么",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "都是那种因为看见所以相信心是长出来的，不是吹出来的，也不是喊出来的，只有不断的上涨才能增加大家的信心",
@@ -229,11 +509,31 @@
   },
   {
     "sentence": "如果只是横盘震荡怎么样",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "他就是，唉，就跟我写日评说的一样，这地方可能大概率不会说直接上去，而是反复摩擦投资者的信心的概率还是比较高的，因为 a 股市场就是这么，就是换今天有一个小作文的一个段子，就是那个贝莱德的那个，当然那个是一看一眼假那个段子，是个一眼假那个段子，但是就是也忍不住爆一句粗口就是shit",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "宏观市场",
+        "level2": "a股",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "a股市场并不会直接上去，会反复震荡",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我看今天又没有回放了啊",
@@ -253,7 +553,17 @@
   },
   {
     "sentence": "有没有赚到钱",
-    "entities": []
+    "entities": [
+      {
+        "industry": "消费",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "有没有这个逢低",
@@ -265,7 +575,17 @@
   },
   {
     "sentence": "然后医药反正明年可能会重点看看医药，但是现在还是左侧还是左侧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "行业自身情况",
+        "level2": "行业",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "现在是在左侧，明年重点看",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "左侧的话那就用定土的方式，可以先布局起来",
@@ -329,7 +649,17 @@
   },
   {
     "sentence": "就是对于它的纠偏之后，我忘了是这周几，就是那个纠偏的那个新闻出来之后，然后市场才有一定的真正的正向的反馈，不然的话，嗯，他连第二个信号都没有，我可能连看都不会看一眼啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "生物医药",
+        "level1": "国家政策方向",
+        "level2": "纠偏",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "医药基金都",

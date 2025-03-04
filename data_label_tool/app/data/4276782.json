@@ -1,275 +1,955 @@
 [
   {
     "sentence": "2024年5月16日 下午 7:41|37分钟 57秒\n\n关键词:\n定投、直播、新能源、板块、回调、成交量、资金、医药、估值、人工智能、消费红利、芯片半导体、红利指数、转型机遇、赚钱效应、恒生指数、数字经济、消费电子\n\n文字记录:\n促使点声音测试的声音好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "本场直播内容仅代表嘉宾或主播跟个人观点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "今天咱们有定投券，但可能之前没有之前优惠力度，那么大家可以先领一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "本场直播内容仅代表嘉宾或主播个人观点，构成投资建及建议",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "您在做出投资决策之前，请仔细阅读基金合同、基金招募说明书和基金产品资料概要等产品法律文件和风险解释书，充分认识基金的风险收益特征和产品特性，认真考虑存在的风险因素，并根据自身承受能力理性判断并谨慎做出投资决策",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "投资有风险，投资需谨慎",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家好，欢迎来到泰达红利直播间，我是泰达红利的主播大强， 9 年的证券和基金的从业经验，跟大家一块去聊一聊行情",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "OK，稍等，我先领个定投券，咱们今天有定投券了，因为之前给大家发的定投券是总共是 11 块钱的定投券，投第一次是满 100 减一块，投第二次是满 100 减 10 块，咱们这次是发的是6，总共是 6 块，就是投第一次是满 100 减一块，投第二次是满 100 减 5 块",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下午好，阳光下风景来了，还有老朋友来，挺好啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "今天直播家数特别多哈，没想到今天直播的友商这么多，所以咱们在一块聊聊行情，还是聊半个多小时，差不多咱们把就是板块沟通完了就撤了哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下午好，才 486586 啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，今天就是大盘，整个市场就那么回事，你说前两天就是人工智能，唉，下午好，小马哥，就是前两天是人工智能，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "传媒芯片跌，然后其他板块都涨，然后这两天是其他板块都跌，然后人工智能都涨哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "行业自身情况",
+        "level2": "估值",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "涨",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "积极进取，下午好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下午好",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，咱们还是老规矩，我先把大盘大概说一下，说完之后然后说几个板块，咱们一块交流交流啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家等我把大盘说完了之后，一块去交流交流板块，这次咱们可以领定投券，虽然这个定投券的优惠力度没有之前那个那么大，但也还行，就是第一次投减一块，第二次投是减 5 块，第一次投 100 减一块，第二次投 100 减 5 块哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下午好，我们是艰难",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "今天都绿了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "不会吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "基金",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那你没有买那个人工智能吗",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "没有买那个计算机的几个方向啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯，还行，都还挺好的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "行业自身情况",
+        "level2": "估值",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "好",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下午好，生生不息，这个朋友",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "OK，咱们叫做大盘，给大家看看位置，好的一点是大盘其实没怎么跌，就是反正还是在这来回震啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "行业自身情况",
+        "level2": "大盘",
+        "time_attr": "现在",
+        "score": "0",
+        "status": "来回震动",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我是先来，你看一下，噢，那你是不是仓位还是在其他的一些板块",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "没事没事，我觉得等人工智能这一波真的长差不多了，有点回调了",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "行业自身情况",
+        "level2": "估值",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "涨的差不多，开始回调",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "唉，可能买的板块就都会好一点哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "对，下午好，小马哥是走的有点极端，咱们先说大盘啊，你看大盘还挺强的，昨天又延续了周围的走势，还继续往上涨了，然后今天本来说震荡，结果你看这会感觉有点说红的迹象",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "行业自身情况",
+        "level2": "估值",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "有点红",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我看一下今天板块监控，今天大部分板块都是流出的，除了计算机和传媒以外，其他都是流出的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "唉呦，还挺费劲的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "反正我还挺费劲的，有老朋友还在听直播的，可以购物车帮忙加加自选啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是昨天加过的，今天帮忙，唉，取消再加一下就行",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "感谢各位，咱们一会再聊一聊这个消费红利，所以大盘我跟大家说，如果是越往上涨，成交量越缩小，北向资金越流出，可能就得小心一点啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "人工智能",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后我看了一下东方财富全a，昨天的成交量是1万亿出头， 10, 500598 亿",
-    "entities": []
+    "entities": [
+      {
+        "industry": "股票",
+        "level1": "行业自身情况",
+        "level2": "东方财富",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "成交量缩小",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "其实 4 月份以来我跟大家说过，基本上整个成交量都是在1万亿以上的，4月 1 号之后都是在1万亿以上的，所以今天感觉成交量好像比昨天还缩小了一点，所以就是大家可以看看今天如果整个市场的成交量比昨天还要再往下缩小，可能就得稍微小心点，可能就会出现回调了，反正上涨过程中成交量在萎缩，然后北向资金在流出的可能就得小心一点",
-    "entities": []
+    "entities": [
+      {
+        "industry": "股票",
+        "level1": "行业自身情况",
+        "level2": "东方财富",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "成交量缩小，出现回调",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是中期我觉得大家也不用悲观，你像我觉得中期整个我对市场其实还是比较偏乐观的，你看今天还有一点不好的，就是这个北向资金流出了 20 多个亿，还是有点流出啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "股票",
+        "level1": "宏观市场",
+        "level2": "预期",
+        "time_attr": "现在",
+        "score": "1",
+        "status": "比较乐观",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下午好， 0206 对，大家可以领定投券，虽然可能没有之前优惠就力度那么大，但也还行，主要投的还是 001170 咱们的泰达瑞，泰达复兴混合，泰达红利复兴混合，这也是跟领导开会就是定的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "股票",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "这个不是我，不是我Coco，是跟领导一块开会定的，所以大盘这块我给大家念一下我的观点，咱们到时候给大家找几个形态，一块去聊一聊哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "股票",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "个人观点，其实刚刚也说了，就今天大盘大家看到整个点位是在高位偏震荡一点，昨天的两市成交量有一点点偏缩小，但今天可以观察一下，如果今天的成交量出现了不足万亿，那可能短期几个交易日有可能会出现一点点回调，就是也就是我老跟大家说的，如果是越往上涨成交量越缩小，然后北向资金还在流出，那这样的话可能这个上涨趋势就不会持续，有可能就会短期就会回调一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "股票",
+        "level1": "行业自身情况",
+        "level2": "东方财富",
+        "time_attr": "现在",
+        "score": "-1",
+        "status": "大盘高位偏震荡",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那今天整体大盘的节奏大家也看到了，就像刚才说，小马哥刚刚说的就是有点极端",
-    "entities": []
+    "entities": [
+      {
+        "industry": "股票",
+        "level1": "行业自身情况",
+        "level2": "大盘节奏",
+        "time_attr": "现在",
+        "score": "-2",
+        "status": "有点极端",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "要不就是除了人工智能，还有这个计算机，还有就是TMT，就是传媒，包括通讯这几个没涨，其他的都涨，要么就是这几个板块涨",
-    "entities": []
+    "entities": [
+      {
+        "industry": "股票",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "今天就是这几个板块又涨了，还是还是挺那啥的，感觉就是这市场风格是每年或者每一阵子都不太一样，还是，嗯，反正挺费劲的啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "股票",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "行，跟大家一块看看板块，咱们首先还是看就是计算机、人工智能这几个领域，你看我家自选的这几个就是最就是完全的就是计算机，这两个计算机一个是申万一级行业的计算机，一个就是，嗯，那个咱们东方财富自己总结了一个计算机，这两个是大的一个板块，然后子板块有信创ChatGPT、人工智能、数字经济、数据要素，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那咱们先看大的，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下午好，二位连，好久不见了，是不是比较极端啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "大家看去年国庆节之后，我在这画个框跟大家一块聊过，是吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是说当时是到了，我再放大一点，你看这个框是到了之前一个前期的低点，是吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "行业自身情况",
+        "level2": "股价",
+        "time_attr": "过去",
+        "score": "-2",
+        "status": "跌到前期低点",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "就是去年打仗又赶上上海的那个风控，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "然后又跌到这之后，国庆节之后，唉，二十大一开，然后啪信创国产替代软件，擦，涨这么多，然后又这个应该下坡了，走回调了这么多",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "行业自身情况",
+        "level2": "股价",
+        "time_attr": "过去",
+        "score": "-1",
+        "status": "涨了很多后回调很多",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "嗯嗯，为回答那么多，也是因为当时追的消费嘛，好多资金都追消费了，紧接着啪一下涨了这么多，是因为这一块啊，大家看我画这个框陆陆续续有出了数字国家出了数字中国又出，然后美国出了ChatGPT，然后又什么文心一言、哒哒哒哒哒，这些那些的，就全部都，这个就火了，全部就火了，然后一下涨了这么多",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "本来想着这次能回调的多一点，但实际上大家可以看一些细节啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "下午好， 5 I H，稍微等一下，我把这些东西把这个板块节奏聊完了，咱们一块再聊一下",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你看啊，就是本来是想着可能最近得回调多一点，但是大家可以看到连续下跌的，就是从前天或者截止到昨天，相当于是连续下跌 4 天，你可以看到成交量在逐渐萎缩，按照我的理解，我认为是相当于是可能卖的人变少了，就是愿意卖出的人变少了，周一的时候也跟大家聊过一个，是周一那会儿到了前期一个低点，当时是看的小时图，对吧",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "行业自身情况",
+        "level2": "股价",
+        "time_attr": "过去",
+        "score": "",
+        "status": "连续下跌",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "小时图当时在这块儿",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我当时跟大家聊是因为跌到这块了，前期的就是短期的一个前期的一个小低点，然后如果它成交量继续萎缩，我再回到日线就是成交量继续萎缩",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那感觉按照我的理解，我认为其实卖的人不多了啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那昨天其实充电量继续萎缩，感觉没有人更多人卖了，今天稍微涨一点哈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "行业自身情况",
+        "level2": "股价",
+        "time_attr": "现在",
+        "score": "",
+        "status": "稍微涨一点",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "那所以怎么看啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "如果今天成交量比较大的，那我觉得还是有资金在往里面买，那有可能还会在高位震荡",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "如果今天成交量不大，比昨天还低，或者是也没有很大可能跟前天或者跟上周五差不多的",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "也有可能还是震荡，就不是特别理想了，所以大家就是也是长得有点偏高了嘛",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "但是，嗯，刚刚不是有朋友问就是有盈利的 50 多要不要止盈",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "我觉得就是，那你其实成本比较低，你看你自己如果仓位比较重的话，我个人建议就是减仓一些，如果仓位也不重，我感觉还行，因为今年整体的这个市场主线还是在计算机、人工智能这几，还有电子板块这几个领域啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "宏观市场",
+        "level2": "市场主线",
+        "time_attr": "未来",
+        "score": "1",
+        "status": "市场主线在计算机、人工智能、电子板块",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "电子板块",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你说的是不是芯片半导体",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "无关",
+        "level2": "无关",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "你看短期，你按照这半年以来，它其实计算机长的挺多了，我再给大家画条线达就能看明白，就是我叠加一下新能源指数的位置，中证新能",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "行业自身情况",
+        "level2": "股价",
+        "time_attr": "现在",
+        "score": "2",
+        "status": "近半年涨的挺多",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "蓝色线是新能源指数，然后底下这个就这几年没怎么涨的，这是咱们计算机包含了人工智能新创，所以你如果按照这两三年来看，其实新能源是涨的挺多的，但其他几个板块，你像人工智能包括计算机也没有涨特别多，咱们就按照这三年来看，其实整个计算机还是走的还是比较偏弱的，最近是有点反弹，而且资金集成度比较高，但如果最近比方说滞涨，就停止上涨，开始回调，回调完了之后，我感觉后面随着业绩释放也可能会慢慢回来啊",
-    "entities": []
+    "entities": [
+      {
+        "industry": "计算机",
+        "level1": "",
+        "level2": "",
+        "time_attr": "",
+        "score": "",
+        "status": "",
+        "doubt_remark": ""
+      }
+    ]
   },
   {
     "sentence": "所以这个板块短期是高了，但中长期咱们几年下来看，其实位置也还行啊",
