@@ -4,6 +4,7 @@ import pdb
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LABEL_DATA_DIR = os.path.join(BASE_DIR, '已标注汇总')
 OUTPUT_DIR=os.path.join(BASE_DIR, 'alpaca_train.json')
+DOC_LENGTH=500    #上下文总长度
 total_num=0
 unrelated=0
 verifed_list=[]
@@ -19,9 +20,18 @@ def convert_to_alpaca_format(json_file_path, alpaca_data):
         # 跳过当前格式错误的 JSON 文件
         return
 
-    for entry in data:
+    for i,entry in enumerate(data):
         global total_num,unrelated
         sentence = entry.get("sentence", "")
+        # 句子平均长度42，最长216。
+        prefix=""
+        j=i-1
+        while j>=0 and len(sentence)+len(prefix)+len(data[j]['sentence'].split("$$$")[-1])<=DOC_LENGTH:
+            cur_pre=data[j]['sentence'].split("$$$")[-1]
+            prefix=cur_pre+prefix
+            j-=1
+
+        sentence=prefix+"$$$"+sentence
         entities = entry.get("entities", [])
         if len(entities)==0:
             total_num+=1
@@ -59,22 +69,17 @@ def convert_to_alpaca_format(json_file_path, alpaca_data):
                 continue
             entities_str = json.dumps([flitered_entity], ensure_ascii=False)
 
-            # if sentence=="2024年3月7日 上午 9:37|1小时 31分钟 33秒\n\n关键词:\n品类、投资、产品、估值、新基金、长安、指数、核心、机会、医疗保健、资本市场、基金经理、超额收益、长安基金、消费基金、首席分析师、时间维度、投资策略\n\n文字记录:\n哎呦，他这个还得调调啊":
-            #     pdb.set_trace()
-            # 取出最后一个元素，做比较看看是否重复（如果非空）
+
             last_one=[]
             try:
                 last_one=alpaca_data.pop()
-                # print(last_one['output']) 
-                #输出：[{"level1": "国家政策方向", "time_attr": "现在", "score": "1"}]
-                #4342707760
+
             except:
-                # print("进入except部分")
+
                 alpaca_entry['output'] = entities_str
                 alpaca_data.append(alpaca_entry)
                 continue
-            # print(last_one['output'])
-            # 输出：[{"level1": "国家政策方向", "time_attr": "现在", "score": "1"}]
+
 
             # Create an Alpaca format entry
             alpaca_entry['output'] = entities_str
