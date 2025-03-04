@@ -2649,7 +2649,7 @@
         "industry": "医疗器械",
         "level1": "行业自身情况",
         "level2": "深证100",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "风险低",
         "doubt_remark": ""
@@ -3405,7 +3405,7 @@
         "industry": "A股",
         "level1": "行业自身情况",
         "level2": "布局",
-        "time_attr": "",
+        "time_attr": "未来",
         "score": "1",
         "status": "好的布局点",
         "doubt_remark": ""

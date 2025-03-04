@@ -3166,15 +3166,7 @@
   {
     "sentence": "嗯，我觉得这几年大家的这个储蓄和理财的意识可能会强一些，就是前几年大家可能月光的同学比较多，嗯，这几年大家面对这个不确定性越来越强的未来，确实是，尤其是我们中国人特别愿意这个未雨绸缪去提前做好规划，所以刚才君我觉得也是比较适合像我们就是刚刚毕业的一些同学",
     "entities": [
-      {
-        "industry": "银行",
-        "level1": "无关",
-        "level2": "未来状态",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
+
     ]
   },
   {
@@ -3665,15 +3657,7 @@
   {
     "sentence": "对，刚才有位同学就在问说这个新版的果酒条出炉了，会不会带来新一轮的这个股债跷跷板效应",
     "entities": [
-      {
-        "industry": "",
-        "level1": "国家政策方向",
-        "level2": "国九条",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
+
     ]
   },
   {
@@ -4392,7 +4376,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "红利指数",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "涨得好",
         "doubt_remark": ""
@@ -4401,7 +4385,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "黄金",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "上涨得有点慌",
         "doubt_remark": ""
@@ -4485,7 +4469,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "短期投资",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "0",
         "status": "有一些波动",
         "doubt_remark": ""
@@ -4593,15 +4577,7 @@
   {
     "sentence": "但是大家买黄金，尤其是我们中国人买黄金习惯是越长越买，但是大家可能还是得做好这个心理准备",
     "entities": [
-      {
-        "industry": "金融",
-        "level1": "行业自身情况",
-        "level2": "黄金",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": " "
-      }
+
     ]
   },
   {
@@ -4611,7 +4587,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "黄金",
-        "time_attr": "",
+        "time_attr": "过去",
         "score": "0",
         "status": "",
         "doubt_remark": ""
@@ -4621,15 +4597,7 @@
   {
     "sentence": "我那天看到一条这个买金条，对，这个分析在说他们上一波买的，现在才回本，这个原因是在于说黄金的饰品跟活期黄金的价格中间是有价差的，对，每一刻可能要 100- 150 的一个价差啊",
     "entities": [
-      {
-        "industry": "金融",
-        "level1": "行业自身情况",
-        "level2": "黄金",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
+
     ]
   },
   {
@@ -4793,7 +4761,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "黄金",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "0",
         "status": "价格高",
         "doubt_remark": ""
@@ -4807,7 +4775,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "黄金",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "0",
         "status": "价格高",
         "doubt_remark": ""
@@ -5171,7 +5139,7 @@
         "industry": "金融",
         "level1": "国家政策方向",
         "level2": "国九条",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "推出后投资者信心变强",
         "doubt_remark": ""
@@ -5200,7 +5168,7 @@
         "level1": "行业自身情况",
         "level2": "新能源汽车",
         "time_attr": "",
-        "score": "0",
+        "score": "",
         "status": "无",
         "doubt_remark": ""
       }
@@ -5214,7 +5182,7 @@
         "level1": "行业自身情况",
         "level2": "新能源基金",
         "time_attr": "",
-        "score": "0",
+        "score": "",
         "status": "",
         "doubt_remark": ""
       }

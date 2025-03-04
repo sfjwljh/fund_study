@@ -532,7 +532,7 @@
         "industry": "黄金",
         "level1": "行业自身情况",
         "level2": "价格",
-        "time_attr": "",
+        "time_attr": "始终",
         "score": "1",
         "status": "适合右侧",
         "doubt_remark": ""
@@ -730,9 +730,9 @@
     "entities": [
       {
         "industry": "黄金",
-        "level1": "",
+        "level1": "行业自身情况",
         "level2": "",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "",
         "doubt_remark": ""
@@ -1204,7 +1204,7 @@
         "industry": "黄金",
         "level1": "国家政策方向",
         "level2": "全球央行体系",
-        "time_attr": "",
+        "time_attr": "未来",
         "score": "0",
         "status": "重新估值",
         "doubt_remark": ""
@@ -1854,7 +1854,7 @@
         "industry": "黄金",
         "level1": "行业自身情况",
         "level2": "",
-        "time_attr": "",
+        "time_attr": "始终",
         "score": "1",
         "status": "稳妥",
         "doubt_remark": ""
@@ -1930,7 +1930,7 @@
         "industry": "黄金",
         "level1": "行业自身情况",
         "level2": "",
-        "time_attr": "",
+        "time_attr": "始终",
         "score": "1",
         "status": "同步性",
         "doubt_remark": ""
@@ -1944,7 +1944,7 @@
         "industry": "黄金",
         "level1": "行业自身情况",
         "level2": "",
-        "time_attr": "",
+        "time_attr": "始终",
         "score": "1",
         "status": "流动性强",
         "doubt_remark": ""
@@ -1966,7 +1966,7 @@
         "industry": "黄金",
         "level1": "行业自身情况",
         "level2": "黄金股",
-        "time_attr": "",
+        "time_attr": "始终",
         "score": "1",
         "status": "",
         "doubt_remark": ""
@@ -1980,7 +1980,7 @@
         "industry": "黄金",
         "level1": "行业自身情况",
         "level2": "黄金股",
-        "time_attr": "",
+        "time_attr": "未来",
         "score": "1",
         "status": "要涨了",
         "doubt_remark": ""
@@ -2448,7 +2448,7 @@
         "industry": "黄金",
         "level1": "行业自身情况",
         "level2": "",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "跃升期接近",
         "doubt_remark": ""

@@ -5085,7 +5085,7 @@
         "industry": "银行",
         "level1": "行业自身情况",
         "level2": "行情",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "2",
         "status": "冲高",
         "doubt_remark": ""
@@ -5738,7 +5738,7 @@
         "industry": "银行",
         "level1": "行业自身情况",
         "level2": "影响",
-        "time_attr": "",
+        "time_attr": "始终",
         "score": "2",
         "status": "对市场影响大",
         "doubt_remark": ""
@@ -5766,7 +5766,7 @@
         "industry": "银行",
         "level1": "行业自身情况",
         "level2": "支撑",
-        "time_attr": "",
+        "time_attr": "始终",
         "score": "2",
         "status": "发展的支撑",
         "doubt_remark": ""
@@ -5948,7 +5948,7 @@
         "industry": "银行",
         "level1": "行业自身情况",
         "level2": "估值",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "低",
         "doubt_remark": ""
@@ -6046,7 +6046,7 @@
         "industry": "银行",
         "level1": "宏观市场",
         "level2": "",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "不确定性较大",
         "doubt_remark": ""
@@ -6055,7 +6055,7 @@
         "industry": "银行",
         "level1": "行业自身情况",
         "level2": "",
-        "time_attr": "",
+        "time_attr": "始终",
         "score": "1",
         "status": "风险低",
         "doubt_remark": ""
@@ -6069,7 +6069,7 @@
         "industry": "银行",
         "level1": "行业自身情况",
         "level2": "股票",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "2",
         "status": "推荐",
         "doubt_remark": ""
@@ -6489,7 +6489,7 @@
         "industry": "基金",
         "level1": "行业自身情况",
         "level2": "按月90天",
-        "time_attr": "",
+        "time_attr": "始终",
         "score": "1",
         "status": "债市下跌，修复能力强",
         "doubt_remark": ""
@@ -7189,7 +7189,7 @@
         "industry": "基金",
         "level1": "行业自身情况",
         "level2": "天宏越南",
-        "time_attr": "",
+        "time_attr": "过去",
         "score": "-1",
         "status": "下跌",
         "doubt_remark": ""
@@ -7329,7 +7329,7 @@
         "industry": "基金",
         "level1": "宏观市场",
         "level2": "越南市场",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "2",
         "status": "高增速，有盼头",
         "doubt_remark": ""
@@ -8654,7 +8654,7 @@
         "industry": "生物医药",
         "level1": "行业自身情况",
         "level2": "行情",
-        "time_attr": "",
+        "time_attr": "未来",
         "score": "1",
         "status": "后续机会",
         "doubt_remark": ""

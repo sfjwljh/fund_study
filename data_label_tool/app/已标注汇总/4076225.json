@@ -102,9 +102,9 @@
     "entities": [
       {
         "industry": "科技",
-        "level1": "",
+        "level1": "行业自身情况",
         "level2": "",
-        "time_attr": "",
+        "time_attr": "过去",
         "score": "0",
         "status": "",
         "doubt_remark": ""
@@ -2868,9 +2868,9 @@
     "entities": [
       {
         "industry": "金融",
-        "level1": "",
+        "level1": "行业自身情况",
         "level2": "",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "0",
         "status": "做右侧交易",
         "doubt_remark": ""

@@ -664,7 +664,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "高位股",
-        "time_attr": "",
+        "time_attr": "过去",
         "score": "-1",
         "status": "大幅下跌",
         "doubt_remark": ""
@@ -673,7 +673,7 @@
         "industry": "科技",
         "level1": "子板块",
         "level2": "人形机器人",
-        "time_attr": "",
+        "time_attr": "过去",
         "score": "0",
         "status": "在调整",
         "doubt_remark": ""
@@ -682,7 +682,7 @@
         "industry": "科技",
         "level1": "子板块",
         "level2": "AI",
-        "time_attr": "",
+        "time_attr": "过去",
         "score": "0",
         "status": "在调整",
         "doubt_remark": ""
@@ -691,7 +691,7 @@
         "industry": "科技",
         "level1": "子板块",
         "level2": "低空经济",
-        "time_attr": "",
+        "time_attr": "过去",
         "score": "0",
         "status": "在调整",
         "doubt_remark": ""
@@ -700,7 +700,7 @@
         "industry": "绿色电力",
         "level1": "子板块",
         "level2": "固态电池",
-        "time_attr": "",
+        "time_attr": "过去",
         "score": "0",
         "status": "在调整",
         "doubt_remark": ""
@@ -742,7 +742,7 @@
         "industry": "黄金",
         "level1": "子板块",
         "level2": "微盘股",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "0",
         "status": "下跌",
         "doubt_remark": ""
@@ -2657,7 +2657,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "行情",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "-1",
         "status": "行情不是特别好",
         "doubt_remark": ""
@@ -3203,7 +3203,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "微盘",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "-1",
         "status": "跌",
         "doubt_remark": ""
@@ -3581,7 +3581,7 @@
         "industry": "金融",
         "level1": "宏观市场",
         "level2": "微盘股指数",
-        "time_attr": "",
+        "time_attr": "过去",
         "score": "-1",
         "status": "上一轮杀跌时跌的猛",
         "doubt_remark": ""
@@ -5038,7 +5038,7 @@
         "industry": "金融",
         "level1": "宏观市场",
         "level2": "微盘股",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "-1",
         "status": "下跌",
         "doubt_remark": ""
@@ -6188,7 +6188,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "指数增强基金",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "0",
         "status": "与中证500比有超额收益",
         "doubt_remark": ""
@@ -6202,7 +6202,7 @@
         "industry": "金融",
         "level1": "行业自身情况",
         "level2": "指数增强基金",
-        "time_attr": "",
+        "time_attr": "无",
         "score": "0",
         "status": "与中证500不同之处",
         "doubt_remark": ""
@@ -9393,7 +9393,7 @@
         "industry": "金融",
         "level1": "子板块",
         "level2": "红利指数",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "整体在涨",
         "doubt_remark": ""

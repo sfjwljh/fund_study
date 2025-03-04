@@ -146,7 +146,7 @@
         "industry": "消费",
         "level1": "行业自身情况",
         "level2": "整体板块",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "0",
         "status": "板块压力较大",
         "doubt_remark": ""
@@ -352,65 +352,11 @@
   {
     "sentence": "就包括比如说农业，然后农业里面可能有生猪养殖，然后比如说还有可能有食品，还有比如说 b 选消费品里面可能会涉及到一些轻工的，比如说文具，然后可能会有一些偏大众品的一些家具等等，这些都算是必选消费啊",
     "entities": [
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "家具",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      },
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "文具",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      },
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "食品",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      },
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "生猪养殖",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
     ]
   },
   {
     "sentence": "那么如果说到可选消费这边就是大家耳熟能详的，像白酒、家电、免税，还有酒店餐饮等等，这些其实都属于是可选消费品的一个范畴啊",
     "entities": [
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "家电",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      },
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "白酒",
-        "time_attr": "始终",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
     ]
   },
   {
@@ -462,15 +408,6 @@
   {
     "sentence": "那不知道各位直播间的朋友们，大家在购买各种消费品的时候看不看重品牌啊",
     "entities": [
-      {
-        "industry": "消费",
-        "level1": "行业自身情况",
-        "level2": "品牌",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
     ]
   },
   {
@@ -1196,15 +1133,7 @@
   {
     "sentence": "那么接下而来的第三个方向，其实可能也是一个细分的一个小赛道，就是宠物板块的一个投资",
     "entities": [
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "宠物",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
+
     ]
   },
   {
@@ -1254,15 +1183,6 @@
   {
     "sentence": "那还有一个我个人比较感兴趣的话题，就是电子烟这一块方向，不知道小于老师是不是有所了解",
     "entities": [
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "电子烟",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
     ]
   },
   {
@@ -1656,15 +1576,7 @@
   {
     "sentence": "我举个例子，嗯，比如说餐饮，就是或者说一些高端餐饮，这个属于可选啊",
     "entities": [
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "高端餐饮",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
+
     ]
   },
   {
@@ -1674,15 +1586,6 @@
   {
     "sentence": "就是可选，可不选，就是当我有需求的时候，我可以去，比如说去外卖下馆子、去吃饭，当比如说最近这个资金紧张，就在家里面吃等等，这一类消费属于可选消费，你像餐饮、旅游这些都是属于可选的一些消费品类",
     "entities": [
-      {
-        "industry": "消费",
-        "level1": "子板块",
-        "level2": "旅游",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
     ]
   },
   {

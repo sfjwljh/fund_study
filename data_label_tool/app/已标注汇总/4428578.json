@@ -874,7 +874,7 @@
         "industry": "无",
         "level1": "国家政策方向",
         "level2": "资本市场",
-        "time_attr": "",
+        "time_attr": "未来",
         "score": "1",
         "status": "投资体验变好",
         "doubt_remark": ""
@@ -972,7 +972,7 @@
         "industry": "无",
         "level1": "宏观市场",
         "level2": "上市公司数量",
-        "time_attr": "",
+        "time_attr": "未来",
         "score": "0",
         "status": "减少",
         "doubt_remark": ""
@@ -4636,15 +4636,7 @@
   {
     "sentence": "对，就综合考虑了企业的一个不同情况，那么它其实也就是说你要钱分给大家，嗯，让大家去做选择，就是你钱别乱花，其实说白了就是你钱别乱花，对吧",
     "entities": [
-      {
-        "industry": "无",
-        "level1": "国家政策方向",
-        "level2": "",
-        "time_attr": "",
-        "score": "0",
-        "status": "考虑了企业不同情况",
-        "doubt_remark": ""
-      }
+
     ]
   },
   {

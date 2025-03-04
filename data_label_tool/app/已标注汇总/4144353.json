@@ -144,7 +144,7 @@
         "industry": "生物医药",
         "level1": "上游产业情况",
         "level2": "供应商",
-        "time_attr": "",
+        "time_attr": "无",
         "score": "0",
         "status": "",
         "doubt_remark": ""
@@ -153,7 +153,7 @@
         "industry": "生物医药",
         "level1": "下游产业情况",
         "level2": "医院",
-        "time_attr": "",
+        "time_attr": "无",
         "score": "0",
         "status": "",
         "doubt_remark": ""
@@ -502,15 +502,7 @@
   {
     "sentence": "那其实第四波的机会的话，治疗药物的这样，那我觉得大家的关注也比较多的是说像辉瑞公司的这个小分子逍遥也好，包括像大量的公司做的一些综合抗体也好，也都是针对这样一个治疗，一个定位",
     "entities": [
-      {
-        "industry": "生物医药",
-        "level1": "行业自身情况",
-        "level2": "新冠产业",
-        "time_attr": "",
-        "score": "0",
-        "status": "",
-        "doubt_remark": ""
-      }
+
     ]
   },
   {
@@ -1578,7 +1570,7 @@
         "industry": "生物医药",
         "level1": "行业自身情况",
         "level2": "行业",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "1",
         "status": "医药企业盘子足够大，我国有优势",
         "doubt_remark": ""
@@ -2160,7 +2152,7 @@
         "industry": "生物医药",
         "level1": "行业自身情况",
         "level2": "行业",
-        "time_attr": "",
+        "time_attr": "现在",
         "score": "2",
         "status": "现在是比较性价比的阶段",
         "doubt_remark": ""
