@@ -161,7 +161,7 @@ if __name__=="__main__":
     volcano=REQUEST_AI(platform='volcano',model='r1')
     ds=REQUEST_AI(platform='deepseek',model='r1')
     # input_file=os.path.join(BASE_DIR,r'ds_label/test.json')
-    input_file=os.path.join(BASE_DIR,r'ds_label/step3_input_batch.json')
+    input_file=os.path.join(BASE_DIR,r'ds_label/step4_input_batch.json')
     query_list=[]
     with open(input_file,'r',encoding='utf-8') as fin:
         for line in fin:
