@@ -26,8 +26,8 @@ def convert_to_alpaca_format(json_file_path, alpaca_data):
         # 句子平均长度42，最长216。
         prefix=""
         j=i-1
-        while j>=0 and len(sentence)+len(prefix)+len(data[j]['sentence'].split("$$$")[-1])<=DOC_LENGTH:
-            cur_pre=data[j]['sentence'].split("$$$")[-1]
+        while j>=0 and len(sentence)+len(prefix)+len(data[j]['sentence'])<=DOC_LENGTH:
+            cur_pre=data[j]['sentence']
             prefix=cur_pre+prefix
             j-=1
 
