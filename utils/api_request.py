@@ -61,7 +61,11 @@ class REQUEST_AI():
                     {"role": "user", "content": prompt},
                 ],
             )
-            return completion.choices[0].message.content
+            # pdb.set_trace()
+            if hasattr(completion.choices[0].message, 'reasoning_content'):
+                return "<think>"+completion.choices[0].message.reasoning_content+"</think>"+completion.choices[0].message.content
+            else:
+                return completion.choices[0].message.content
         except Exception as e:
             print(f"Error: {str(e)}")
             return ''
@@ -159,10 +163,12 @@ class REQUEST_AI():
 if __name__=="__main__":
     BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     volcano=REQUEST_AI(platform='volcano',model='r1')
+    volcano.get_completion("你好")
     ds=REQUEST_AI(platform='deepseek',model='r1')
     # input_file=os.path.join(BASE_DIR,r'ds_label/test.json')
-    input_file=os.path.join(BASE_DIR,r'ds_label/step4_input_batch.json')
+    input_file=os.path.join(BASE_DIR,r'ds_label/step1_input_batch.json')
     query_list=[]
+    
     with open(input_file,'r',encoding='utf-8') as fin:
         for line in fin:
             try: 
@@ -170,12 +176,19 @@ if __name__=="__main__":
             except Exception as e:
                 print("error",e)
                 continue
-        
-    output_file=input_file.replace('input','output')
+    if 'input' in input_file:
+        output_file=input_file.replace('input','output_带思考')
+    else:
+        print("输入文件名不包含input字样，输出文件将覆盖输入文件，是否接受？y/n")
+        if input()=='y':
+            output_file=input_file
+        else:
+            exit()
+    # query_list=[{"prompt":"你好"}]
     # print(output_file)
     # exit()
     with open(output_file,'w',encoding='utf-8') as fout:
-        for result in volcano.get_batch(query_list, max_workers=10):
+        for result in volcano.get_batch(query_list, max_workers=50):
             try:
                 elapsed_time = ''
                 query = result["query"]
