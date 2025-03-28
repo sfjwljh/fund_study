@@ -1,2 +1,4 @@
 首先move_labeled_json.py，会自动读取task_assignments.json中已经标注好的文件，给复制到“已标注汇总”文件夹。
-然后label2train.py，会把“已标注汇总”文件夹里的文件全部读取，一个一个处理最终放到一个文件里。过程中，发现的非法字段会输出在终端，供检查修改。修改应该在data目录进行，修改后重新move_labeled_json.py再label2train.py
+然后label2train.py，会把“已标注汇总”文件夹里的文件全部读取，一个一个处理最终放到一个文件里。
+过程中，发现的非法字段会输出在终端，供检查修改。
+修改应该在data目录进行，修改后重新move_labeled_json.py再label2train.py
