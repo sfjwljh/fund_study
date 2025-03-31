@@ -7,6 +7,101 @@ from typing import List, Dict, Tuple, Union, Any, Generator
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 import json
+import hashlib
+import json
+import pprint
+import random
+import re
+from itertools import groupby
+from operator import itemgetter
+import time
+import pandas as pd
+import requests
+EB4_ADDRESS = (
+    "http://10.11.175.3/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions_pro"
+)
+API_KEY = "F49JHlNCPZOavDQqEjQeD3gs"
+SECRET_KEY = "Nt31T10pCQVXXPKPOK7ymDMgS0RLQATL"
+def get_access_token():
+    """
+    使用 AK，SK 生成鉴权签名（Access Token）
+    :return: access_token，或是None(如果错误)
+    """
+    url = "https://aip.baidubce.com/oauth/2.0/token"
+    params = {
+        "grant_type": "client_credentials",
+        "client_id": API_KEY,
+        "client_secret": SECRET_KEY,
+    }
+    return str(requests.post(url, params=params).json().get("access_token"))
+
+
+def get_completion_bd(query, address=EB4_ADDRESS, temperature=0.01):
+    ACCESS_TOKEN = get_access_token()
+    address = (
+
+         
+        address
+        if address.startswith("https")
+        else f"https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/{address}"
+    )
+    if address==EB4_ADDRESS:
+        header={"Host":"aip.baidubce.com","Content-Type": "application/json"}
+    else:
+        header={"Content-Type": "application/json"}
+    request_msg = {
+        "messages": [{"role": "user", "content": query}],
+        "temperature": temperature,
+        "top_p": 0.8,
+        "penalty_score": 1.2,
+        "disable_search": True,
+    }
+    url = address + "?access_token=" + ACCESS_TOKEN
+    # import pdb;pdb.set_trace()
+    get_response = False
+    fail_num=0
+    while not get_response:
+        fail_num+=1
+        # import pdb;pdb.set_trace()
+        try:
+            response = requests.post(
+                url, headers=header, data=json.dumps(request_msg)
+            )
+            res_text = response.text
+            if json.loads(res_text)["result"]!='':
+                return json.loads(res_text)["result"]
+            elif json.loads(res_text)["choices"][0]["message"]["content"] != '':
+                return json.loads(res_text)["choices"][0]["message"]["content"]
+            else:
+                raise Exception('解析错误')
+        except Exception as e:
+            time.sleep(2)
+            print(e)
+            # print("get_completion"+address+'请求失败'+str(fail_num)+'次')
+            continue
+
+
+
+def api_auth_sign(params):
+    # Concatenate all strings in the list
+    concatenated = "".join(params)
+
+    # Create an MD5 hash of the concatenated string
+    md5_hash = hashlib.md5(concatenated.encode("utf-8")).hexdigest()
+
+    # Check if the length of the hash is less than 22
+    if len(md5_hash) < 22:
+        return ""
+
+    # Specific indices from which to pick characters from the MD5 hex string
+    auth_indices = [7, 3, 17, 13, 1, 21]
+
+    # Build the result string using characters at the specified indices
+    result = ""
+    for idx in auth_indices:
+        result += md5_hash[idx]
+
+    return result
 class REQUEST_AI():
     def __init__(self,platform,model,max_retries=5):
         """
@@ -161,6 +256,8 @@ class REQUEST_AI():
         }
     
 if __name__=="__main__":
+    # print(get_completion_bd('你好','acs694cz_ljhs2_glm9b1'))
+    
     BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     volcano=REQUEST_AI(platform='volcano',model='r1')
     volcano.get_completion("你好")
@@ -199,3 +296,5 @@ if __name__=="__main__":
                 fout.flush()
             except Exception as e:
                 print("error",e)
+
+    
