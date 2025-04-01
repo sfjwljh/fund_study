@@ -97,7 +97,7 @@ class Qianfan():
 
         return result
 class REQUEST_AI():
-    def __init__(self,platform,model,max_retries=5):
+    def __init__(self,platform,model,max_retries=10):
         """
         platform: str
             平台名称,目前可选 

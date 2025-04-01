@@ -54,7 +54,7 @@ def process_query(query):
 
 model = Qianfan('acs694cz_ljhs2_glm9b1')
 with open(output_file, 'w', encoding='utf-8') as fout:
-    with ThreadPoolExecutor(max_workers=50) as executor:  # 设置最大线程数
+    with ThreadPoolExecutor(max_workers=4) as executor:  # 设置最大线程数
         future_to_query = {executor.submit(process_query, query): query for query in query_list}
         # 使用 tqdm 包装 as_completed 以显示进度条
         for future in tqdm(as_completed(future_to_query), total=len(query_list), desc="Processing queries"):
