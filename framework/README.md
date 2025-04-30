@@ -15,5 +15,6 @@
 5特征筛选的策略，在main中实现
 7训练的超参设置&LSTM模型  在lstm_train_validate.py中
 
+注：运行时依赖的'batch_my_model/0327第一批1952篇_补充好_step4_整合_带flat.json'文件太大了，不方便上传到github，请找我手动发送，并放到正确位置，并在.gitignore中添加。
 # lstm_train_validate.py:
 获取data下的pkl文件，然后训练lstm模型、输出评估。日志会记录在framework/logs下
