@@ -18,7 +18,7 @@ import time
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
-from framework.lstm_train_val_torch import lstm_pipeline
+from framework.lstm_train_validate import lstm_pipeline
 
 fund_path = os.path.dirname(BASE_DIR)
 
