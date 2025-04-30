@@ -1,3 +1,4 @@
 本文件夹用于批量刷ds数据和蒸馏结果
 
-prompt
+prompt.py :里面是四步的prompt
+

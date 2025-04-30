@@ -6,7 +6,7 @@ import sys
 import json
 BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
-from batch_data_ds.prompt import PROMPT1,PROMPT2,PROMPT3,PROMPT4
+
 def load_sentence(txt_file):
     with open(txt_file, 'r', encoding='utf-8') as file:
         return file.read().strip()

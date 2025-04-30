@@ -97,7 +97,7 @@ class Qianfan():
 
         return result
 class REQUEST_AI():
-    def __init__(self,platform,model,max_retries=10):
+    def __init__(self,platform,model,max_retries=10,temperature=1):
         """
         platform: str
             平台名称,目前可选 
@@ -113,6 +113,7 @@ class REQUEST_AI():
         """
         self.max_retries = max_retries
         self.platform = platform   
+        self.temperature = temperature
         if platform=="volcano":
             self.client = OpenAI(
                 api_key = "e76c1633-14c0-4c05-ab0d-1f2a8312953c",
@@ -149,6 +150,7 @@ class REQUEST_AI():
                     {"role": "system", "content": ""},
                     {"role": "user", "content": prompt},
                 ],
+                temperature=self.temperature
             )
             # pdb.set_trace()
             if hasattr(completion.choices[0].message, 'reasoning_content'):
@@ -250,14 +252,15 @@ class REQUEST_AI():
         }
     
 if __name__=="__main__":
-    #请求千帆
-    qianfan_req=Qianfan('acs694cz_ljhs2_glm9b1')
+    volcano=REQUEST_AI(platform='volcano',model='r1',temperature=2)
+    print(volcano.get_completion("解释勾股定理在二次元的应用"))
+    exit()
+    # 请求千帆
+    qianfan_req=Qianfan('d2x2wb8l_ljhs3_glm9b1')
     print(qianfan_req.get_completion_bd(query='你好'))
     exit()
     
     BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    volcano=REQUEST_AI(platform='volcano',model='r1')
-    volcano.get_completion("你好")
     ds=REQUEST_AI(platform='deepseek',model='r1')
     # input_file=os.path.join(BASE_DIR,r'ds_label/test.json')
     input_file=os.path.join(BASE_DIR,r'ds_label/step1_input_batch.json')
