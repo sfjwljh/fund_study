@@ -8,12 +8,12 @@
 6. 数据转lstm训练用的格式，并保存到本地（framework/data下）
 7. 训练、预测、验证（调用了lstm_train_validate.py的函数）
 
-提升效果需要修改的部分包括： 
-1中特征压缩的方法：compress_opi_list
-2中补充新的技术特征：price_calculate_technical_indicators
-4的空值处理策略：empty_process
-5特征筛选的策略，在main中实现
-7训练的超参设置&LSTM模型  在lstm_train_validate.py中
+- 提升效果需要修改的部分包括： 
+  - 1中特征压缩的方法：compress_opi_list
+  - 2中补充新的技术特征：price_calculate_technical_indicators
+  - 4的空值处理策略：empty_process
+  - 5特征筛选的策略，在main中实现
+  - 7训练的超参设置&LSTM模型  在lstm_train_validate.py中
 
 注：运行时依赖的'batch_my_model/0327第一批1952篇_补充好_step4_整合_带flat.json'文件太大了，不方便上传到github，请找我手动发送，并放到正确位置，并在.gitignore中添加。
 # lstm_train_validate.py:
