@@ -33,3 +33,4 @@ batch_my_model/0327第一批1952篇_补充好_step4.json
 batch_my_model/0327第一批1952篇_补充好.json
 batch_my_model/0327第一批1952篇_补充好_step2.json
 */.pkl
+/framework/logs/*

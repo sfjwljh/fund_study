@@ -9,6 +9,7 @@ from sklearn.metrics import mean_squared_error
 import datetime
 import re
 import pdb
+from math import sqrt
 import logging  # 导入 logging 模块
 import pdb
 from tqdm import tqdm
@@ -32,7 +33,7 @@ class LSTMModel(nn.Module):
         x = self.fc(x)
         return x
 
-def train(model, train_loader, val_loader, criterion, optimizer, epochs,X_val_tensor,Y_val_tensor):
+def train(model, train_loader, val_loader, criterion, optimizer, epochs):
     model.train()
     for epoch in tqdm(range(epochs)):
         epoch_train_loss = 0  # 初始化每个 epoch 的训练损失
@@ -50,24 +51,14 @@ def train(model, train_loader, val_loader, criterion, optimizer, epochs,X_val_te
         # 计算平均训练损失
         avg_train_loss = epoch_train_loss / len(train_loader)
         
-        # 验证
-        model.eval()
-        val_loss = 0
-        with torch.no_grad():
-            # 计算验证集的输出
-            Y_pred = model(X_val_tensor)  # 使用整个验证集
-            val_loss += criterion(Y_pred, Y_val_tensor).item()  # 计算验证损失
+        RMSE=get_rmse(val_loader,model,criterion)
 
-        val_loss /= len(val_loader)
-        
-        # 计算 RMSE
-        val_rmse = np.sqrt(mean_squared_error(Y_val_tensor.numpy(), Y_pred.numpy()))  # 计算 RMSE
 
         # 记录日志
-        logging.info(f'Epoch [{epoch+1}/{epochs}], Average Training Loss: {avg_train_loss:.8f}, Validation Loss: {val_loss:.8f}, Validation RMSE: {val_rmse:.8f}')  # 记录到日志文件
+        logging.info(f'Epoch [{epoch+1}/{epochs}], Average Training Loss: {avg_train_loss:.8f}, Validation RMSE: {RMSE:.8f}')  # 记录到日志文件
 
 
-def data_transform(data_path):
+def data_transform(data_path,batch_size=16):
     """
     读取lstm的数据，转换成训练、验证所需的loader。
     
@@ -76,10 +67,10 @@ def data_transform(data_path):
     with open(data_path, 'rb') as file:
         data = pickle.load(file)
 
-    X_train = np.array(data['X_train'])  # 形状: (687, 10, 3)
-    Y_train = np.array(data['Y_train'])    # 形状: (687,)
-    X_val = np.array(data['X_val'])        # 形状: (172, 10, 3)
-    Y_val = np.array(data['Y_val'])        # 形状: (172,)
+    X_train = np.array(data['X_train'])  # 形状: (n,step, 特征数)
+    Y_train = np.array(data['Y_train'])    # 形状: (n,1)
+    X_val = np.array(data['X_val'])        
+    Y_val = np.array(data['Y_val'])        
 
     # pdb.set_trace()
     # 转换为 PyTorch 张量
@@ -91,17 +82,31 @@ def data_transform(data_path):
     # 创建数据加载器
     train_dataset = TensorDataset(X_train_tensor, Y_train_tensor)
     val_dataset = TensorDataset(X_val_tensor, Y_val_tensor)
-    train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
-    val_loader = DataLoader(val_dataset, batch_size=16, shuffle=False)
-    return X_train,Y_train,train_loader,val_loader,X_train_tensor,X_val_tensor,Y_val,Y_val_tensor,Y_val
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
+    return X_train,Y_train,train_loader,val_loader
 
+def get_rmse(loader,model,criterion):
+    # 验证
+    model.eval()
+
+    val_loss_by_loader=0
+    total_samples=0
+    with torch.no_grad():
+        for batch_idx, (inputs, labels) in enumerate(loader):
+            outputs = model(inputs)
+            loss = criterion(outputs, labels)
+            val_loss_by_loader += loss.item()* len(labels)  # 计算每个批次的损失
+            total_samples+= len(labels)  # 统计样本总数
+    RMSE=sqrt(val_loss_by_loader/total_samples)
+    return RMSE
 
 def lstm_pipeline(data_relative_path):
 
 
     # data_relative_path = r"framework/data/0430测试.pkl"
     data_path = os.path.join(BASE_DIR, data_relative_path)
-    X_train,Y_train,train_loader,val_loader,X_train_tensor,X_val_tensor,Y_val,Y_val_tensor,Y_val=data_transform(data_path)
+    X_train,Y_train,train_loader,val_loader=data_transform(data_path)
 
     # 设置日志目录
     log_dir = os.path.join(BASE_DIR, "framework/logs", os.path.basename(data_relative_path).replace('.pkl','')+datetime.datetime.now().strftime("%m%d_%H%M")+'.log' ).replace("', '", "_")
@@ -120,16 +125,10 @@ def lstm_pipeline(data_relative_path):
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
     # 训练模型
-    train(model, train_loader, val_loader, criterion, optimizer, epochs,X_val_tensor,Y_val_tensor)
+    train(model, train_loader, val_loader, criterion, optimizer, epochs)
 
-    # 预测
-    model.eval()
-    with torch.no_grad():
-        Y_pred = model(X_val_tensor)
-
-    # 计算RMSE
-    train_rmse = np.sqrt(mean_squared_error(Y_train, model(X_train_tensor).detach().numpy()))
-    val_rmse = np.sqrt(mean_squared_error(Y_val, Y_pred.numpy()))
+    train_rmse=get_rmse(train_loader,model,criterion)
+    val_rmse=get_rmse(val_loader,model,criterion)
     print(f"训练集的RMSE: {train_rmse}")
     print(f"验证集的RMSE: {val_rmse}")
 
