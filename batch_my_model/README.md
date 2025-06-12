@@ -2,10 +2,11 @@
 ```json
 [
     {
-        "code":文档1,
+        "code":直播编号（txt文件名的数字部分）,
         "content":[
 
             {
+                sen_idx:句子编号（从0开始）,
                 sentence:句子,
                 label_tree:{
                     "行业1":{

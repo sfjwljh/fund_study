@@ -8,8 +8,8 @@ from tqdm import tqdm
 BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
-input_file=os.path.join(BASE_DIR,r'batch_my_model/0327第一批1952篇_补充好_step4_整合.json')
-output_file=os.path.join(BASE_DIR,r'batch_my_model/0327第一批1952篇_补充好_step4_整合_带flat.json')
+input_file=os.path.join(BASE_DIR,r'batch_my_model_new/人工标注的第一个10篇_step4_merged.json')
+output_file=os.path.join(BASE_DIR,r'batch_my_model_new/人工标注的第一个10篇_step4_merged_with_flat.json')
 with open(input_file,'r',encoding='utf-8') as fin:
     data=json.loads(fin.read())
 
@@ -35,12 +35,15 @@ for doc_ind,doc in enumerate(data):
     for part_ind,part in enumerate(doc['content']):
         label_tree=part['label_tree']
         label_flat=[]
-        for industry in label_tree.keys():
-            for aspect in label_tree[industry].keys():
-                for time in label_tree[industry][aspect].keys():
-                    tmp={"industry":industry,"aspect":aspect,"time":time,"emotion":label_tree[industry][aspect][time]}
-                    if check_valid(tmp):
-                        label_flat.append(tmp)
+        if isinstance(label_tree,dict):
+            for industry in label_tree.keys():
+                if isinstance(label_tree[industry],dict):
+                    for aspect in label_tree[industry].keys():
+                        if isinstance(label_tree[industry][aspect],dict):
+                            for time in label_tree[industry][aspect].keys():
+                                tmp={"industry":industry,"aspect":aspect,"time":time,"emotion":label_tree[industry][aspect][time]}
+                                if check_valid(tmp):
+                                    label_flat.append(tmp)
         # data[doc_ind]['content'][part_ind]['label_flat']=label_flat
         part['label_flat']=label_flat
 
@@ -48,7 +51,7 @@ with open(output_file,'w',encoding='utf-8') as fout:
     fout.write(json.dumps(data,ensure_ascii=False,indent=4))
 
 
-output_file_csv=os.path.join(BASE_DIR,r'batch_my_model/0327第一批1952篇_整合好.csv')
+output_file_csv=output_file.replace('.json','.csv')
 with open(output_file_csv,'w',encoding='utf-8')as fout:
     # 生成flat的csv
     for doc in data:

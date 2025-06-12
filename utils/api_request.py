@@ -97,12 +97,13 @@ class Qianfan():
 
         return result
 class REQUEST_AI():
-    def __init__(self,platform,model,max_retries=10,temperature=1):
+    def __init__(self,platform,model,max_retries=10,temperature=0.8):
         """
         platform: str
             平台名称,目前可选 
             volcano: 火山引擎
             deepseek: deepseek官方
+            vllm:本地通过vllm部署，model写模型路径
         model: str
             模型名称
             r1
@@ -114,6 +115,14 @@ class REQUEST_AI():
         self.max_retries = max_retries
         self.platform = platform   
         self.temperature = temperature
+        if platform=='vllm':
+            self.client = OpenAI(
+                api_key = "",
+                base_url = "http://localhost:8080/v1",
+            )
+            self.model=model
+            return
+
         if platform=="volcano":
             self.client = OpenAI(
                 api_key = "e76c1633-14c0-4c05-ab0d-1f2a8312953c",
@@ -141,7 +150,7 @@ class REQUEST_AI():
 
 
 
-    def get_completion(self,prompt):
+    def get_completion(self,prompt,ignore_thinking=False):
         client = self.client
         try:
             completion = client.chat.completions.create(
@@ -153,10 +162,14 @@ class REQUEST_AI():
                 temperature=self.temperature
             )
             # pdb.set_trace()
-            if hasattr(completion.choices[0].message, 'reasoning_content'):
-                return "<think>"+completion.choices[0].message.reasoning_content+"</think>"+completion.choices[0].message.content
+            if not ignore_thinking:
+                if hasattr(completion.choices[0].message, 'reasoning_content'):
+                    return "<think>"+completion.choices[0].message.reasoning_content+"</think>"+completion.choices[0].message.content
+                else:
+                    return completion.choices[0].message.content
             else:
-                return completion.choices[0].message.content
+                    return completion.choices[0].message.content
+
         except Exception as e:
             print(f"Error: {str(e)}")
             return ''
