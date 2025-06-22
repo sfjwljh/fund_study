@@ -163,7 +163,7 @@ class REQUEST_AI():
             )
             # pdb.set_trace()
             if not ignore_thinking:
-                if hasattr(completion.choices[0].message, 'reasoning_content'):
+                if hasattr(completion.choices[0].message, 'reasoning_content') and completion.choices[0].message.reasoning_content is not None:
                     return "<think>"+completion.choices[0].message.reasoning_content+"</think>"+completion.choices[0].message.content
                 else:
                     return completion.choices[0].message.content
