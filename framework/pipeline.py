@@ -231,54 +231,51 @@ def empty_process(df):
     df = df.dropna()
     return df
 
-def trans2lstm_train(step,industry_df_dict,feature_list):
+def trans2lstm_train(step, industry_df_dict, feature_list, val_ratio=0.2):
     """
-    把合并好的df转成lstm训练所需的训练集、测试集
-    step:lstm步长
-    industry_df_dict:{行业名：df,...}
-    feature_list：参与预测的特征列表
+    把合并好的df转成lstm训练所需的训练集、验证集。
+    step：LSTM输入时间步长
+    industry_df_dict：{行业名: df, ...}，必须按日期升序
+    feature_list：输入特征列名
+    val_ratio：每个行业最后 val_ratio 的数据作为验证集（基于窗口划分）
     """
-    X=[]
-    Y=[]
+    X_train, Y_train = [], []
+    X_val, Y_val = [], []
 
-    for key,value in industry_df_dict.items():
-        # 获取每个行业的 每日 特征 df
-        industry=key
-        df=value
-        # 假设 df 是您提供的数据框，step 是步长，feature_list 是特征列表
-        X_tmp = []
-        Y_tmp = []
+    for industry, df in industry_df_dict.items():
+        df = df.sort_values(by='日期')  # 确保按时间顺序
 
-        # 遍历数据框，构建输入特征和目标变量
-        for i in range(len(df) - step-1):
-            # 提取当前步长的特征
+        X_tmp, Y_tmp = [], []
+        for i in range(len(df) - step - 1):
             X_tmp.append(df[feature_list].iloc[i:i + step].values)
-            # 提取目标变量（波动率）
-            Y_tmp.append(df['波动率'].iloc[i + step+1])
+            Y_tmp.append(df['波动率'].iloc[i + step + 1])  # label 是 step+1 天的波动率
 
-        # 将 X 和 Y 转换为 numpy 数组
-        X.extend(np.array(X_tmp))
-        Y.extend(np.array(Y_tmp))
+        X_tmp = np.array(X_tmp)
+        Y_tmp = np.array(Y_tmp)
 
-    X=np.array(X)
-    Y=np.array(Y)
-    train_size=0.8
-    # 从X中随机选择val比例的数据，随机抽取，不要直接按顺序
-    seed_value=1234
-    np.random.seed(seed_value)  # seed_value 是您选择的任意整数
-    index=np.random.choice(range(X.shape[0]),int(X.shape[0]*train_size),replace=False)
-    X_train=X[index]
-    Y_train=Y[index]
-    X_val=np.delete(X,index,axis=0)
-    Y_val=np.delete(Y,index,axis=0)
-    # 输出 X 和 Y 的形状以确认
+        cutoff = int(len(X_tmp) * (1 - val_ratio))
+        X_train.extend(X_tmp[:cutoff])
+        Y_train.extend(Y_tmp[:cutoff])
+        X_val.extend(X_tmp[cutoff:])
+        Y_val.extend(Y_tmp[cutoff:])
+
+    # 转换为 numpy
+    X_train = np.array(X_train)
+    Y_train = np.array(Y_train)
+    X_val = np.array(X_val)
+    Y_val = np.array(Y_val)
+
     print("X_train shape:", X_train.shape)
     print("Y_train shape:", Y_train.shape)
     print("X_val shape:", X_val.shape)
     print("Y_val shape:", Y_val.shape)
 
-    data={'X_train':X_train.tolist(),'Y_train':Y_train.tolist(),'X_val':X_val.tolist(),'Y_val':Y_val.tolist()}
-    return data
+    return {
+        'X_train': X_train.tolist(),
+        'Y_train': Y_train.tolist(),
+        'X_val': X_val.tolist(),
+        'Y_val': Y_val.tolist()
+    }
 
 if __name__ == '__main__':
 
@@ -306,6 +303,7 @@ if __name__ == '__main__':
     print("所有可选特征\n"+str(features))
     # 筛选特征
     features.remove('日期')  # 在这里筛选需要进入实验的特征。日期是必删的
+    # features=['波动率']
     features=['波动率','行业自身情况_现在', '行业自身情况_未来']
     
     print("进入实验的特征\n"+str(features))
@@ -317,7 +315,7 @@ if __name__ == '__main__':
     name_tag='0430测试'  
     # pdb.set_trace()
     # 保存数据，方便同一份数据修改超参多次实验
-    relative_path=os.path.join('framework', 'data', '0430测试'+'.pkl')
+    relative_path=os.path.join('framework', 'data', '0622新验证集'+'.pkl')
     abs_path=os.path.join(BASE_DIR,relative_path)
     with open(abs_path,'wb') as file:  
         pickle.dump(lstm_data,file)

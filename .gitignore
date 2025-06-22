@@ -6,7 +6,7 @@
 *.bin
 *.exe
 *.pt
-*.csv
+
 *.xlsx
 
 # 忽略 /tmp_ignore_sync 目录下的所有文件
@@ -35,3 +35,9 @@ batch_my_model/0327第一批1952篇_补充好_step2.json
 */.pkl
 /framework/logs/*
 batch_my_model_new/人工标注的第一个10篇deepseek/*
+speech_txt_spider/db.csv
+batch_my_model/0327第一批1952篇_整合好.csv
+.gitignore
+batch_my_model_new/人工标注的第一个10篇_student_step4_merged_with_flat.csv
+batch_my_model_new/人工标注的10篇-student_model_自己微调的/*
+/framework/data/*
